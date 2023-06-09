@@ -14,9 +14,11 @@ import threading
 class LeagueTable(object):
 
     def __init__(self):
-        url = "https://fbref.com/en/comps/9/Premier-League-Stats"
+        self.url = "https://fbref.com/en/comps/9/Premier-League-Stats"
         # table = pd.DataFrame()
 
+    def getUrl(self):
+        return self.url
     # def getTable(self):
     #     return self.table
     
@@ -97,6 +99,10 @@ class LeagueTable(object):
         finalClubData["Team"] = clubName
         print(clubName)
         return finalClubData
+
+#create table object
+table = LeagueTable()
+table.getClubData(table.getUrl())
 
 
 
