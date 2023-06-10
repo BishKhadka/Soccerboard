@@ -17,3 +17,7 @@ class Command(BaseCommand):
                                        Possession=row[9], Shots=row[10], Shots_Target=row[11],
                                        Yellow=row[12], Red=row[13], Fouls=row[14],
                                        Offside=row[15], Team=row[16],)
+
+mytable_elements = myModel.objects.all()
+for element in mytable_elements:
+    print(element.Competition, element.Team)

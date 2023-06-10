@@ -1,0 +1,6 @@
+<h2>Recent results for {{ team_name }}</h2>
+<ul>
+    {% for result in results %}
+    <li>{{ result.match_date }} - {{ result.opponent }}: {{ result.result }}</li>
+    {% endfor %}
+</ul>

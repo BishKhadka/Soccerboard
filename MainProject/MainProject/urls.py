@@ -17,6 +17,13 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from App1 import views
+
 urlpatterns = [
     path("admin/", admin.site.urls),
+    path('', views.search_results, name='search_results'),  # Add this line for the root URL
+
+    path('search', views.search_results, name='search_results'),
 ]
+
+    
