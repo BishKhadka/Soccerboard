@@ -1,7 +1,10 @@
 from django.shortcuts import render
 
 
+
 # Create your views here.
+from .models import myModel
+import csv
 
 import requests
 from bs4 import BeautifulSoup
@@ -100,9 +103,8 @@ class LeagueTable(object):
         print(clubName)
         return finalClubData
 
+#download the data
 #create table object
 table = LeagueTable()
-table.getClubData(table.getUrl())
-
-
-
+res = table.getClubData(table.getUrl())
+res.to_csv("PLData.csv", index = False)
