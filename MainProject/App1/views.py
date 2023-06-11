@@ -10,7 +10,7 @@ def home(request):
 
 def search_results(request):
     if request.method == 'POST':
-        team_name = request.POST.get('Team', '')  # Retrieve the team name from the request
+        team_name = request.POST.get("Team", "")  # Retrieve the team name from the request
         
         # Retrieve the top 5 recent results for the team
         results = myModel.objects.filter(team_name=team_name).order_by('Date')[:5]

@@ -21,8 +21,7 @@ from App1 import views
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path('', views.search_results, name='search_results'),  # Add this line for the root URL
-
+    path('', views.home, name='home1'),  #home page url (first one is path, second func, third func)
     path('search', views.search_results, name='search_results'),
 ]
 
