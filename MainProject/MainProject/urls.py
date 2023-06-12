@@ -24,5 +24,3 @@ urlpatterns = [
     path('', views.home, name='home1'),  #home page url (first one is path, second func, third func)
     path('search', views.search_results, name='search_results'),
 ]
-
-    
