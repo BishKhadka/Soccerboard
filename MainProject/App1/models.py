@@ -22,5 +22,4 @@ class myModel(models.Model):
     Team = models.CharField(max_length=255, default="DEFAULT")
 
     def __str__(self):
-        return f'Haha This is a test page for printing table'
-        # return f'{self.Date},{self.Time},{self.Competition},{self.Day},{self.Venue},{self.Result},{self.GF},{self.GA},{self.Opponent},{self.Possession},{self.Shots},{self.Shots_Target},{self.Yellow},{self.Red},{self.Fouls},{self.Offside},{self.Team}'
+        return f'{self.Date},{self.Time},{self.Competition},{self.Day},{self.Venue},{self.Result},{self.GF},{self.GA},{self.Opponent},{self.Possession},{self.Shots},{self.Shots_Target},{self.Yellow},{self.Red},{self.Fouls},{self.Offside},{self.Team}'

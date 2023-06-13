@@ -2,9 +2,31 @@
 <html>
 <head>
     <title>Home</title>
+    <!-- Link Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        .container {
+            max-width: 400px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to the Home Page</h1>
-    <p>This is a simple home page.</p>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Home Page</h1>
+
+        <!-- home1 name used here -->
+        <form method="POST" action="{% url 'home1' %}">
+            {% csrf_token %}
+            <div class="input-group">
+                <input type="text" class="form-control" name="Team" placeholder="Enter team name" required>
+                <div class="input-group-append">
+                    <button class="btn btn-primary" type="submit">Search</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!-- Link Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>

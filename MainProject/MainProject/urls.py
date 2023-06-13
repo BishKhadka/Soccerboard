@@ -21,6 +21,9 @@ from App1 import views
 
 urlpatterns = [
     path("admin/", admin.site.urls),
+
+    # the name "home1" will be used to redirect url in html, we should use the name in html
+
     path('', views.home, name='home1'),  #home page url (first one is path, second func, third func)
-    path('search', views.search_results, name='search_results'),
+    # path('search', views.search_team, name='search_team1'),
 ]
