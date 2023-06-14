@@ -26,6 +26,8 @@ urlpatterns = [
 
     path('', views.home, name='home1'),  #home page url (first one is path, second func, third func)
     path('api/teams/', views.team_list, name='team-list'),
-    path('api/model/delete-all/', views.delete_all_model_instances, name='delete_all_model_instances'),
+    path('api/delete-entire-model/', views.deleteEntireModel, name='deleteEntireModel'),
+    path('api/add/', views.add_data, name='add_data'),
+
 
 ]

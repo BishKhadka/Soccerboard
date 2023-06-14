@@ -4,7 +4,6 @@ from django.db import models
 
 class myModel(models.Model):
     Date = models.CharField(max_length=255, default="DEFAULT")
-    print(Date)
     Competition = models.CharField(max_length=255, default="DEFAULT")
     Day = models.CharField(max_length=255, default="DEFAULT")
     Venue = models.CharField(max_length=255, default="DEFAULT")

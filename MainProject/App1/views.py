@@ -1,5 +1,10 @@
 from django.shortcuts import render
 from .models import myModel
+from rest_framework.decorators import api_view, permission_classes
+from rest_framework.permissions import IsAuthenticated
+from rest_framework.response import Response
+from rest_framework.decorators import api_view
+from .serializers import TeamSerializer
 
 # GET /api/teams: Retrieve a list of all soccer teams. This endpoint can provide information about various teams, such as their names, logos, and other relevant details.
 #GET /api/standings : current standing
@@ -17,25 +22,23 @@ def home(request):
     
     return render(request, 'home.html')
 
-
-from rest_framework.decorators import api_view
-from rest_framework.response import Response
-from .models import myModel
-from .serializers import TeamSerializer
-
-
 @api_view(["GET"])
 def team_list(request):
-    teams = myModel.objects.all()
+    teams = myModel.objects.values('Team').distinct()
     serializer = TeamSerializer(teams, many=True)
     return Response(serializer.data)
 
-from rest_framework.decorators import api_view, permission_classes
-from rest_framework.permissions import IsAuthenticated
-from rest_framework.response import Response
-
 @api_view(["DELETE"])
 @permission_classes([IsAuthenticated])
-def delete_all_model_instances(request):
+def deleteEntireModel(request):
     myModel.objects.all().delete()
     return Response({'message': 'All instances of YourModel have been deleted.'})
+
+@api_view(["POST"])
+@permission_classes([IsAuthenticated])
+def add_data(request):
+    serializer = TeamSerializer(data=request.data)
+    if serializer.is_valid():
+        serializer.save()
+        return Response(serializer.data, status=201)
+    return Response(serializer.errors, status=400)
