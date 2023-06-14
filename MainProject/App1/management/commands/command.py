@@ -1,7 +1,7 @@
 from django.core.management.base import BaseCommand
 from django.conf import settings
 from App1.models import myModel
-import csv 
+import csv
 import os
 
 class Command(BaseCommand):
@@ -18,7 +18,3 @@ class Command(BaseCommand):
                                        Possession=row[8], Shots=row[9], Shots_Target=row[10],
                                        Yellow=row[11], Red=row[12], Fouls=row[13],
                                        Offside=row[14], Team=row[15],)
-
-mytable_elements = myModel.objects.all()
-# for element in mytable_elements:
-#     print(element.Competition, element.Team)

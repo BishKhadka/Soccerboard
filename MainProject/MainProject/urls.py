@@ -28,6 +28,5 @@ urlpatterns = [
     path('api/teams/', views.team_list, name='team-list'),
     path('api/delete-entire-model/', views.deleteEntireModel, name='deleteEntireModel'),
     path('api/add/', views.add_data, name='add_data'),
-
-
+    path('test/', views.frontpage)
 ]

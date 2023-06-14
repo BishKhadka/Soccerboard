@@ -8,19 +8,68 @@
         .container {
             max-width: 400px;
         }
+
+        .centered {
+            text-align: center;
+        }
+
+        .form-group {
+            display: flex;
+            align-items: center;
+        }
+
+        .welcome-message {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 5px;
+        }
     </style>
 </head>
 <body>
     <div class="container mt-5">
         <h1 class="text-center mb-4">Home Page</h1>
 
-        <!-- home1 name used here -->
+        <!-- Welcome Message -->
+        <div class="welcome-message mb-4">
+            <h4 class="text-center">Welcome to the Website!</h4>
+            <p class="text-center">Here, you can either search for the most recent result of a team or view the current league table.</p>
+        </div>
+
+        <!-- Search Form -->
         <form method="POST" action="{% url 'home1' %}">
             {% csrf_token %}
-            <div class="input-group">
-                <input type="text" class="form-control" name="Team" placeholder="Enter team name" required>
-                <div class="input-group-append">
-                    <button class="btn btn-primary" type="submit">Search</button>
+            <div class="form-group">
+                <label for="teamName">View Most Recent Result</label>
+                <div class="input-group">
+                    <input type="text" class="form-control" id="teamName" name="team_name" required>
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" type="submit">Search</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <div class="centered">
+            <h6>OR</h6>
+        </div>
+
+        <!-- Dropdown Form -->
+        <form method="POST">
+            {% csrf_token %}
+            <div class="form-group">
+                <label for="selectedLeague">View the Current League Table</label>
+                <div class="input-group">
+                    <select class="custom-select" id="selectedLeague" name="selected_league">
+                        <option selected>Select League</option>
+                        <option value="1">League 1</option>
+                        <option value="2">League 2</option>
+                        <option value="3">League 3</option>
+                        <option value="4">League 4</option>
+                        <option value="5">League 5</option>
+                    </select>
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" type="submit">Go</button>
+                    </div>
                 </div>
             </div>
         </form>
