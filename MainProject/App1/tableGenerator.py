@@ -24,7 +24,7 @@ class LeagueTable(object):
     # def setTable(self, df):
     #     self.table = df
 
-    def getAllClubLinks(url):
+    def getAllClubLinks(self, url):
         #get the response
         response = requests.get(url)
         soup = BeautifulSoup(response.text)
@@ -62,7 +62,7 @@ class LeagueTable(object):
         result.rename(columns=names, inplace=True)  # Rename columns
         return result
 
-    def getAdditionalData(requestData, param, match, keepList):
+    def getAdditionalData(self, requestData, param, match, keepList):
         soup = BeautifulSoup(requestData.text)
         all_links = soup.find_all("a")
         links = [l.get("href") for l in all_links]
@@ -82,8 +82,9 @@ class LeagueTable(object):
         print(clubName)
 
         # get Scores (on the same page)
+        scores = pd.read_html(club.text)
         scores = pd.read_html(club.text, match = "Scores & Fixtures")[0]
-        scores = scores[['Date', 'Time', 'Comp', 'Day', 'Venue', 'Result', 'GF', 'GA','Opponent', 'Poss']]
+        scores = scores[['Date', 'Comp', 'Day', 'Venue', 'Result', 'GF', 'GA','Opponent', 'Poss']]
 
         # get shooting and other stat (figure better ways for these two)
         shooting = self.getAdditionalData(club, "/all_comps/shooting/", "Shooting", ['Date', 'Sh', "SoT"])
@@ -102,5 +103,5 @@ class LeagueTable(object):
 #download the data
 #create table object
 table = LeagueTable()
-res = table.getClubData(table.getUrl())
-res.to_csv("PLData.csv", index = False)
+res = table.getPLData(table.getUrl())
+res.to_csv("App1/PLData.csv", index = False)

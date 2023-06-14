@@ -10,14 +10,15 @@ class Command(BaseCommand):
 
         with open(os.path.join(settings.BASE_DIR, 'App1/PLData.csv'), 'r') as csv_file:
             csv_reader = csv.reader(csv_file, delimiter=',')
+            next(csv_reader)
             for row in csv_reader:
-                myModel.objects.create(Date=row[0], Time=row[1], Competition=row[2], 
-                                       Day=row[3], Venue=row[4], Result=row[5],
-                                       GF=row[6], GA=row[7], Opponent=row[8],
-                                       Possession=row[9], Shots=row[10], Shots_Target=row[11],
-                                       Yellow=row[12], Red=row[13], Fouls=row[14],
-                                       Offside=row[15], Team=row[16],)
+                myModel.objects.create(Date=row[0], Competition=row[1], 
+                                       Day=row[2], Venue=row[3], Result=row[4],
+                                       GF=row[5], GA=row[6], Opponent=row[7],
+                                       Possession=row[8], Shots=row[9], Shots_Target=row[10],
+                                       Yellow=row[11], Red=row[12], Fouls=row[13],
+                                       Offside=row[14], Team=row[15],)
 
 mytable_elements = myModel.objects.all()
-for element in mytable_elements:
-    print(element.Competition, element.Team)
+# for element in mytable_elements:
+#     print(element.Competition, element.Team)

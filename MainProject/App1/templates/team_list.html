@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Team List</title>
+    <!-- Add other necessary stylesheets and scripts -->
+</head>
+<body>
+    <!-- HTML content -->
+    <script>
+        var teamData = JSON.parse('{{ team_data|escapejs }}');
+        teamData.teams.forEach(team => {
+            console.log(team.name);
+            // Access other attributes as needed
+        });
+    </script>
+</body>
+</html>

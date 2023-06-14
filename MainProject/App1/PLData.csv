@@ -1,761 +1,761 @@
-Date,Time,Competition,Day,Venue,Result,GF,GA,Opponent,Possession,Shots,Shots Target,Yellow,Red,Fouls,Offside,Team
-2022-08-07,14:00,Premier League,Sun,Home,L,1,2,Brighton,62.0,17.0,5.0,4.0,0.0,7.0,3.0,Manchester United
-2022-08-13,17:30,Premier League,Sat,Away,L,0,4,Brentford,66.0,15.0,4.0,4.0,0.0,15.0,2.0,Manchester United
-2022-08-22,20:00,Premier League,Mon,Home,W,2,1,Liverpool,30.0,13.0,5.0,3.0,0.0,11.0,2.0,Manchester United
-2022-08-27,12:30,Premier League,Sat,Away,W,1,0,Southampton,51.0,11.0,4.0,3.0,0.0,14.0,1.0,Manchester United
-2022-09-01,20:00,Premier League,Thu,Away,W,1,0,Leicester City,47.0,9.0,2.0,3.0,0.0,15.0,2.0,Manchester United
-2022-09-04,16:30,Premier League,Sun,Home,W,3,1,Arsenal,40.0,10.0,6.0,3.0,0.0,13.0,4.0,Manchester United
-2022-10-02,14:00,Premier League,Sun,Away,L,3,6,Manchester City,47.0,11.0,7.0,3.0,0.0,9.0,0.0,Manchester United
-2022-10-09,19:00,Premier League,Sun,Away,W,2,1,Everton,60.0,12.0,4.0,1.0,0.0,13.0,4.0,Manchester United
-2022-10-16,14:00,Premier League,Sun,Home,D,0,0,Newcastle Utd,63.0,15.0,2.0,3.0,0.0,13.0,2.0,Manchester United
-2022-10-19,20:15,Premier League,Wed,Home,W,2,0,Tottenham,52.0,28.0,10.0,1.0,0.0,7.0,4.0,Manchester United
-2022-10-22,17:30,Premier League,Sat,Away,D,1,1,Chelsea,52.0,13.0,6.0,4.0,0.0,10.0,3.0,Manchester United
-2022-10-30,16:15,Premier League,Sun,Home,W,1,0,West Ham,53.0,16.0,3.0,1.0,0.0,12.0,1.0,Manchester United
-2022-11-06,14:00,Premier League,Sun,Away,L,1,3,Aston Villa,58.0,8.0,3.0,3.0,0.0,12.0,3.0,Manchester United
-2022-11-13,16:30,Premier League,Sun,Away,W,2,1,Fulham,47.0,14.0,9.0,1.0,0.0,10.0,2.0,Manchester United
-2022-12-27,20:00,Premier League,Tue,Home,W,3,0,Nott'ham Forest,65.0,17.0,8.0,3.0,0.0,13.0,1.0,Manchester United
-2022-12-31,12:30,Premier League,Sat,Away,W,1,0,Wolves,54.0,16.0,6.0,3.0,0.0,11.0,2.0,Manchester United
-2023-01-03,20:00,Premier League,Tue,Home,W,3,0,Bournemouth,58.0,18.0,6.0,0.0,0.0,13.0,0.0,Manchester United
-2023-01-14,12:30,Premier League,Sat,Home,W,2,1,Manchester City,30.0,8.0,3.0,3.0,0.0,15.0,6.0,Manchester United
-2023-01-18,20:00,Premier League,Wed,Away,D,1,1,Crystal Palace,60.0,15.0,4.0,2.0,0.0,10.0,0.0,Manchester United
-2023-01-22,16:30,Premier League,Sun,Away,L,2,3,Arsenal,43.0,6.0,4.0,2.0,0.0,9.0,4.0,Manchester United
-2023-02-04,15:00,Premier League,Sat,Home,W,2,1,Crystal Palace,52.0,13.0,4.0,1.0,1.0,9.0,1.0,Manchester United
-2023-02-08,20:00,Premier League,Wed,Home,D,2,2,Leeds United,66.0,24.0,6.0,1.0,0.0,7.0,1.0,Manchester United
-2023-02-12,14:00,Premier League,Sun,Away,W,2,0,Leeds United,66.0,11.0,5.0,1.0,0.0,13.0,3.0,Manchester United
-2023-02-19,14:00,Premier League,Sun,Home,W,3,0,Leicester City,57.0,26.0,8.0,0.0,0.0,9.0,0.0,Manchester United
-2023-03-05,16:30,Premier League,Sun,Away,L,0,7,Liverpool,41.0,8.0,4.0,3.0,0.0,14.0,4.0,Manchester United
-2023-03-12,14:00,Premier League,Sun,Home,D,0,0,Southampton,47.0,10.0,4.0,2.0,1.0,12.0,0.0,Manchester United
-2023-04-02,16:30,Premier League,Sun,Away,L,0,2,Newcastle Utd,54.0,6.0,1.0,0.0,0.0,12.0,0.0,Manchester United
-2023-04-05,20:00,Premier League,Wed,Home,W,1,0,Brentford,64.0,18.0,3.0,3.0,0.0,9.0,2.0,Manchester United
-2023-04-08,12:30,Premier League,Sat,Home,W,2,0,Everton,63.0,29.0,11.0,0.0,0.0,10.0,3.0,Manchester United
-2023-04-16,16:30,Premier League,Sun,Away,W,2,0,Nott'ham Forest,68.0,22.0,7.0,2.0,0.0,9.0,3.0,Manchester United
-2023-04-27,20:15,Premier League,Thu,Away,D,2,2,Tottenham,60.0,17.0,7.0,2.0,0.0,7.0,3.0,Manchester United
-2023-04-30,14:00,Premier League,Sun,Home,W,1,0,Aston Villa,57.0,14.0,6.0,2.0,0.0,16.0,7.0,Manchester United
-2023-05-04,20:00,Premier League,Thu,Away,L,0,1,Brighton,41.0,16.0,5.0,4.0,0.0,14.0,2.0,Manchester United
-2023-05-07,19:00,Premier League,Sun,Away,L,0,1,West Ham,65.0,19.0,4.0,2.0,0.0,9.0,1.0,Manchester United
-2023-05-13,15:00,Premier League,Sat,Home,W,2,0,Wolves,48.0,27.0,9.0,3.0,0.0,9.0,0.0,Manchester United
-2023-05-20,15:00,Premier League,Sat,Away,W,1,0,Bournemouth,59.0,20.0,5.0,0.0,0.0,7.0,2.0,Manchester United
-2023-05-25,20:00,Premier League,Thu,Home,W,4,1,Chelsea,42.0,17.0,8.0,1.0,0.0,12.0,0.0,Manchester United
-2023-05-28,16:30,Premier League,Sun,Home,W,2,1,Fulham,53.0,21.0,8.0,1.0,0.0,14.0,1.0,Manchester United
-2022-08-07,14:00,Premier League,Sun,Away,W,2,1,Manchester Utd,38.0,15.0,4.0,1.0,0.0,12.0,1.0,Brighton and Hove Albion
-2022-08-13,15:00,Premier League,Sat,Home,D,0,0,Newcastle Utd,54.0,13.0,5.0,2.0,0.0,8.0,1.0,Brighton and Hove Albion
-2022-08-21,14:00,Premier League,Sun,Away,W,2,0,West Ham,50.0,10.0,1.0,0.0,0.0,7.0,1.0,Brighton and Hove Albion
-2022-08-27,15:00,Premier League,Sat,Home,W,1,0,Leeds United,44.0,13.0,4.0,2.0,0.0,10.0,2.0,Brighton and Hove Albion
-2022-08-30,19:30,Premier League,Tue,Away,L,1,2,Fulham,61.0,6.0,2.0,1.0,0.0,11.0,2.0,Brighton and Hove Albion
-2022-09-04,14:00,Premier League,Sun,Home,W,5,2,Leicester City,53.0,22.0,10.0,1.0,0.0,6.0,2.0,Brighton and Hove Albion
-2022-10-01,15:00,Premier League,Sat,Away,D,3,3,Liverpool,46.0,6.0,6.0,1.0,0.0,13.0,0.0,Brighton and Hove Albion
-2022-10-08,17:30,Premier League,Sat,Home,L,0,1,Tottenham,59.0,14.0,4.0,1.0,0.0,9.0,2.0,Brighton and Hove Albion
-2022-10-14,20:00,Premier League,Fri,Away,L,0,2,Brentford,72.0,21.0,7.0,1.0,0.0,15.0,3.0,Brighton and Hove Albion
-2022-10-18,19:30,Premier League,Tue,Home,D,0,0,Nott'ham Forest,70.0,19.0,7.0,3.0,0.0,10.0,1.0,Brighton and Hove Albion
-2022-10-22,15:00,Premier League,Sat,Away,L,1,3,Manchester City,52.0,8.0,2.0,3.0,0.0,12.0,4.0,Brighton and Hove Albion
-2022-10-29,15:00,Premier League,Sat,Home,W,4,1,Chelsea,41.0,19.0,7.0,1.0,0.0,16.0,0.0,Brighton and Hove Albion
-2022-11-05,15:00,Premier League,Sat,Away,W,3,2,Wolves,71.0,19.0,8.0,0.0,0.0,11.0,1.0,Brighton and Hove Albion
-2022-11-13,14:00,Premier League,Sun,Home,L,1,2,Aston Villa,65.0,7.0,2.0,2.0,0.0,14.0,3.0,Brighton and Hove Albion
-2022-12-26,15:00,Premier League,Mon,Away,W,3,1,Southampton,66.0,7.0,4.0,2.0,0.0,10.0,1.0,Brighton and Hove Albion
-2022-12-31,17:30,Premier League,Sat,Home,L,2,4,Arsenal,68.0,9.0,5.0,3.0,0.0,7.0,5.0,Brighton and Hove Albion
-2023-01-03,19:45,Premier League,Tue,Away,W,4,1,Everton,51.0,19.0,8.0,1.0,0.0,10.0,0.0,Brighton and Hove Albion
-2023-01-14,15:00,Premier League,Sat,Home,W,3,0,Liverpool,61.0,16.0,8.0,1.0,0.0,9.0,4.0,Brighton and Hove Albion
-2023-01-21,15:00,Premier League,Sat,Away,D,2,2,Leicester City,63.0,13.0,4.0,1.0,0.0,9.0,2.0,Brighton and Hove Albion
-2023-02-04,15:00,Premier League,Sat,Home,W,1,0,Bournemouth,71.0,20.0,6.0,3.0,0.0,14.0,0.0,Brighton and Hove Albion
-2023-02-11,15:00,Premier League,Sat,Away,D,1,1,Crystal Palace,73.0,17.0,7.0,1.0,0.0,11.0,2.0,Brighton and Hove Albion
-2023-02-18,15:00,Premier League,Sat,Home,L,0,1,Fulham,65.0,21.0,7.0,0.0,0.0,12.0,4.0,Brighton and Hove Albion
-2023-03-04,15:00,Premier League,Sat,Home,W,4,0,West Ham,65.0,19.0,8.0,0.0,0.0,6.0,0.0,Brighton and Hove Albion
-2023-03-11,15:00,Premier League,Sat,Away,D,2,2,Leeds United,62.0,15.0,3.0,1.0,0.0,9.0,3.0,Brighton and Hove Albion
-2023-03-15,19:30,Premier League,Wed,Home,W,1,0,Crystal Palace,57.0,11.0,5.0,1.0,0.0,13.0,2.0,Brighton and Hove Albion
-2023-04-01,15:00,Premier League,Sat,Home,D,3,3,Brentford,72.0,32.0,13.0,1.0,0.0,16.0,2.0,Brighton and Hove Albion
-2023-04-04,19:45,Premier League,Tue,Away,W,2,0,Bournemouth,63.0,16.0,6.0,1.0,0.0,5.0,0.0,Brighton and Hove Albion
-2023-04-08,15:00,Premier League,Sat,Away,L,1,2,Tottenham,65.0,17.0,4.0,1.0,0.0,15.0,1.0,Brighton and Hove Albion
-2023-04-15,15:00,Premier League,Sat,Away,W,2,1,Chelsea,57.0,26.0,10.0,2.0,0.0,11.0,1.0,Brighton and Hove Albion
-2023-04-26,19:30,Premier League,Wed,Away,L,1,3,Nott'ham Forest,74.0,17.0,7.0,0.0,0.0,8.0,2.0,Brighton and Hove Albion
-2023-04-29,15:00,Premier League,Sat,Home,W,6,0,Wolves,57.0,22.0,8.0,1.0,0.0,14.0,2.0,Brighton and Hove Albion
-2023-05-04,20:00,Premier League,Thu,Home,W,1,0,Manchester Utd,59.0,21.0,5.0,4.0,0.0,10.0,0.0,Brighton and Hove Albion
-2023-05-08,17:30,Premier League,Mon,Home,L,1,5,Everton,78.0,23.0,5.0,1.0,0.0,11.0,1.0,Brighton and Hove Albion
-2023-05-14,16:30,Premier League,Sun,Away,W,3,0,Arsenal,59.0,12.0,6.0,2.0,0.0,17.0,4.0,Brighton and Hove Albion
-2023-05-18,19:30,Premier League,Thu,Away,L,1,4,Newcastle Utd,65.0,8.0,2.0,4.0,0.0,16.0,2.0,Brighton and Hove Albion
-2023-05-21,14:00,Premier League,Sun,Home,W,3,1,Southampton,63.0,26.0,8.0,2.0,0.0,8.0,1.0,Brighton and Hove Albion
-2023-05-24,20:00,Premier League,Wed,Home,D,1,1,Manchester City,40.0,20.0,7.0,2.0,0.0,16.0,2.0,Brighton and Hove Albion
-2023-05-28,16:30,Premier League,Sun,Away,L,1,2,Aston Villa,59.0,8.0,4.0,4.0,0.0,16.0,6.0,Brighton and Hove Albion
-2022-08-06,12:30,Premier League,Sat,Away,D,2,2,Fulham,67.0,11.0,3.0,0.0,0.0,9.0,4.0,Liverpool
-2022-08-15,20:00,Premier League,Mon,Home,D,1,1,Crystal Palace,72.0,24.0,4.0,2.0,1.0,7.0,3.0,Liverpool
-2022-08-22,20:00,Premier League,Mon,Away,L,1,2,Manchester Utd,70.0,17.0,5.0,1.0,0.0,7.0,2.0,Liverpool
-2022-08-27,15:00,Premier League,Sat,Home,W,9,0,Bournemouth,69.0,19.0,12.0,0.0,0.0,6.0,3.0,Liverpool
-2022-08-31,20:00,Premier League,Wed,Home,W,2,1,Newcastle Utd,72.0,23.0,6.0,0.0,0.0,9.0,2.0,Liverpool
-2022-09-03,12:30,Premier League,Sat,Away,D,0,0,Everton,61.0,23.0,8.0,2.0,0.0,11.0,2.0,Liverpool
-2022-10-01,15:00,Premier League,Sat,Home,D,3,3,Brighton,54.0,15.0,7.0,1.0,0.0,9.0,1.0,Liverpool
-2022-10-09,16:30,Premier League,Sun,Away,L,2,3,Arsenal,57.0,8.0,3.0,2.0,0.0,11.0,6.0,Liverpool
-2022-10-16,16:30,Premier League,Sun,Home,W,1,0,Manchester City,37.0,13.0,2.0,3.0,0.0,10.0,3.0,Liverpool
-2022-10-19,19:30,Premier League,Wed,Home,W,1,0,West Ham,54.0,22.0,7.0,0.0,0.0,9.0,1.0,Liverpool
-2022-10-22,12:30,Premier League,Sat,Away,L,0,1,Nott'ham Forest,75.0,15.0,7.0,1.0,0.0,8.0,0.0,Liverpool
-2022-10-29,19:45,Premier League,Sat,Home,L,1,2,Leeds United,68.0,22.0,10.0,0.0,0.0,9.0,0.0,Liverpool
-2022-11-06,16:30,Premier League,Sun,Away,W,2,1,Tottenham,53.0,13.0,6.0,0.0,0.0,8.0,2.0,Liverpool
-2022-11-12,15:00,Premier League,Sat,Home,W,3,1,Southampton,60.0,15.0,7.0,0.0,0.0,8.0,0.0,Liverpool
-2022-12-26,17:30,Premier League,Mon,Away,W,3,1,Aston Villa,52.0,16.0,9.0,0.0,0.0,12.0,3.0,Liverpool
-2022-12-30,20:00,Premier League,Fri,Home,W,2,1,Leicester City,57.0,21.0,5.0,0.0,0.0,8.0,2.0,Liverpool
-2023-01-02,17:30,Premier League,Mon,Away,L,1,3,Brentford,72.0,16.0,5.0,3.0,0.0,8.0,4.0,Liverpool
-2023-01-14,15:00,Premier League,Sat,Away,L,0,3,Brighton,39.0,6.0,2.0,3.0,0.0,15.0,2.0,Liverpool
-2023-01-21,12:30,Premier League,Sat,Home,D,0,0,Chelsea,48.0,15.0,3.0,3.0,0.0,16.0,5.0,Liverpool
-2023-02-04,15:00,Premier League,Sat,Away,L,0,3,Wolves,59.0,22.0,2.0,1.0,0.0,7.0,2.0,Liverpool
-2023-02-13,20:00,Premier League,Mon,Home,W,2,0,Everton,59.0,15.0,6.0,1.0,0.0,8.0,4.0,Liverpool
-2023-02-18,17:30,Premier League,Sat,Away,W,2,0,Newcastle Utd,62.0,13.0,7.0,1.0,0.0,8.0,0.0,Liverpool
-2023-02-25,19:45,Premier League,Sat,Away,D,0,0,Crystal Palace,63.0,12.0,4.0,5.0,0.0,14.0,1.0,Liverpool
-2023-03-01,20:00,Premier League,Wed,Home,W,2,0,Wolves,57.0,15.0,6.0,2.0,0.0,13.0,1.0,Liverpool
-2023-03-05,16:30,Premier League,Sun,Home,W,7,0,Manchester Utd,59.0,18.0,8.0,2.0,0.0,13.0,0.0,Liverpool
-2023-03-11,12:30,Premier League,Sat,Away,L,0,1,Bournemouth,69.0,14.0,5.0,1.0,0.0,9.0,4.0,Liverpool
-2023-04-01,12:30,Premier League,Sat,Away,L,1,4,Manchester City,32.0,4.0,1.0,1.0,0.0,12.0,5.0,Liverpool
-2023-04-04,20:00,Premier League,Tue,Away,D,0,0,Chelsea,51.0,7.0,3.0,4.0,0.0,17.0,3.0,Liverpool
-2023-04-09,16:30,Premier League,Sun,Home,D,2,2,Arsenal,59.0,20.0,6.0,4.0,0.0,11.0,2.0,Liverpool
-2023-04-17,20:00,Premier League,Mon,Away,W,6,1,Leeds United,73.0,13.0,7.0,1.0,0.0,12.0,2.0,Liverpool
-2023-04-22,15:00,Premier League,Sat,Home,W,3,2,Nott'ham Forest,80.0,18.0,5.0,0.0,0.0,9.0,2.0,Liverpool
-2023-04-26,19:45,Premier League,Wed,Away,W,2,1,West Ham,72.0,20.0,4.0,0.0,0.0,8.0,1.0,Liverpool
-2023-04-30,16:30,Premier League,Sun,Home,W,4,3,Tottenham,67.0,11.0,3.0,3.0,0.0,12.0,0.0,Liverpool
-2023-05-03,20:00,Premier League,Wed,Home,W,1,0,Fulham,57.0,14.0,2.0,0.0,0.0,10.0,3.0,Liverpool
-2023-05-06,17:30,Premier League,Sat,Home,W,1,0,Brentford,54.0,15.0,5.0,4.0,0.0,19.0,1.0,Liverpool
-2023-05-15,20:00,Premier League,Mon,Away,W,3,0,Leicester City,66.0,16.0,5.0,1.0,0.0,17.0,4.0,Liverpool
-2023-05-20,15:00,Premier League,Sat,Home,D,1,1,Aston Villa,66.0,10.0,5.0,3.0,0.0,16.0,4.0,Liverpool
-2023-05-28,16:30,Premier League,Sun,Away,D,4,4,Southampton,69.0,30.0,8.0,2.0,0.0,10.0,0.0,Liverpool
-2022-08-06,12:30,Premier League,Sat,Home,D,2,2,Liverpool,33.0,8.0,2.0,2.0,0.0,7.0,4.0,Fulham
-2022-08-13,15:00,Premier League,Sat,Away,D,0,0,Wolves,41.0,8.0,2.0,3.0,0.0,14.0,0.0,Fulham
-2022-08-20,15:00,Premier League,Sat,Home,W,3,2,Brentford,43.0,18.0,9.0,3.0,0.0,13.0,5.0,Fulham
-2022-08-27,17:30,Premier League,Sat,Away,L,1,2,Arsenal,29.0,11.0,3.0,3.0,0.0,12.0,0.0,Fulham
-2022-08-30,19:30,Premier League,Tue,Home,W,2,1,Brighton,39.0,10.0,3.0,2.0,0.0,9.0,0.0,Fulham
-2022-09-03,15:00,Premier League,Sat,Away,L,1,2,Tottenham,48.0,9.0,3.0,4.0,0.0,6.0,0.0,Fulham
-2022-09-16,20:00,Premier League,Fri,Away,W,3,2,Nott'ham Forest,59.0,15.0,7.0,4.0,0.0,10.0,1.0,Fulham
-2022-10-01,15:00,Premier League,Sat,Home,L,1,4,Newcastle Utd,33.0,3.0,1.0,2.0,1.0,9.0,4.0,Fulham
-2022-10-09,14:00,Premier League,Sun,Away,L,1,3,West Ham,50.0,8.0,2.0,3.0,0.0,7.0,2.0,Fulham
-2022-10-15,15:00,Premier League,Sat,Home,D,2,2,Bournemouth,69.0,18.0,3.0,2.0,0.0,9.0,1.0,Fulham
-2022-10-20,19:30,Premier League,Thu,Home,W,3,0,Aston Villa,60.0,17.0,6.0,0.0,0.0,11.0,0.0,Fulham
-2022-10-23,14:00,Premier League,Sun,Away,W,3,2,Leeds United,43.0,11.0,4.0,1.0,0.0,8.0,4.0,Fulham
-2022-10-29,17:30,Premier League,Sat,Home,D,0,0,Everton,56.0,24.0,6.0,2.0,0.0,10.0,0.0,Fulham
-2022-11-05,15:00,Premier League,Sat,Away,L,1,2,Manchester City,30.0,3.0,1.0,4.0,0.0,11.0,0.0,Fulham
-2022-11-13,16:30,Premier League,Sun,Home,L,1,2,Manchester Utd,53.0,14.0,7.0,1.0,0.0,9.0,1.0,Fulham
-2022-12-26,15:00,Premier League,Mon,Away,W,3,0,Crystal Palace,64.0,23.0,10.0,0.0,0.0,15.0,2.0,Fulham
-2022-12-31,15:00,Premier League,Sat,Home,W,2,1,Southampton,62.0,7.0,1.0,0.0,0.0,8.0,1.0,Fulham
-2023-01-03,19:45,Premier League,Tue,Away,W,1,0,Leicester City,39.0,11.0,2.0,6.0,0.0,11.0,1.0,Fulham
-2023-01-12,20:00,Premier League,Thu,Home,W,2,1,Chelsea,48.0,8.0,3.0,4.0,0.0,12.0,3.0,Fulham
-2023-01-15,14:00,Premier League,Sun,Away,L,0,1,Newcastle Utd,38.0,4.0,0.0,3.0,0.0,14.0,3.0,Fulham
-2023-01-23,20:00,Premier League,Mon,Home,L,0,1,Tottenham,54.0,10.0,5.0,1.0,0.0,10.0,2.0,Fulham
-2023-02-03,20:00,Premier League,Fri,Away,D,0,0,Chelsea,34.0,10.0,4.0,4.0,0.0,12.0,0.0,Fulham
-2023-02-11,15:00,Premier League,Sat,Home,W,2,0,Nott'ham Forest,50.0,16.0,3.0,0.0,0.0,9.0,1.0,Fulham
-2023-02-18,15:00,Premier League,Sat,Away,W,1,0,Brighton,35.0,5.0,2.0,5.0,0.0,14.0,0.0,Fulham
-2023-02-24,20:00,Premier League,Fri,Home,D,1,1,Wolves,51.0,10.0,5.0,2.0,0.0,12.0,1.0,Fulham
-2023-03-06,20:00,Premier League,Mon,Away,L,2,3,Brentford,63.0,9.0,5.0,3.0,0.0,17.0,1.0,Fulham
-2023-03-12,14:00,Premier League,Sun,Home,L,0,3,Arsenal,45.0,12.0,2.0,0.0,0.0,10.0,2.0,Fulham
-2023-04-01,15:00,Premier League,Sat,Away,L,1,2,Bournemouth,57.0,10.0,2.0,4.0,0.0,13.0,1.0,Fulham
-2023-04-08,15:00,Premier League,Sat,Home,L,0,1,West Ham,76.0,16.0,3.0,1.0,0.0,10.0,0.0,Fulham
-2023-04-15,15:00,Premier League,Sat,Away,W,3,1,Everton,54.0,21.0,7.0,2.0,0.0,6.0,0.0,Fulham
-2023-04-22,12:30,Premier League,Sat,Home,W,2,1,Leeds United,50.0,12.0,5.0,1.0,0.0,10.0,5.0,Fulham
-2023-04-25,19:45,Premier League,Tue,Away,L,0,1,Aston Villa,49.0,1.0,0.0,2.0,0.0,18.0,5.0,Fulham
-2023-04-30,14:00,Premier League,Sun,Home,L,1,2,Manchester City,38.0,4.0,1.0,1.0,0.0,9.0,3.0,Fulham
-2023-05-03,20:00,Premier League,Wed,Away,L,0,1,Liverpool,43.0,9.0,3.0,0.0,0.0,8.0,2.0,Fulham
-2023-05-08,15:00,Premier League,Mon,Home,W,5,3,Leicester City,57.0,17.0,7.0,0.0,0.0,13.0,1.0,Fulham
-2023-05-13,15:00,Premier League,Sat,Away,W,2,0,Southampton,64.0,9.0,3.0,0.0,0.0,12.0,1.0,Fulham
-2023-05-20,15:00,Premier League,Sat,Home,D,2,2,Crystal Palace,49.0,10.0,3.0,3.0,0.0,13.0,2.0,Fulham
-2023-05-28,16:30,Premier League,Sun,Away,L,1,2,Manchester Utd,47.0,9.0,2.0,2.0,0.0,10.0,1.0,Fulham
-2022-08-06,15:00,Premier League,Sat,Home,W,2,0,Nott'ham Forest,61.0,23.0,9.0,0.0,0.0,9.0,2.0,Newcastle United
-2022-08-13,15:00,Premier League,Sat,Away,D,0,0,Brighton,46.0,4.0,1.0,3.0,0.0,6.0,4.0,Newcastle United
-2022-08-21,16:30,Premier League,Sun,Home,D,3,3,Manchester City,31.0,12.0,5.0,4.0,0.0,14.0,2.0,Newcastle United
-2022-08-28,14:00,Premier League,Sun,Away,D,1,1,Wolves,63.0,21.0,6.0,1.0,0.0,11.0,1.0,Newcastle United
-2022-08-31,20:00,Premier League,Wed,Away,L,1,2,Liverpool,28.0,5.0,2.0,2.0,0.0,10.0,2.0,Newcastle United
-2022-09-03,15:00,Premier League,Sat,Home,D,0,0,Crystal Palace,52.0,23.0,5.0,2.0,0.0,19.0,2.0,Newcastle United
-2022-09-17,15:00,Premier League,Sat,Home,D,1,1,Bournemouth,72.0,19.0,6.0,2.0,0.0,10.0,3.0,Newcastle United
-2022-10-01,15:00,Premier League,Sat,Away,W,4,1,Fulham,67.0,19.0,10.0,0.0,0.0,10.0,7.0,Newcastle United
-2022-10-08,15:00,Premier League,Sat,Home,W,5,1,Brentford,54.0,16.0,6.0,0.0,0.0,14.0,1.0,Newcastle United
-2022-10-16,14:00,Premier League,Sun,Away,D,0,0,Manchester Utd,37.0,9.0,2.0,1.0,0.0,11.0,0.0,Newcastle United
-2022-10-19,19:30,Premier League,Wed,Home,W,1,0,Everton,49.0,16.0,4.0,2.0,0.0,9.0,0.0,Newcastle United
-2022-10-23,16:30,Premier League,Sun,Away,W,2,1,Tottenham,47.0,13.0,5.0,2.0,0.0,6.0,4.0,Newcastle United
-2022-10-29,15:00,Premier League,Sat,Home,W,4,0,Aston Villa,59.0,19.0,6.0,1.0,0.0,11.0,2.0,Newcastle United
-2022-11-06,14:00,Premier League,Sun,Away,W,4,1,Southampton,45.0,7.0,4.0,0.0,0.0,10.0,1.0,Newcastle United
-2022-11-12,17:30,Premier League,Sat,Home,W,1,0,Chelsea,49.0,10.0,3.0,4.0,0.0,14.0,3.0,Newcastle United
-2022-12-26,15:00,Premier League,Mon,Away,W,3,0,Leicester City,40.0,11.0,4.0,0.0,0.0,6.0,1.0,Newcastle United
-2022-12-31,15:00,Premier League,Sat,Home,D,0,0,Leeds United,60.0,16.0,5.0,3.0,0.0,13.0,3.0,Newcastle United
-2023-01-03,19:45,Premier League,Tue,Away,D,0,0,Arsenal,34.0,8.0,1.0,5.0,0.0,16.0,4.0,Newcastle United
-2023-01-15,14:00,Premier League,Sun,Home,W,1,0,Fulham,62.0,20.0,5.0,1.0,0.0,6.0,2.0,Newcastle United
-2023-01-21,17:30,Premier League,Sat,Away,D,0,0,Crystal Palace,60.0,16.0,7.0,2.0,0.0,7.0,1.0,Newcastle United
-2023-02-04,17:30,Premier League,Sat,Home,D,1,1,West Ham,62.0,8.0,2.0,2.0,0.0,11.0,0.0,Newcastle United
-2023-02-11,17:30,Premier League,Sat,Away,D,1,1,Bournemouth,66.0,15.0,7.0,3.0,0.0,10.0,5.0,Newcastle United
-2023-02-18,17:30,Premier League,Sat,Home,L,0,2,Liverpool,38.0,14.0,4.0,1.0,1.0,3.0,3.0,Newcastle United
-2023-03-04,12:30,Premier League,Sat,Away,L,0,2,Manchester City,44.0,5.0,2.0,4.0,0.0,13.0,1.0,Newcastle United
-2023-03-12,16:30,Premier League,Sun,Home,W,2,1,Wolves,43.0,19.0,8.0,1.0,0.0,11.0,0.0,Newcastle United
-2023-03-17,20:00,Premier League,Fri,Away,W,2,1,Nott'ham Forest,61.0,14.0,3.0,1.0,0.0,9.0,1.0,Newcastle United
-2023-04-02,16:30,Premier League,Sun,Home,W,2,0,Manchester Utd,46.0,22.0,6.0,0.0,0.0,8.0,1.0,Newcastle United
-2023-04-05,20:00,Premier League,Wed,Away,W,5,1,West Ham,58.0,15.0,7.0,1.0,0.0,12.0,0.0,Newcastle United
-2023-04-08,15:00,Premier League,Sat,Away,W,2,1,Brentford,58.0,10.0,4.0,2.0,0.0,15.0,2.0,Newcastle United
-2023-04-15,12:30,Premier League,Sat,Away,L,0,3,Aston Villa,48.0,8.0,2.0,1.0,0.0,15.0,4.0,Newcastle United
-2023-04-23,14:00,Premier League,Sun,Home,W,6,1,Tottenham,56.0,25.0,8.0,0.0,0.0,7.0,2.0,Newcastle United
-2023-04-27,19:45,Premier League,Thu,Away,W,4,1,Everton,60.0,15.0,7.0,1.0,0.0,6.0,1.0,Newcastle United
-2023-04-30,14:00,Premier League,Sun,Home,W,3,1,Southampton,63.0,22.0,5.0,1.0,0.0,7.0,1.0,Newcastle United
-2023-05-07,16:30,Premier League,Sun,Home,L,0,2,Arsenal,55.0,12.0,5.0,2.0,0.0,16.0,0.0,Newcastle United
-2023-05-13,12:30,Premier League,Sat,Away,D,2,2,Leeds United,64.0,16.0,3.0,2.0,0.0,14.0,2.0,Newcastle United
-2023-05-18,19:30,Premier League,Thu,Home,W,4,1,Brighton,35.0,22.0,8.0,2.0,0.0,17.0,1.0,Newcastle United
-2023-05-22,20:00,Premier League,Mon,Home,D,0,0,Leicester City,77.0,23.0,3.0,2.0,0.0,9.0,1.0,Newcastle United
-2023-05-28,16:30,Premier League,Sun,Away,D,1,1,Chelsea,36.0,13.0,4.0,0.0,0.0,11.0,1.0,Newcastle United
-2022-08-06,15:00,Premier League,Sat,Home,W,4,1,Southampton,58.0,18.0,8.0,3.0,0.0,11.0,2.0,Tottenham Hotspur
-2022-08-14,16:30,Premier League,Sun,Away,D,2,2,Chelsea,37.0,10.0,5.0,0.0,0.0,9.0,1.0,Tottenham Hotspur
-2022-08-20,12:30,Premier League,Sat,Home,W,1,0,Wolves,50.0,11.0,4.0,2.0,0.0,10.0,2.0,Tottenham Hotspur
-2022-08-28,16:30,Premier League,Sun,Away,W,2,0,Nott'ham Forest,45.0,17.0,5.0,1.0,0.0,13.0,3.0,Tottenham Hotspur
-2022-08-31,19:45,Premier League,Wed,Away,D,1,1,West Ham,61.0,12.0,3.0,5.0,0.0,10.0,0.0,Tottenham Hotspur
-2022-09-03,15:00,Premier League,Sat,Home,W,2,1,Fulham,52.0,23.0,10.0,3.0,0.0,9.0,3.0,Tottenham Hotspur
-2022-09-17,17:30,Premier League,Sat,Home,W,6,2,Leicester City,44.0,16.0,11.0,1.0,0.0,9.0,1.0,Tottenham Hotspur
-2022-10-01,12:30,Premier League,Sat,Away,L,1,3,Arsenal,36.0,6.0,2.0,1.0,1.0,10.0,3.0,Tottenham Hotspur
-2022-10-08,17:30,Premier League,Sat,Away,W,1,0,Brighton,41.0,8.0,3.0,2.0,0.0,14.0,3.0,Tottenham Hotspur
-2022-10-15,17:30,Premier League,Sat,Home,W,2,0,Everton,62.0,20.0,6.0,1.0,0.0,12.0,0.0,Tottenham Hotspur
-2022-10-19,20:15,Premier League,Wed,Away,L,0,2,Manchester Utd,48.0,9.0,2.0,0.0,0.0,7.0,0.0,Tottenham Hotspur
-2022-10-23,16:30,Premier League,Sun,Home,L,1,2,Newcastle Utd,53.0,17.0,4.0,4.0,0.0,12.0,3.0,Tottenham Hotspur
-2022-10-29,15:00,Premier League,Sat,Away,W,3,2,Bournemouth,69.0,23.0,7.0,2.0,0.0,5.0,3.0,Tottenham Hotspur
-2022-11-06,16:30,Premier League,Sun,Home,L,1,2,Liverpool,47.0,14.0,5.0,0.0,0.0,10.0,1.0,Tottenham Hotspur
-2022-11-12,15:00,Premier League,Sat,Home,W,4,3,Leeds United,55.0,14.0,7.0,1.0,0.0,8.0,0.0,Tottenham Hotspur
-2022-12-26,12:30,Premier League,Mon,Away,D,2,2,Brentford,61.0,15.0,8.0,1.0,0.0,10.0,5.0,Tottenham Hotspur
-2023-01-01,14:00,Premier League,Sun,Home,L,0,2,Aston Villa,59.0,6.0,1.0,4.0,0.0,15.0,1.0,Tottenham Hotspur
-2023-01-04,20:00,Premier League,Wed,Away,W,4,0,Crystal Palace,53.0,14.0,6.0,2.0,0.0,8.0,2.0,Tottenham Hotspur
-2023-01-15,16:30,Premier League,Sun,Home,L,0,2,Arsenal,51.0,17.0,7.0,4.0,0.0,16.0,1.0,Tottenham Hotspur
-2023-01-19,20:00,Premier League,Thu,Away,L,2,4,Manchester City,42.0,9.0,3.0,2.0,0.0,14.0,1.0,Tottenham Hotspur
-2023-01-23,20:00,Premier League,Mon,Away,W,1,0,Fulham,46.0,10.0,3.0,3.0,0.0,10.0,0.0,Tottenham Hotspur
-2023-02-05,16:30,Premier League,Sun,Home,W,1,0,Manchester City,36.0,12.0,3.0,4.0,1.0,19.0,2.0,Tottenham Hotspur
-2023-02-11,15:00,Premier League,Sat,Away,L,1,4,Leicester City,51.0,11.0,4.0,2.0,0.0,9.0,2.0,Tottenham Hotspur
-2023-02-19,16:30,Premier League,Sun,Home,W,2,0,West Ham,57.0,16.0,6.0,2.0,0.0,16.0,0.0,Tottenham Hotspur
-2023-02-26,13:30,Premier League,Sun,Home,W,2,0,Chelsea,41.0,8.0,3.0,2.0,0.0,10.0,0.0,Tottenham Hotspur
-2023-03-04,15:00,Premier League,Sat,Away,L,0,1,Wolves,54.0,21.0,6.0,1.0,0.0,18.0,1.0,Tottenham Hotspur
-2023-03-11,15:00,Premier League,Sat,Home,W,3,1,Nott'ham Forest,55.0,14.0,6.0,3.0,0.0,13.0,1.0,Tottenham Hotspur
-2023-03-18,15:00,Premier League,Sat,Away,D,3,3,Southampton,49.0,17.0,3.0,1.0,0.0,8.0,1.0,Tottenham Hotspur
-2023-04-03,20:00,Premier League,Mon,Away,D,1,1,Everton,61.0,7.0,0.0,3.0,1.0,14.0,3.0,Tottenham Hotspur
-2023-04-08,15:00,Premier League,Sat,Home,W,2,1,Brighton,35.0,9.0,3.0,3.0,0.0,15.0,2.0,Tottenham Hotspur
-2023-04-15,15:00,Premier League,Sat,Home,L,2,3,Bournemouth,58.0,24.0,8.0,1.0,0.0,8.0,1.0,Tottenham Hotspur
-2023-04-23,14:00,Premier League,Sun,Away,L,1,6,Newcastle Utd,44.0,11.0,3.0,3.0,0.0,13.0,0.0,Tottenham Hotspur
-2023-04-27,20:15,Premier League,Thu,Home,D,2,2,Manchester Utd,40.0,18.0,7.0,1.0,0.0,8.0,2.0,Tottenham Hotspur
-2023-04-30,16:30,Premier League,Sun,Away,L,3,4,Liverpool,33.0,10.0,6.0,2.0,0.0,6.0,5.0,Tottenham Hotspur
-2023-05-06,15:00,Premier League,Sat,Home,W,1,0,Crystal Palace,56.0,8.0,3.0,3.0,0.0,15.0,1.0,Tottenham Hotspur
-2023-05-13,15:00,Premier League,Sat,Away,L,1,2,Aston Villa,52.0,4.0,1.0,3.0,0.0,14.0,9.0,Tottenham Hotspur
-2023-05-20,12:30,Premier League,Sat,Home,L,1,3,Brentford,61.0,22.0,7.0,1.0,0.0,11.0,1.0,Tottenham Hotspur
-2023-05-28,16:30,Premier League,Sun,Away,W,4,1,Leeds United,48.0,11.0,7.0,0.0,0.0,5.0,1.0,Tottenham Hotspur
-2022-08-06,17:30,Premier League,Sat,Away,W,1,0,Everton,62.0,14.0,5.0,2.0,0.0,11.0,2.0,Chelsea
-2022-08-14,16:30,Premier League,Sun,Home,D,2,2,Tottenham,63.0,16.0,3.0,3.0,0.0,9.0,2.0,Chelsea
-2022-08-21,14:00,Premier League,Sun,Away,L,0,3,Leeds United,61.0,14.0,3.0,3.0,1.0,15.0,7.0,Chelsea
-2022-08-27,15:00,Premier League,Sat,Home,W,2,1,Leicester City,45.0,7.0,4.0,3.0,1.0,10.0,3.0,Chelsea
-2022-08-30,19:45,Premier League,Tue,Away,L,1,2,Southampton,67.0,10.0,4.0,1.0,0.0,10.0,3.0,Chelsea
-2022-09-03,15:00,Premier League,Sat,Home,W,2,1,West Ham,67.0,8.0,3.0,4.0,0.0,6.0,1.0,Chelsea
-2022-10-01,15:00,Premier League,Sat,Away,W,2,1,Crystal Palace,64.0,13.0,3.0,3.0,0.0,13.0,0.0,Chelsea
-2022-10-08,15:00,Premier League,Sat,Home,W,3,0,Wolves,57.0,20.0,7.0,2.0,0.0,8.0,3.0,Chelsea
-2022-10-16,14:00,Premier League,Sun,Away,W,2,0,Aston Villa,58.0,8.0,4.0,3.0,0.0,11.0,1.0,Chelsea
-2022-10-19,19:30,Premier League,Wed,Away,D,0,0,Brentford,66.0,14.0,5.0,0.0,0.0,7.0,0.0,Chelsea
-2022-10-22,17:30,Premier League,Sat,Home,D,1,1,Manchester Utd,48.0,5.0,1.0,1.0,0.0,8.0,2.0,Chelsea
-2022-10-29,15:00,Premier League,Sat,Away,L,1,4,Brighton,59.0,15.0,7.0,2.0,0.0,6.0,0.0,Chelsea
-2022-11-06,12:00,Premier League,Sun,Home,L,0,1,Arsenal,45.0,5.0,1.0,5.0,0.0,19.0,3.0,Chelsea
-2022-11-12,17:30,Premier League,Sat,Away,L,0,1,Newcastle Utd,51.0,5.0,2.0,2.0,0.0,11.0,0.0,Chelsea
-2022-12-27,17:30,Premier League,Tue,Home,W,2,0,Bournemouth,60.0,15.0,5.0,0.0,0.0,8.0,3.0,Chelsea
-2023-01-01,16:30,Premier League,Sun,Away,D,1,1,Nott'ham Forest,71.0,7.0,2.0,2.0,0.0,14.0,2.0,Chelsea
-2023-01-05,20:00,Premier League,Thu,Home,L,0,1,Manchester City,48.0,8.0,2.0,2.0,0.0,9.0,2.0,Chelsea
-2023-01-12,20:00,Premier League,Thu,Away,L,1,2,Fulham,52.0,20.0,10.0,3.0,1.0,16.0,3.0,Chelsea
-2023-01-15,14:00,Premier League,Sun,Home,W,1,0,Crystal Palace,61.0,15.0,5.0,2.0,0.0,10.0,3.0,Chelsea
-2023-01-21,12:30,Premier League,Sat,Away,D,0,0,Liverpool,52.0,11.0,2.0,1.0,0.0,9.0,1.0,Chelsea
-2023-02-03,20:00,Premier League,Fri,Home,D,0,0,Fulham,66.0,12.0,2.0,1.0,0.0,16.0,3.0,Chelsea
-2023-02-11,12:30,Premier League,Sat,Away,D,1,1,West Ham,71.0,12.0,4.0,1.0,0.0,11.0,4.0,Chelsea
-2023-02-18,15:00,Premier League,Sat,Home,L,0,1,Southampton,62.0,17.0,4.0,3.0,0.0,16.0,3.0,Chelsea
-2023-02-26,13:30,Premier League,Sun,Away,L,0,2,Tottenham,59.0,10.0,2.0,3.0,0.0,10.0,2.0,Chelsea
-2023-03-04,15:00,Premier League,Sat,Home,W,1,0,Leeds United,57.0,13.0,3.0,2.0,0.0,11.0,2.0,Chelsea
-2023-03-11,15:00,Premier League,Sat,Away,W,3,1,Leicester City,52.0,12.0,6.0,2.0,0.0,11.0,4.0,Chelsea
-2023-03-18,17:30,Premier League,Sat,Home,D,2,2,Everton,68.0,19.0,6.0,2.0,0.0,8.0,2.0,Chelsea
-2023-04-01,17:30,Premier League,Sat,Home,L,0,2,Aston Villa,69.0,27.0,7.0,3.0,0.0,14.0,2.0,Chelsea
-2023-04-04,20:00,Premier League,Tue,Home,D,0,0,Liverpool,49.0,12.0,2.0,1.0,0.0,6.0,4.0,Chelsea
-2023-04-08,15:00,Premier League,Sat,Away,L,0,1,Wolves,62.0,13.0,1.0,5.0,0.0,10.0,1.0,Chelsea
-2023-04-15,15:00,Premier League,Sat,Home,L,1,2,Brighton,43.0,8.0,2.0,2.0,0.0,11.0,1.0,Chelsea
-2023-04-26,19:45,Premier League,Wed,Home,L,0,2,Brentford,71.0,15.0,4.0,1.0,0.0,5.0,0.0,Chelsea
-2023-05-02,20:00,Premier League,Tue,Away,L,1,3,Arsenal,45.0,7.0,4.0,2.0,0.0,10.0,0.0,Chelsea
-2023-05-06,15:00,Premier League,Sat,Away,W,3,1,Bournemouth,65.0,11.0,5.0,3.0,0.0,11.0,0.0,Chelsea
-2023-05-13,15:00,Premier League,Sat,Home,D,2,2,Nott'ham Forest,75.0,14.0,6.0,3.0,0.0,13.0,1.0,Chelsea
-2023-05-21,16:00,Premier League,Sun,Away,L,0,1,Manchester City,36.0,13.0,6.0,2.0,0.0,9.0,2.0,Chelsea
-2023-05-25,20:00,Premier League,Thu,Away,L,1,4,Manchester Utd,58.0,14.0,5.0,1.0,0.0,6.0,0.0,Chelsea
-2023-05-28,16:30,Premier League,Sun,Home,D,1,1,Newcastle Utd,64.0,22.0,4.0,0.0,0.0,9.0,2.0,Chelsea
-2022-08-07,14:00,Premier League,Sun,Away,D,2,2,Leicester City,44.0,8.0,3.0,0.0,0.0,5.0,2.0,Brentford
-2022-08-13,17:30,Premier League,Sat,Home,W,4,0,Manchester Utd,34.0,13.0,7.0,0.0,0.0,6.0,1.0,Brentford
-2022-08-20,15:00,Premier League,Sat,Away,L,2,3,Fulham,57.0,13.0,5.0,2.0,0.0,7.0,7.0,Brentford
-2022-08-27,15:00,Premier League,Sat,Home,D,1,1,Everton,58.0,20.0,5.0,2.0,0.0,8.0,0.0,Brentford
-2022-08-30,19:30,Premier League,Tue,Away,D,1,1,Crystal Palace,51.0,9.0,3.0,2.0,0.0,8.0,0.0,Brentford
-2022-09-03,15:00,Premier League,Sat,Home,W,5,2,Leeds United,32.0,13.0,7.0,2.0,0.0,8.0,1.0,Brentford
-2022-09-18,12:00,Premier League,Sun,Home,L,0,3,Arsenal,37.0,5.0,2.0,0.0,0.0,10.0,3.0,Brentford
-2022-10-01,15:00,Premier League,Sat,Away,D,0,0,Bournemouth,58.0,13.0,4.0,2.0,0.0,10.0,2.0,Brentford
-2022-10-08,15:00,Premier League,Sat,Away,L,1,5,Newcastle Utd,46.0,5.0,2.0,1.0,0.0,9.0,3.0,Brentford
-2022-10-14,20:00,Premier League,Fri,Home,W,2,0,Brighton,28.0,6.0,1.0,3.0,0.0,12.0,0.0,Brentford
-2022-10-19,19:30,Premier League,Wed,Home,D,0,0,Chelsea,34.0,8.0,5.0,0.0,0.0,7.0,2.0,Brentford
-2022-10-23,14:00,Premier League,Sun,Away,L,0,4,Aston Villa,55.0,12.0,3.0,0.0,0.0,11.0,1.0,Brentford
-2022-10-29,15:00,Premier League,Sat,Home,D,1,1,Wolves,58.0,12.0,3.0,3.0,0.0,10.0,0.0,Brentford
-2022-11-05,15:00,Premier League,Sat,Away,D,2,2,Nott'ham Forest,52.0,5.0,1.0,2.0,0.0,11.0,2.0,Brentford
-2022-11-12,12:30,Premier League,Sat,Away,W,2,1,Manchester City,26.0,10.0,7.0,2.0,0.0,7.0,2.0,Brentford
-2022-12-26,12:30,Premier League,Mon,Home,D,2,2,Tottenham,39.0,9.0,4.0,3.0,0.0,11.0,1.0,Brentford
-2022-12-30,19:45,Premier League,Fri,Away,W,2,0,West Ham,37.0,9.0,6.0,0.0,0.0,5.0,0.0,Brentford
-2023-01-02,17:30,Premier League,Mon,Home,W,3,1,Liverpool,28.0,10.0,7.0,1.0,0.0,5.0,7.0,Brentford
-2023-01-14,17:30,Premier League,Sat,Home,W,2,0,Bournemouth,50.0,11.0,3.0,1.0,0.0,5.0,2.0,Brentford
-2023-01-22,14:00,Premier League,Sun,Away,D,0,0,Leeds United,42.0,6.0,0.0,2.0,0.0,18.0,1.0,Brentford
-2023-02-04,15:00,Premier League,Sat,Home,W,3,0,Southampton,49.0,14.0,3.0,1.0,0.0,10.0,1.0,Brentford
-2023-02-11,15:00,Premier League,Sat,Away,D,1,1,Arsenal,31.0,9.0,2.0,2.0,0.0,9.0,1.0,Brentford
-2023-02-18,15:00,Premier League,Sat,Home,D,1,1,Crystal Palace,59.0,12.0,5.0,2.0,0.0,10.0,3.0,Brentford
-2023-03-06,20:00,Premier League,Mon,Home,W,3,2,Fulham,37.0,13.0,5.0,0.0,0.0,12.0,3.0,Brentford
-2023-03-11,15:00,Premier League,Sat,Away,L,0,1,Everton,67.0,12.0,3.0,1.0,0.0,12.0,1.0,Brentford
-2023-03-15,19:30,Premier League,Wed,Away,W,2,0,Southampton,34.0,11.0,4.0,2.0,0.0,10.0,1.0,Brentford
-2023-03-18,15:00,Premier League,Sat,Home,D,1,1,Leicester City,53.0,11.0,2.0,3.0,1.0,10.0,1.0,Brentford
-2023-04-01,15:00,Premier League,Sat,Away,D,3,3,Brighton,28.0,7.0,5.0,1.0,0.0,10.0,2.0,Brentford
-2023-04-05,20:00,Premier League,Wed,Away,L,0,1,Manchester Utd,36.0,6.0,1.0,2.0,0.0,13.0,1.0,Brentford
-2023-04-08,15:00,Premier League,Sat,Home,L,1,2,Newcastle Utd,42.0,10.0,4.0,0.0,0.0,10.0,2.0,Brentford
-2023-04-15,15:00,Premier League,Sat,Away,L,0,2,Wolves,50.0,10.0,3.0,1.0,0.0,8.0,1.0,Brentford
-2023-04-22,15:00,Premier League,Sat,Home,D,1,1,Aston Villa,44.0,16.0,5.0,3.0,0.0,12.0,6.0,Brentford
-2023-04-26,19:45,Premier League,Wed,Away,W,2,0,Chelsea,29.0,7.0,1.0,2.0,0.0,13.0,2.0,Brentford
-2023-04-29,15:00,Premier League,Sat,Home,W,2,1,Nott'ham Forest,68.0,14.0,8.0,1.0,0.0,6.0,1.0,Brentford
-2023-05-06,17:30,Premier League,Sat,Away,L,0,1,Liverpool,46.0,5.0,1.0,2.0,0.0,10.0,2.0,Brentford
-2023-05-14,14:00,Premier League,Sun,Home,W,2,0,West Ham,53.0,24.0,9.0,1.0,0.0,5.0,3.0,Brentford
-2023-05-20,12:30,Premier League,Sat,Away,W,3,1,Tottenham,39.0,11.0,4.0,1.0,0.0,9.0,1.0,Brentford
-2023-05-28,16:30,Premier League,Sun,Home,W,1,0,Manchester City,35.0,11.0,4.0,4.0,0.0,12.0,3.0,Brentford
-2022-08-07,16:30,Premier League,Sun,Away,W,2.0,0.0,West Ham,75.0,13.0,1.0,1.0,0.0,4.0,1.0,Manchester City
-2022-08-13,15:00,Premier League,Sat,Home,W,4.0,0.0,Bournemouth,67.0,19.0,7.0,0.0,0.0,9.0,2.0,Manchester City
-2022-08-21,16:30,Premier League,Sun,Away,D,3.0,3.0,Newcastle Utd,69.0,21.0,10.0,2.0,0.0,7.0,1.0,Manchester City
-2022-08-27,15:00,Premier League,Sat,Home,W,4.0,2.0,Crystal Palace,74.0,18.0,5.0,1.0,0.0,14.0,2.0,Manchester City
-2022-08-31,19:30,Premier League,Wed,Home,W,6.0,0.0,Nott'ham Forest,74.0,17.0,9.0,0.0,0.0,9.0,2.0,Manchester City
-2022-09-03,17:30,Premier League,Sat,Away,D,1.0,1.0,Aston Villa,71.0,13.0,4.0,0.0,0.0,6.0,3.0,Manchester City
-2022-09-17,12:30,Premier League,Sat,Away,W,3.0,0.0,Wolves,59.0,16.0,7.0,1.0,0.0,9.0,1.0,Manchester City
-2022-10-02,14:00,Premier League,Sun,Home,W,6.0,3.0,Manchester Utd,53.0,22.0,9.0,0.0,0.0,3.0,1.0,Manchester City
-2022-10-08,15:00,Premier League,Sat,Home,W,4.0,0.0,Southampton,65.0,21.0,8.0,0.0,0.0,4.0,1.0,Manchester City
-2022-10-16,16:30,Premier League,Sun,Away,L,0.0,1.0,Liverpool,63.0,16.0,6.0,1.0,0.0,7.0,0.0,Manchester City
-2022-10-22,15:00,Premier League,Sat,Home,W,3.0,1.0,Brighton,48.0,9.0,3.0,1.0,0.0,11.0,0.0,Manchester City
-2022-10-29,12:30,Premier League,Sat,Away,W,1.0,0.0,Leicester City,64.0,15.0,5.0,0.0,0.0,10.0,2.0,Manchester City
-2022-11-05,15:00,Premier League,Sat,Home,W,2.0,1.0,Fulham,70.0,15.0,4.0,2.0,1.0,6.0,3.0,Manchester City
-2022-11-12,12:30,Premier League,Sat,Home,L,1.0,2.0,Brentford,74.0,29.0,6.0,2.0,0.0,9.0,2.0,Manchester City
-2022-12-28,20:00,Premier League,Wed,Away,W,3.0,1.0,Leeds United,69.0,26.0,9.0,3.0,0.0,14.0,1.0,Manchester City
-2022-12-31,15:00,Premier League,Sat,Home,D,1.0,1.0,Everton,74.0,16.0,3.0,3.0,0.0,13.0,3.0,Manchester City
-2023-01-05,20:00,Premier League,Thu,Away,W,1.0,0.0,Chelsea,52.0,12.0,3.0,0.0,0.0,9.0,1.0,Manchester City
-2023-01-14,12:30,Premier League,Sat,Away,L,1.0,2.0,Manchester Utd,70.0,5.0,1.0,0.0,0.0,5.0,2.0,Manchester City
-2023-01-19,20:00,Premier League,Thu,Home,W,4.0,2.0,Tottenham,58.0,16.0,6.0,1.0,0.0,10.0,0.0,Manchester City
-2023-01-22,14:00,Premier League,Sun,Home,W,3.0,0.0,Wolves,55.0,12.0,5.0,1.0,0.0,10.0,1.0,Manchester City
-2023-02-05,16:30,Premier League,Sun,Away,L,0.0,1.0,Tottenham,64.0,15.0,5.0,3.0,0.0,14.0,1.0,Manchester City
-2023-02-12,16:30,Premier League,Sun,Home,W,3.0,1.0,Aston Villa,67.0,16.0,7.0,1.0,0.0,13.0,1.0,Manchester City
-2023-02-15,19:30,Premier League,Wed,Away,W,3.0,1.0,Arsenal,37.0,9.0,5.0,4.0,0.0,15.0,3.0,Manchester City
-2023-02-18,15:00,Premier League,Sat,Away,D,1.0,1.0,Nott'ham Forest,73.0,23.0,6.0,0.0,0.0,6.0,0.0,Manchester City
-2023-02-25,17:30,Premier League,Sat,Away,W,4.0,1.0,Bournemouth,66.0,20.0,5.0,2.0,0.0,9.0,2.0,Manchester City
-2023-03-04,12:30,Premier League,Sat,Home,W,2.0,0.0,Newcastle Utd,56.0,11.0,3.0,2.0,0.0,8.0,0.0,Manchester City
-2023-03-11,17:30,Premier League,Sat,Away,W,1.0,0.0,Crystal Palace,67.0,13.0,3.0,2.0,0.0,17.0,2.0,Manchester City
-2023-04-01,12:30,Premier League,Sat,Home,W,4.0,1.0,Liverpool,68.0,17.0,8.0,1.0,0.0,9.0,3.0,Manchester City
-2023-04-08,17:30,Premier League,Sat,Away,W,4.0,1.0,Southampton,73.0,12.0,7.0,2.0,0.0,10.0,2.0,Manchester City
-2023-04-15,17:30,Premier League,Sat,Home,W,3.0,1.0,Leicester City,70.0,11.0,3.0,1.0,0.0,8.0,0.0,Manchester City
-2023-04-26,20:00,Premier League,Wed,Home,W,4.0,1.0,Arsenal,52.0,14.0,9.0,3.0,0.0,13.0,0.0,Manchester City
-2023-04-30,14:00,Premier League,Sun,Away,W,2.0,1.0,Fulham,62.0,11.0,8.0,3.0,0.0,10.0,1.0,Manchester City
-2023-05-03,20:00,Premier League,Wed,Home,W,3.0,0.0,West Ham,69.0,16.0,7.0,0.0,0.0,8.0,1.0,Manchester City
-2023-05-06,15:00,Premier League,Sat,Home,W,2.0,1.0,Leeds United,80.0,17.0,6.0,0.0,0.0,3.0,4.0,Manchester City
-2023-05-14,14:00,Premier League,Sun,Away,W,3.0,0.0,Everton,63.0,9.0,4.0,0.0,0.0,4.0,0.0,Manchester City
-2023-05-21,16:00,Premier League,Sun,Home,W,1.0,0.0,Chelsea,64.0,15.0,2.0,0.0,0.0,12.0,2.0,Manchester City
-2023-05-24,20:00,Premier League,Wed,Away,D,1.0,1.0,Brighton,60.0,13.0,4.0,1.0,0.0,11.0,0.0,Manchester City
-2023-05-28,16:30,Premier League,Sun,Away,L,0.0,1.0,Brentford,65.0,17.0,2.0,0.0,0.0,8.0,0.0,Manchester City
-2022-08-06,15:00,Premier League,Sat,Away,L,0,2,Bournemouth,65.0,15.0,2.0,3.0,0.0,16.0,4.0,Aston Villa
-2022-08-13,12:30,Premier League,Sat,Home,W,2,1,Everton,57.0,12.0,3.0,4.0,0.0,9.0,2.0,Aston Villa
-2022-08-20,15:00,Premier League,Sat,Away,L,1,3,Crystal Palace,49.0,13.0,5.0,1.0,0.0,14.0,1.0,Aston Villa
-2022-08-28,14:00,Premier League,Sun,Home,L,0,1,West Ham,58.0,9.0,3.0,2.0,0.0,10.0,2.0,Aston Villa
-2022-08-31,19:30,Premier League,Wed,Away,L,1,2,Arsenal,41.0,4.0,3.0,3.0,0.0,14.0,1.0,Aston Villa
-2022-09-03,17:30,Premier League,Sat,Home,D,1,1,Manchester City,29.0,3.0,1.0,2.0,0.0,7.0,5.0,Aston Villa
-2022-09-16,20:00,Premier League,Fri,Home,W,1,0,Southampton,53.0,11.0,3.0,3.0,0.0,13.0,1.0,Aston Villa
-2022-10-02,16:30,Premier League,Sun,Away,D,0,0,Leeds United,56.0,19.0,6.0,2.0,0.0,12.0,2.0,Aston Villa
-2022-10-10,20:00,Premier League,Mon,Away,D,1,1,Nott'ham Forest,60.0,12.0,2.0,3.0,0.0,19.0,3.0,Aston Villa
-2022-10-16,14:00,Premier League,Sun,Home,L,0,2,Chelsea,42.0,18.0,7.0,0.0,0.0,12.0,3.0,Aston Villa
-2022-10-20,19:30,Premier League,Thu,Away,L,0,3,Fulham,40.0,12.0,6.0,2.0,1.0,11.0,3.0,Aston Villa
-2022-10-23,14:00,Premier League,Sun,Home,W,4,0,Brentford,45.0,18.0,10.0,1.0,0.0,14.0,0.0,Aston Villa
-2022-10-29,15:00,Premier League,Sat,Away,L,0,4,Newcastle Utd,41.0,3.0,0.0,1.0,0.0,11.0,3.0,Aston Villa
-2022-11-06,14:00,Premier League,Sun,Home,W,3,1,Manchester Utd,42.0,6.0,4.0,3.0,0.0,6.0,0.0,Aston Villa
-2022-11-13,14:00,Premier League,Sun,Away,W,2,1,Brighton,35.0,7.0,1.0,7.0,0.0,11.0,1.0,Aston Villa
-2022-12-26,17:30,Premier League,Mon,Home,L,1,3,Liverpool,48.0,12.0,6.0,0.0,0.0,7.0,3.0,Aston Villa
-2023-01-01,14:00,Premier League,Sun,Away,W,2,0,Tottenham,41.0,13.0,4.0,3.0,0.0,10.0,0.0,Aston Villa
-2023-01-04,20:00,Premier League,Wed,Home,D,1,1,Wolves,56.0,13.0,3.0,1.0,0.0,6.0,1.0,Aston Villa
-2023-01-13,20:00,Premier League,Fri,Home,W,2,1,Leeds United,52.0,11.0,5.0,2.0,0.0,12.0,2.0,Aston Villa
-2023-01-21,15:00,Premier League,Sat,Away,W,1,0,Southampton,63.0,16.0,5.0,2.0,0.0,9.0,0.0,Aston Villa
-2023-02-04,15:00,Premier League,Sat,Home,L,2,4,Leicester City,62.0,19.0,4.0,0.0,0.0,10.0,2.0,Aston Villa
-2023-02-12,16:30,Premier League,Sun,Away,L,1,3,Manchester City,33.0,6.0,2.0,2.0,0.0,14.0,4.0,Aston Villa
-2023-02-18,12:30,Premier League,Sat,Home,L,2,4,Arsenal,33.0,7.0,5.0,2.0,0.0,13.0,0.0,Aston Villa
-2023-02-25,15:00,Premier League,Sat,Away,W,2,0,Everton,53.0,8.0,4.0,1.0,0.0,12.0,0.0,Aston Villa
-2023-03-04,15:00,Premier League,Sat,Home,W,1,0,Crystal Palace,58.0,8.0,1.0,2.0,0.0,14.0,0.0,Aston Villa
-2023-03-12,14:00,Premier League,Sun,Away,D,1,1,West Ham,59.0,12.0,4.0,0.0,0.0,6.0,1.0,Aston Villa
-2023-03-18,15:00,Premier League,Sat,Home,W,3,0,Bournemouth,56.0,20.0,9.0,1.0,0.0,8.0,0.0,Aston Villa
-2023-04-01,17:30,Premier League,Sat,Away,W,2,0,Chelsea,31.0,5.0,2.0,3.0,0.0,16.0,0.0,Aston Villa
-2023-04-04,19:45,Premier League,Tue,Away,W,2,1,Leicester City,64.0,15.0,5.0,0.0,0.0,14.0,1.0,Aston Villa
-2023-04-08,15:00,Premier League,Sat,Home,W,2,0,Nott'ham Forest,63.0,8.0,3.0,3.0,0.0,7.0,1.0,Aston Villa
-2023-04-15,12:30,Premier League,Sat,Home,W,3,0,Newcastle Utd,52.0,16.0,6.0,1.0,0.0,13.0,1.0,Aston Villa
-2023-04-22,15:00,Premier League,Sat,Away,D,1,1,Brentford,56.0,14.0,2.0,2.0,0.0,8.0,3.0,Aston Villa
-2023-04-25,19:45,Premier League,Tue,Home,W,1,0,Fulham,51.0,14.0,3.0,3.0,0.0,6.0,0.0,Aston Villa
-2023-04-30,14:00,Premier League,Sun,Away,L,0,1,Manchester Utd,43.0,7.0,1.0,0.0,0.0,7.0,3.0,Aston Villa
-2023-05-06,15:00,Premier League,Sat,Away,L,0,1,Wolves,62.0,16.0,3.0,3.0,0.0,9.0,2.0,Aston Villa
-2023-05-13,15:00,Premier League,Sat,Home,W,2,1,Tottenham,48.0,8.0,4.0,3.0,0.0,9.0,2.0,Aston Villa
-2023-05-20,15:00,Premier League,Sat,Away,D,1,1,Liverpool,34.0,5.0,3.0,5.0,0.0,13.0,1.0,Aston Villa
-2023-05-28,16:30,Premier League,Sun,Home,W,2,1,Brighton,41.0,12.0,5.0,4.0,0.0,15.0,0.0,Aston Villa
-2022-08-05,20:00,Premier League,Fri,Home,L,0,2,Arsenal,56.0,10.0,2.0,1.0,0.0,16.0,1.0,Crystal Palace
-2022-08-15,20:00,Premier League,Mon,Away,D,1,1,Liverpool,28.0,7.0,3.0,4.0,0.0,8.0,2.0,Crystal Palace
-2022-08-20,15:00,Premier League,Sat,Home,W,3,1,Aston Villa,51.0,16.0,8.0,2.0,0.0,16.0,1.0,Crystal Palace
-2022-08-27,15:00,Premier League,Sat,Away,L,2,4,Manchester City,26.0,2.0,2.0,2.0,0.0,8.0,1.0,Crystal Palace
-2022-08-30,19:30,Premier League,Tue,Home,D,1,1,Brentford,49.0,13.0,4.0,1.0,0.0,11.0,1.0,Crystal Palace
-2022-09-03,15:00,Premier League,Sat,Away,D,0,0,Newcastle Utd,48.0,19.0,9.0,1.0,0.0,12.0,1.0,Crystal Palace
-2022-10-01,15:00,Premier League,Sat,Home,L,1,2,Chelsea,36.0,7.0,3.0,1.0,0.0,11.0,1.0,Crystal Palace
-2022-10-09,14:00,Premier League,Sun,Home,W,2,1,Leeds United,54.0,13.0,5.0,3.0,0.0,13.0,2.0,Crystal Palace
-2022-10-15,12:30,Premier League,Sat,Away,D,0,0,Leicester City,46.0,8.0,1.0,2.0,0.0,13.0,1.0,Crystal Palace
-2022-10-18,20:15,Premier League,Tue,Home,W,2,1,Wolves,51.0,14.0,4.0,3.0,0.0,14.0,0.0,Crystal Palace
-2022-10-22,15:00,Premier League,Sat,Away,L,0,3,Everton,54.0,9.0,2.0,4.0,0.0,14.0,2.0,Crystal Palace
-2022-10-29,15:00,Premier League,Sat,Home,W,1,0,Southampton,44.0,12.0,3.0,3.0,0.0,13.0,5.0,Crystal Palace
-2022-11-06,14:00,Premier League,Sun,Away,W,2,1,West Ham,58.0,15.0,6.0,1.0,0.0,7.0,0.0,Crystal Palace
-2022-11-12,15:00,Premier League,Sat,Away,L,0,1,Nott'ham Forest,68.0,7.0,0.0,4.0,0.0,13.0,0.0,Crystal Palace
-2022-12-26,15:00,Premier League,Mon,Home,L,0,3,Fulham,36.0,4.0,0.0,2.0,2.0,12.0,1.0,Crystal Palace
-2022-12-31,15:00,Premier League,Sat,Away,W,2,0,Bournemouth,41.0,15.0,6.0,1.0,0.0,11.0,1.0,Crystal Palace
-2023-01-04,20:00,Premier League,Wed,Home,L,0,4,Tottenham,47.0,19.0,4.0,1.0,0.0,11.0,1.0,Crystal Palace
-2023-01-15,14:00,Premier League,Sun,Away,L,0,1,Chelsea,39.0,10.0,5.0,5.0,0.0,17.0,1.0,Crystal Palace
-2023-01-18,20:00,Premier League,Wed,Home,D,1,1,Manchester Utd,40.0,10.0,5.0,1.0,0.0,9.0,0.0,Crystal Palace
-2023-01-21,17:30,Premier League,Sat,Home,D,0,0,Newcastle Utd,40.0,6.0,1.0,4.0,0.0,13.0,0.0,Crystal Palace
-2023-02-04,15:00,Premier League,Sat,Away,L,1,2,Manchester Utd,48.0,10.0,3.0,2.0,0.0,9.0,4.0,Crystal Palace
-2023-02-11,15:00,Premier League,Sat,Home,D,1,1,Brighton,27.0,6.0,1.0,4.0,0.0,10.0,3.0,Crystal Palace
-2023-02-18,15:00,Premier League,Sat,Away,D,1,1,Brentford,41.0,10.0,4.0,2.0,0.0,8.0,2.0,Crystal Palace
-2023-02-25,19:45,Premier League,Sat,Home,D,0,0,Liverpool,37.0,6.0,0.0,2.0,0.0,11.0,4.0,Crystal Palace
-2023-03-04,15:00,Premier League,Sat,Away,L,0,1,Aston Villa,42.0,3.0,0.0,5.0,1.0,17.0,5.0,Crystal Palace
-2023-03-11,17:30,Premier League,Sat,Home,L,0,1,Manchester City,33.0,4.0,0.0,2.0,0.0,11.0,3.0,Crystal Palace
-2023-03-15,19:30,Premier League,Wed,Away,L,0,1,Brighton,43.0,11.0,3.0,2.0,0.0,20.0,0.0,Crystal Palace
-2023-03-19,14:00,Premier League,Sun,Away,L,1,4,Arsenal,38.0,9.0,5.0,1.0,0.0,10.0,2.0,Crystal Palace
-2023-04-01,15:00,Premier League,Sat,Home,W,2,1,Leicester City,52.0,31.0,9.0,3.0,0.0,12.0,1.0,Crystal Palace
-2023-04-09,14:00,Premier League,Sun,Away,W,5,1,Leeds United,52.0,16.0,7.0,1.0,0.0,8.0,2.0,Crystal Palace
-2023-04-15,15:00,Premier League,Sat,Away,W,2,0,Southampton,42.0,10.0,2.0,1.0,0.0,13.0,1.0,Crystal Palace
-2023-04-22,15:00,Premier League,Sat,Home,D,0,0,Everton,56.0,12.0,2.0,1.0,0.0,12.0,1.0,Crystal Palace
-2023-04-25,19:30,Premier League,Tue,Away,L,0,2,Wolves,59.0,14.0,4.0,4.0,0.0,14.0,1.0,Crystal Palace
-2023-04-29,12:30,Premier League,Sat,Home,W,4,3,West Ham,59.0,15.0,5.0,1.0,0.0,9.0,1.0,Crystal Palace
-2023-05-06,15:00,Premier League,Sat,Away,L,0,1,Tottenham,44.0,7.0,2.0,5.0,0.0,14.0,0.0,Crystal Palace
-2023-05-13,15:00,Premier League,Sat,Home,W,2,0,Bournemouth,59.0,17.0,5.0,0.0,0.0,5.0,2.0,Crystal Palace
-2023-05-20,15:00,Premier League,Sat,Away,D,2,2,Fulham,51.0,11.0,5.0,0.0,0.0,12.0,2.0,Crystal Palace
-2023-05-28,16:30,Premier League,Sun,Home,D,1,1,Nott'ham Forest,66.0,15.0,3.0,0.0,0.0,9.0,2.0,Crystal Palace
-2022-08-05,20:00,Premier League,Fri,Away,W,2,0,Crystal Palace,44.0,10.0,2.0,2.0,0.0,11.0,2.0,Arsenal
-2022-08-13,15:00,Premier League,Sat,Home,W,4,2,Leicester City,50.0,19.0,7.0,1.0,0.0,15.0,2.0,Arsenal
-2022-08-20,17:30,Premier League,Sat,Away,W,3,0,Bournemouth,57.0,14.0,6.0,1.0,0.0,10.0,3.0,Arsenal
-2022-08-27,17:30,Premier League,Sat,Home,W,2,1,Fulham,71.0,22.0,8.0,2.0,0.0,6.0,1.0,Arsenal
-2022-08-31,19:30,Premier League,Wed,Home,W,2,1,Aston Villa,59.0,22.0,8.0,2.0,0.0,10.0,1.0,Arsenal
-2022-09-04,16:30,Premier League,Sun,Away,L,1,3,Manchester Utd,60.0,16.0,3.0,3.0,0.0,9.0,0.0,Arsenal
-2022-09-18,12:00,Premier League,Sun,Away,W,3,0,Brentford,63.0,13.0,7.0,2.0,0.0,10.0,1.0,Arsenal
-2022-10-01,12:30,Premier League,Sat,Home,W,3,1,Tottenham,64.0,22.0,9.0,2.0,0.0,10.0,1.0,Arsenal
-2022-10-09,16:30,Premier League,Sun,Home,W,3,2,Liverpool,43.0,10.0,6.0,1.0,0.0,11.0,3.0,Arsenal
-2022-10-16,14:00,Premier League,Sun,Away,W,1,0,Leeds United,53.0,9.0,4.0,2.0,0.0,11.0,0.0,Arsenal
-2022-10-23,14:00,Premier League,Sun,Away,D,1,1,Southampton,59.0,12.0,3.0,1.0,0.0,8.0,3.0,Arsenal
-2022-10-30,14:00,Premier League,Sun,Home,W,5,0,Nott'ham Forest,69.0,24.0,9.0,0.0,0.0,9.0,1.0,Arsenal
-2022-11-06,12:00,Premier League,Sun,Away,W,1,0,Chelsea,55.0,14.0,2.0,2.0,0.0,13.0,0.0,Arsenal
-2022-11-12,19:45,Premier League,Sat,Away,W,2,0,Wolves,62.0,14.0,3.0,2.0,0.0,6.0,1.0,Arsenal
-2022-12-26,20:00,Premier League,Mon,Home,W,3,1,West Ham,66.0,16.0,5.0,0.0,0.0,13.0,3.0,Arsenal
-2022-12-31,17:30,Premier League,Sat,Away,W,4,2,Brighton,32.0,14.0,7.0,3.0,0.0,11.0,0.0,Arsenal
-2023-01-03,19:45,Premier League,Tue,Home,D,0,0,Newcastle Utd,66.0,17.0,4.0,4.0,0.0,10.0,1.0,Arsenal
-2023-01-15,16:30,Premier League,Sun,Away,W,2,0,Tottenham,49.0,14.0,5.0,2.0,0.0,15.0,2.0,Arsenal
-2023-01-22,16:30,Premier League,Sun,Home,W,3,2,Manchester Utd,57.0,25.0,5.0,1.0,0.0,8.0,1.0,Arsenal
-2023-02-04,12:30,Premier League,Sat,Away,L,0,1,Everton,70.0,15.0,2.0,1.0,0.0,8.0,0.0,Arsenal
-2023-02-11,15:00,Premier League,Sat,Home,D,1,1,Brentford,69.0,23.0,7.0,0.0,0.0,9.0,1.0,Arsenal
-2023-02-15,19:30,Premier League,Wed,Home,L,1,3,Manchester City,63.0,9.0,0.0,2.0,0.0,11.0,0.0,Arsenal
-2023-02-18,12:30,Premier League,Sat,Away,W,4,2,Aston Villa,67.0,20.0,5.0,1.0,0.0,4.0,2.0,Arsenal
-2023-02-25,15:00,Premier League,Sat,Away,W,1,0,Leicester City,65.0,10.0,2.0,1.0,0.0,9.0,4.0,Arsenal
-2023-03-01,19:45,Premier League,Wed,Home,W,4,0,Everton,73.0,15.0,5.0,0.0,0.0,5.0,4.0,Arsenal
-2023-03-04,15:00,Premier League,Sat,Home,W,3,2,Bournemouth,79.0,31.0,9.0,0.0,0.0,6.0,0.0,Arsenal
-2023-03-12,14:00,Premier League,Sun,Away,W,3,0,Fulham,55.0,15.0,7.0,1.0,0.0,9.0,2.0,Arsenal
-2023-03-19,14:00,Premier League,Sun,Home,W,4,1,Crystal Palace,62.0,15.0,5.0,0.0,0.0,8.0,2.0,Arsenal
-2023-04-01,15:00,Premier League,Sat,Home,W,4,1,Leeds United,66.0,12.0,4.0,0.0,0.0,11.0,5.0,Arsenal
-2023-04-09,16:30,Premier League,Sun,Away,D,2,2,Liverpool,41.0,9.0,5.0,4.0,0.0,11.0,2.0,Arsenal
-2023-04-16,14:00,Premier League,Sun,Away,D,2,2,West Ham,70.0,10.0,5.0,2.0,0.0,8.0,1.0,Arsenal
-2023-04-21,20:00,Premier League,Fri,Home,D,3,3,Southampton,74.0,25.0,5.0,1.0,0.0,10.0,1.0,Arsenal
-2023-04-26,20:00,Premier League,Wed,Away,L,1,4,Manchester City,48.0,8.0,2.0,1.0,0.0,13.0,1.0,Arsenal
-2023-05-02,20:00,Premier League,Tue,Home,W,3,1,Chelsea,55.0,16.0,9.0,0.0,0.0,10.0,1.0,Arsenal
-2023-05-07,16:30,Premier League,Sun,Away,W,2,0,Newcastle Utd,45.0,10.0,6.0,1.0,0.0,12.0,1.0,Arsenal
-2023-05-14,16:30,Premier League,Sun,Home,L,0,3,Brighton,41.0,14.0,2.0,1.0,0.0,13.0,1.0,Arsenal
-2023-05-20,17:30,Premier League,Sat,Away,L,0,1,Nott'ham Forest,81.0,11.0,3.0,2.0,0.0,12.0,1.0,Arsenal
-2023-05-28,16:30,Premier League,Sun,Home,W,5,0,Wolves,51.0,14.0,8.0,0.0,0.0,8.0,1.0,Arsenal
-2022-08-07,16:30,Premier League,Sun,Home,L,0,2,Manchester City,25.0,6.0,1.0,0.0,0.0,8.0,4.0,West Ham United
-2022-08-14,14:00,Premier League,Sun,Away,L,0,1,Nott'ham Forest,57.0,18.0,3.0,1.0,0.0,11.0,2.0,West Ham United
-2022-08-21,14:00,Premier League,Sun,Home,L,0,2,Brighton,50.0,13.0,3.0,2.0,0.0,10.0,3.0,West Ham United
-2022-08-28,14:00,Premier League,Sun,Away,W,1,0,Aston Villa,42.0,7.0,2.0,0.0,0.0,10.0,1.0,West Ham United
-2022-08-31,19:45,Premier League,Wed,Home,D,1,1,Tottenham,39.0,14.0,4.0,2.0,0.0,10.0,1.0,West Ham United
-2022-09-03,15:00,Premier League,Sat,Away,L,1,2,Chelsea,33.0,6.0,3.0,2.0,0.0,11.0,1.0,West Ham United
-2022-09-18,14:15,Premier League,Sun,Away,L,0,1,Everton,47.0,14.0,4.0,1.0,0.0,11.0,1.0,West Ham United
-2022-10-01,17:30,Premier League,Sat,Home,W,2,0,Wolves,39.0,18.0,5.0,2.0,0.0,8.0,2.0,West Ham United
-2022-10-09,14:00,Premier League,Sun,Home,W,3,1,Fulham,50.0,16.0,7.0,1.0,0.0,9.0,1.0,West Ham United
-2022-10-16,14:00,Premier League,Sun,Away,D,1,1,Southampton,61.0,25.0,4.0,1.0,0.0,3.0,0.0,West Ham United
-2022-10-19,19:30,Premier League,Wed,Away,L,0,1,Liverpool,46.0,7.0,2.0,0.0,0.0,8.0,0.0,West Ham United
-2022-10-24,20:00,Premier League,Mon,Home,W,2,0,Bournemouth,55.0,19.0,3.0,0.0,0.0,9.0,1.0,West Ham United
-2022-10-30,16:15,Premier League,Sun,Away,L,0,1,Manchester Utd,47.0,13.0,4.0,3.0,0.0,10.0,2.0,West Ham United
-2022-11-06,14:00,Premier League,Sun,Home,L,1,2,Crystal Palace,42.0,5.0,2.0,1.0,0.0,10.0,4.0,West Ham United
-2022-11-12,15:00,Premier League,Sat,Home,L,0,2,Leicester City,54.0,18.0,6.0,3.0,0.0,9.0,2.0,West Ham United
-2022-12-26,20:00,Premier League,Mon,Away,L,1,3,Arsenal,34.0,7.0,3.0,2.0,0.0,17.0,0.0,West Ham United
-2022-12-30,19:45,Premier League,Fri,Home,L,0,2,Brentford,63.0,20.0,5.0,1.0,0.0,9.0,0.0,West Ham United
-2023-01-04,19:45,Premier League,Wed,Away,D,2,2,Leeds United,38.0,14.0,1.0,1.0,0.0,18.0,3.0,West Ham United
-2023-01-14,15:00,Premier League,Sat,Away,L,0,1,Wolves,42.0,16.0,3.0,2.0,0.0,7.0,1.0,West Ham United
-2023-01-21,15:00,Premier League,Sat,Home,W,2,0,Everton,33.0,11.0,4.0,1.0,0.0,9.0,1.0,West Ham United
-2023-02-04,17:30,Premier League,Sat,Away,D,1,1,Newcastle Utd,38.0,10.0,1.0,1.0,0.0,13.0,2.0,West Ham United
-2023-02-11,12:30,Premier League,Sat,Home,D,1,1,Chelsea,29.0,10.0,2.0,1.0,0.0,9.0,3.0,West Ham United
-2023-02-19,16:30,Premier League,Sun,Away,L,0,2,Tottenham,43.0,6.0,1.0,1.0,0.0,10.0,0.0,West Ham United
-2023-02-25,15:00,Premier League,Sat,Home,W,4,0,Nott'ham Forest,49.0,18.0,5.0,0.0,0.0,8.0,1.0,West Ham United
-2023-03-04,15:00,Premier League,Sat,Away,L,0,4,Brighton,35.0,3.0,2.0,3.0,0.0,8.0,0.0,West Ham United
-2023-03-12,14:00,Premier League,Sun,Home,D,1,1,Aston Villa,41.0,16.0,4.0,1.0,0.0,9.0,6.0,West Ham United
-2023-04-02,14:00,Premier League,Sun,Home,W,1,0,Southampton,43.0,12.0,2.0,0.0,0.0,10.0,1.0,West Ham United
-2023-04-05,20:00,Premier League,Wed,Home,L,1,5,Newcastle Utd,42.0,7.0,2.0,2.0,0.0,11.0,0.0,West Ham United
-2023-04-08,15:00,Premier League,Sat,Away,W,1,0,Fulham,24.0,9.0,5.0,1.0,0.0,12.0,2.0,West Ham United
-2023-04-16,14:00,Premier League,Sun,Home,D,2,2,Arsenal,30.0,15.0,2.0,1.0,0.0,11.0,4.0,West Ham United
-2023-04-23,14:00,Premier League,Sun,Away,W,4,0,Bournemouth,36.0,18.0,10.0,2.0,0.0,8.0,3.0,West Ham United
-2023-04-26,19:45,Premier League,Wed,Home,L,1,2,Liverpool,28.0,7.0,2.0,0.0,0.0,6.0,1.0,West Ham United
-2023-04-29,12:30,Premier League,Sat,Away,L,3,4,Crystal Palace,41.0,8.0,4.0,2.0,0.0,17.0,1.0,West Ham United
-2023-05-03,20:00,Premier League,Wed,Away,L,0,3,Manchester City,31.0,6.0,2.0,1.0,0.0,8.0,0.0,West Ham United
-2023-05-07,19:00,Premier League,Sun,Home,W,1,0,Manchester Utd,35.0,15.0,4.0,0.0,0.0,4.0,1.0,West Ham United
-2023-05-14,14:00,Premier League,Sun,Away,L,0,2,Brentford,47.0,4.0,4.0,0.0,0.0,5.0,3.0,West Ham United
-2023-05-21,13:30,Premier League,Sun,Home,W,3,1,Leeds United,59.0,19.0,9.0,1.0,0.0,6.0,1.0,West Ham United
-2023-05-28,16:30,Premier League,Sun,Away,L,1,2,Leicester City,52.0,16.0,3.0,1.0,0.0,10.0,3.0,West Ham United
-2022-08-06,15:00,Premier League,Sat,Away,L,0,2,Newcastle Utd,39.0,5.0,0.0,3.0,0.0,14.0,0.0,Nottingham Forest
-2022-08-14,14:00,Premier League,Sun,Home,W,1,0,West Ham,43.0,13.0,6.0,4.0,0.0,10.0,3.0,Nottingham Forest
-2022-08-20,15:00,Premier League,Sat,Away,D,1,1,Everton,51.0,14.0,5.0,2.0,0.0,9.0,1.0,Nottingham Forest
-2022-08-28,16:30,Premier League,Sun,Home,L,0,2,Tottenham,55.0,17.0,1.0,6.0,0.0,11.0,1.0,Nottingham Forest
-2022-08-31,19:30,Premier League,Wed,Away,L,0,6,Manchester City,26.0,8.0,1.0,1.0,0.0,7.0,2.0,Nottingham Forest
-2022-09-03,15:00,Premier League,Sat,Home,L,2,3,Bournemouth,52.0,10.0,2.0,2.0,0.0,13.0,1.0,Nottingham Forest
-2022-09-16,20:00,Premier League,Fri,Home,L,2,3,Fulham,41.0,11.0,3.0,2.0,0.0,11.0,2.0,Nottingham Forest
-2022-10-03,20:00,Premier League,Mon,Away,L,0,4,Leicester City,49.0,10.0,3.0,4.0,0.0,12.0,4.0,Nottingham Forest
-2022-10-10,20:00,Premier League,Mon,Home,D,1,1,Aston Villa,40.0,6.0,3.0,3.0,0.0,13.0,0.0,Nottingham Forest
-2022-10-15,15:00,Premier League,Sat,Away,L,0,1,Wolves,42.0,9.0,1.0,2.0,0.0,13.0,1.0,Nottingham Forest
-2022-10-18,19:30,Premier League,Tue,Away,D,0,0,Brighton,30.0,3.0,0.0,1.0,0.0,14.0,0.0,Nottingham Forest
-2022-10-22,12:30,Premier League,Sat,Home,W,1,0,Liverpool,25.0,10.0,7.0,2.0,0.0,14.0,3.0,Nottingham Forest
-2022-10-30,14:00,Premier League,Sun,Away,L,0,5,Arsenal,31.0,5.0,2.0,1.0,0.0,8.0,2.0,Nottingham Forest
-2022-11-05,15:00,Premier League,Sat,Home,D,2,2,Brentford,48.0,15.0,6.0,2.0,0.0,10.0,0.0,Nottingham Forest
-2022-11-12,15:00,Premier League,Sat,Home,W,1,0,Crystal Palace,32.0,9.0,2.0,1.0,0.0,11.0,3.0,Nottingham Forest
-2022-12-27,20:00,Premier League,Tue,Away,L,0,3,Manchester Utd,35.0,8.0,3.0,1.0,0.0,4.0,2.0,Nottingham Forest
-2023-01-01,16:30,Premier League,Sun,Home,D,1,1,Chelsea,29.0,12.0,5.0,2.0,0.0,16.0,2.0,Nottingham Forest
-2023-01-04,19:30,Premier League,Wed,Away,W,1,0,Southampton,37.0,11.0,1.0,2.0,0.0,17.0,0.0,Nottingham Forest
-2023-01-14,15:00,Premier League,Sat,Home,W,2,0,Leicester City,39.0,15.0,5.0,1.0,0.0,11.0,2.0,Nottingham Forest
-2023-01-21,15:00,Premier League,Sat,Away,D,1,1,Bournemouth,57.0,20.0,5.0,2.0,0.0,7.0,2.0,Nottingham Forest
-2023-02-05,14:00,Premier League,Sun,Home,W,1,0,Leeds United,30.0,6.0,2.0,4.0,0.0,15.0,2.0,Nottingham Forest
-2023-02-11,15:00,Premier League,Sat,Away,L,0,2,Fulham,50.0,10.0,1.0,1.0,0.0,11.0,3.0,Nottingham Forest
-2023-02-18,15:00,Premier League,Sat,Home,D,1,1,Manchester City,27.0,4.0,1.0,1.0,0.0,8.0,2.0,Nottingham Forest
-2023-02-25,15:00,Premier League,Sat,Away,L,0,4,West Ham,51.0,8.0,3.0,0.0,0.0,5.0,1.0,Nottingham Forest
-2023-03-05,14:00,Premier League,Sun,Home,D,2,2,Everton,57.0,10.0,4.0,3.0,0.0,11.0,0.0,Nottingham Forest
-2023-03-11,15:00,Premier League,Sat,Away,L,1,3,Tottenham,45.0,8.0,4.0,1.0,0.0,13.0,1.0,Nottingham Forest
-2023-03-17,20:00,Premier League,Fri,Home,L,1,2,Newcastle Utd,39.0,5.0,3.0,5.0,0.0,17.0,1.0,Nottingham Forest
-2023-04-01,15:00,Premier League,Sat,Home,D,1,1,Wolves,29.0,17.0,7.0,3.0,0.0,14.0,2.0,Nottingham Forest
-2023-04-04,19:45,Premier League,Tue,Away,L,1,2,Leeds United,39.0,13.0,1.0,4.0,0.0,13.0,3.0,Nottingham Forest
-2023-04-08,15:00,Premier League,Sat,Away,L,0,2,Aston Villa,37.0,6.0,2.0,4.0,0.0,17.0,7.0,Nottingham Forest
-2023-04-16,16:30,Premier League,Sun,Home,L,0,2,Manchester Utd,32.0,6.0,0.0,2.0,0.0,9.0,1.0,Nottingham Forest
-2023-04-22,15:00,Premier League,Sat,Away,L,2,3,Liverpool,20.0,11.0,5.0,1.0,0.0,12.0,3.0,Nottingham Forest
-2023-04-26,19:30,Premier League,Wed,Home,W,3,1,Brighton,26.0,10.0,3.0,2.0,0.0,7.0,1.0,Nottingham Forest
-2023-04-29,15:00,Premier League,Sat,Away,L,1,2,Brentford,32.0,5.0,3.0,2.0,0.0,13.0,1.0,Nottingham Forest
-2023-05-08,20:00,Premier League,Mon,Home,W,4,3,Southampton,36.0,8.0,3.0,1.0,0.0,16.0,3.0,Nottingham Forest
-2023-05-13,15:00,Premier League,Sat,Away,D,2,2,Chelsea,25.0,11.0,2.0,1.0,0.0,15.0,2.0,Nottingham Forest
-2023-05-20,17:30,Premier League,Sat,Home,W,1,0,Arsenal,19.0,6.0,2.0,3.0,0.0,11.0,1.0,Nottingham Forest
-2023-05-28,16:30,Premier League,Sun,Away,D,1,1,Crystal Palace,34.0,7.0,4.0,2.0,0.0,13.0,2.0,Nottingham Forest
-2022-08-06,15:00,Premier League,Sat,Away,L,1,2,Leeds United,60.0,15.0,6.0,0.0,0.0,9.0,1.0,Wolverhampton Wanderers
-2022-08-13,15:00,Premier League,Sat,Home,D,0,0,Fulham,59.0,7.0,1.0,3.0,0.0,7.0,1.0,Wolverhampton Wanderers
-2022-08-20,12:30,Premier League,Sat,Away,L,0,1,Tottenham,50.0,20.0,3.0,2.0,0.0,8.0,0.0,Wolverhampton Wanderers
-2022-08-28,14:00,Premier League,Sun,Home,D,1,1,Newcastle Utd,37.0,10.0,4.0,2.0,0.0,10.0,3.0,Wolverhampton Wanderers
-2022-08-31,19:30,Premier League,Wed,Away,D,0,0,Bournemouth,65.0,17.0,3.0,1.0,0.0,12.0,3.0,Wolverhampton Wanderers
-2022-09-03,15:00,Premier League,Sat,Home,W,1,0,Southampton,51.0,7.0,2.0,4.0,0.0,10.0,1.0,Wolverhampton Wanderers
-2022-09-17,12:30,Premier League,Sat,Home,L,0,3,Manchester City,41.0,6.0,1.0,2.0,1.0,7.0,0.0,Wolverhampton Wanderers
-2022-10-01,17:30,Premier League,Sat,Away,L,0,2,West Ham,61.0,15.0,4.0,2.0,0.0,6.0,1.0,Wolverhampton Wanderers
-2022-10-08,15:00,Premier League,Sat,Away,L,0,3,Chelsea,43.0,8.0,2.0,0.0,0.0,8.0,0.0,Wolverhampton Wanderers
-2022-10-15,15:00,Premier League,Sat,Home,W,1,0,Nott'ham Forest,58.0,8.0,1.0,2.0,0.0,17.0,2.0,Wolverhampton Wanderers
-2022-10-18,20:15,Premier League,Tue,Away,L,1,2,Crystal Palace,49.0,10.0,4.0,1.0,0.0,18.0,4.0,Wolverhampton Wanderers
-2022-10-23,14:00,Premier League,Sun,Home,L,0,4,Leicester City,60.0,21.0,5.0,2.0,0.0,10.0,3.0,Wolverhampton Wanderers
-2022-10-29,15:00,Premier League,Sat,Away,D,1,1,Brentford,42.0,13.0,4.0,3.0,1.0,17.0,1.0,Wolverhampton Wanderers
-2022-11-05,15:00,Premier League,Sat,Home,L,2,3,Brighton,29.0,7.0,4.0,2.0,1.0,15.0,1.0,Wolverhampton Wanderers
-2022-11-12,19:45,Premier League,Sat,Home,L,0,2,Arsenal,38.0,11.0,2.0,3.0,0.0,5.0,3.0,Wolverhampton Wanderers
-2022-12-26,15:00,Premier League,Mon,Away,W,2,1,Everton,42.0,7.0,4.0,6.0,0.0,22.0,2.0,Wolverhampton Wanderers
-2022-12-31,12:30,Premier League,Sat,Home,L,0,1,Manchester Utd,46.0,10.0,3.0,1.0,0.0,11.0,1.0,Wolverhampton Wanderers
-2023-01-04,20:00,Premier League,Wed,Away,D,1,1,Aston Villa,44.0,10.0,3.0,3.0,0.0,12.0,4.0,Wolverhampton Wanderers
-2023-01-14,15:00,Premier League,Sat,Home,W,1,0,West Ham,58.0,17.0,4.0,0.0,0.0,10.0,4.0,Wolverhampton Wanderers
-2023-01-22,14:00,Premier League,Sun,Away,L,0,3,Manchester City,45.0,10.0,1.0,2.0,0.0,10.0,0.0,Wolverhampton Wanderers
-2023-02-04,15:00,Premier League,Sat,Home,W,3,0,Liverpool,41.0,12.0,5.0,1.0,0.0,9.0,1.0,Wolverhampton Wanderers
-2023-02-11,15:00,Premier League,Sat,Away,W,2,1,Southampton,59.0,11.0,1.0,4.0,1.0,14.0,3.0,Wolverhampton Wanderers
-2023-02-18,15:00,Premier League,Sat,Home,L,0,1,Bournemouth,68.0,15.0,4.0,3.0,0.0,12.0,2.0,Wolverhampton Wanderers
-2023-02-24,20:00,Premier League,Fri,Away,D,1,1,Fulham,49.0,8.0,2.0,0.0,0.0,17.0,1.0,Wolverhampton Wanderers
-2023-03-01,20:00,Premier League,Wed,Away,L,0,2,Liverpool,43.0,4.0,1.0,3.0,0.0,14.0,3.0,Wolverhampton Wanderers
-2023-03-04,15:00,Premier League,Sat,Home,W,1,0,Tottenham,46.0,8.0,5.0,1.0,0.0,11.0,3.0,Wolverhampton Wanderers
-2023-03-12,16:30,Premier League,Sun,Away,L,1,2,Newcastle Utd,57.0,7.0,4.0,2.0,0.0,10.0,0.0,Wolverhampton Wanderers
-2023-03-18,15:00,Premier League,Sat,Home,L,2,4,Leeds United,65.0,23.0,8.0,3.0,2.0,15.0,2.0,Wolverhampton Wanderers
-2023-04-01,15:00,Premier League,Sat,Away,D,1,1,Nott'ham Forest,71.0,8.0,1.0,5.0,0.0,13.0,0.0,Wolverhampton Wanderers
-2023-04-08,15:00,Premier League,Sat,Home,W,1,0,Chelsea,38.0,9.0,4.0,2.0,0.0,14.0,2.0,Wolverhampton Wanderers
-2023-04-15,15:00,Premier League,Sat,Home,W,2,0,Brentford,50.0,11.0,9.0,1.0,0.0,12.0,0.0,Wolverhampton Wanderers
-2023-04-22,15:00,Premier League,Sat,Away,L,1,2,Leicester City,58.0,16.0,3.0,3.0,0.0,16.0,3.0,Wolverhampton Wanderers
-2023-04-25,19:30,Premier League,Tue,Home,W,2,0,Crystal Palace,41.0,8.0,2.0,5.0,0.0,13.0,2.0,Wolverhampton Wanderers
-2023-04-29,15:00,Premier League,Sat,Away,L,0,6,Brighton,43.0,10.0,2.0,1.0,0.0,11.0,0.0,Wolverhampton Wanderers
-2023-05-06,15:00,Premier League,Sat,Home,W,1,0,Aston Villa,38.0,6.0,2.0,3.0,0.0,20.0,3.0,Wolverhampton Wanderers
-2023-05-13,15:00,Premier League,Sat,Away,L,0,2,Manchester Utd,52.0,5.0,0.0,2.0,0.0,9.0,1.0,Wolverhampton Wanderers
-2023-05-20,15:00,Premier League,Sat,Home,D,1,1,Everton,52.0,13.0,5.0,5.0,0.0,18.0,1.0,Wolverhampton Wanderers
-2023-05-28,16:30,Premier League,Sun,Away,L,0,5,Arsenal,49.0,6.0,0.0,0.0,0.0,11.0,0.0,Wolverhampton Wanderers
-2022-08-06,15:00,Premier League,Sat,Home,W,2,0,Aston Villa,35.0,7.0,3.0,3.0,0.0,18.0,1.0,Bournemouth
-2022-08-13,15:00,Premier League,Sat,Away,L,0,4,Manchester City,33.0,3.0,1.0,3.0,0.0,9.0,1.0,Bournemouth
-2022-08-20,17:30,Premier League,Sat,Home,L,0,3,Arsenal,43.0,6.0,1.0,2.0,0.0,12.0,1.0,Bournemouth
-2022-08-27,15:00,Premier League,Sat,Away,L,0,9,Liverpool,31.0,5.0,2.0,1.0,0.0,5.0,0.0,Bournemouth
-2022-08-31,19:30,Premier League,Wed,Home,D,0,0,Wolves,35.0,5.0,2.0,2.0,0.0,12.0,0.0,Bournemouth
-2022-09-03,15:00,Premier League,Sat,Away,W,3,2,Nott'ham Forest,48.0,8.0,3.0,1.0,0.0,10.0,1.0,Bournemouth
-2022-09-17,15:00,Premier League,Sat,Away,D,1,1,Newcastle Utd,28.0,10.0,3.0,2.0,0.0,11.0,1.0,Bournemouth
-2022-10-01,15:00,Premier League,Sat,Home,D,0,0,Brentford,42.0,7.0,0.0,1.0,0.0,11.0,1.0,Bournemouth
-2022-10-08,15:00,Premier League,Sat,Home,W,2,1,Leicester City,45.0,10.0,4.0,1.0,0.0,8.0,3.0,Bournemouth
-2022-10-15,15:00,Premier League,Sat,Away,D,2,2,Fulham,31.0,10.0,6.0,0.0,0.0,11.0,0.0,Bournemouth
-2022-10-19,19:30,Premier League,Wed,Home,L,0,1,Southampton,54.0,15.0,3.0,1.0,0.0,8.0,2.0,Bournemouth
-2022-10-24,20:00,Premier League,Mon,Away,L,0,2,West Ham,45.0,5.0,3.0,2.0,0.0,11.0,0.0,Bournemouth
-2022-10-29,15:00,Premier League,Sat,Home,L,2,3,Tottenham,31.0,6.0,4.0,1.0,0.0,10.0,0.0,Bournemouth
-2022-11-05,15:00,Premier League,Sat,Away,L,3,4,Leeds United,40.0,9.0,5.0,2.0,0.0,10.0,0.0,Bournemouth
-2022-11-12,15:00,Premier League,Sat,Home,W,3,0,Everton,36.0,16.0,8.0,2.0,0.0,12.0,1.0,Bournemouth
-2022-12-27,17:30,Premier League,Tue,Away,L,0,2,Chelsea,40.0,9.0,4.0,0.0,0.0,10.0,0.0,Bournemouth
-2022-12-31,15:00,Premier League,Sat,Home,L,0,2,Crystal Palace,59.0,6.0,2.0,4.0,0.0,17.0,1.0,Bournemouth
-2023-01-03,20:00,Premier League,Tue,Away,L,0,3,Manchester Utd,42.0,7.0,4.0,3.0,0.0,7.0,2.0,Bournemouth
-2023-01-14,17:30,Premier League,Sat,Away,L,0,2,Brentford,50.0,7.0,2.0,1.0,0.0,9.0,1.0,Bournemouth
-2023-01-21,15:00,Premier League,Sat,Home,D,1,1,Nott'ham Forest,43.0,16.0,3.0,1.0,0.0,10.0,2.0,Bournemouth
-2023-02-04,15:00,Premier League,Sat,Away,L,0,1,Brighton,29.0,12.0,2.0,1.0,0.0,7.0,1.0,Bournemouth
-2023-02-11,17:30,Premier League,Sat,Home,D,1,1,Newcastle Utd,34.0,11.0,4.0,2.0,0.0,8.0,2.0,Bournemouth
-2023-02-18,15:00,Premier League,Sat,Away,W,1,0,Wolves,32.0,5.0,1.0,3.0,0.0,10.0,0.0,Bournemouth
-2023-02-25,17:30,Premier League,Sat,Home,L,1,4,Manchester City,35.0,13.0,2.0,2.0,0.0,10.0,1.0,Bournemouth
-2023-03-04,15:00,Premier League,Sat,Away,L,2,3,Arsenal,21.0,4.0,4.0,2.0,0.0,8.0,0.0,Bournemouth
-2023-03-11,12:30,Premier League,Sat,Home,W,1,0,Liverpool,31.0,5.0,2.0,2.0,0.0,7.0,2.0,Bournemouth
-2023-03-18,15:00,Premier League,Sat,Away,L,0,3,Aston Villa,44.0,10.0,3.0,4.0,0.0,13.0,2.0,Bournemouth
-2023-04-01,15:00,Premier League,Sat,Home,W,2,1,Fulham,43.0,12.0,6.0,1.0,0.0,15.0,1.0,Bournemouth
-2023-04-04,19:45,Premier League,Tue,Home,L,0,2,Brighton,37.0,14.0,3.0,1.0,0.0,11.0,1.0,Bournemouth
-2023-04-08,15:00,Premier League,Sat,Away,W,1,0,Leicester City,49.0,19.0,7.0,3.0,0.0,13.0,2.0,Bournemouth
-2023-04-15,15:00,Premier League,Sat,Away,W,3,2,Tottenham,42.0,9.0,6.0,2.0,0.0,9.0,1.0,Bournemouth
-2023-04-23,14:00,Premier League,Sun,Home,L,0,4,West Ham,64.0,17.0,5.0,1.0,0.0,7.0,0.0,Bournemouth
-2023-04-27,19:45,Premier League,Thu,Away,W,1,0,Southampton,43.0,16.0,2.0,3.0,0.0,11.0,2.0,Bournemouth
-2023-04-30,14:00,Premier League,Sun,Home,W,4,1,Leeds United,42.0,12.0,7.0,1.0,0.0,12.0,2.0,Bournemouth
-2023-05-06,15:00,Premier League,Sat,Home,L,1,3,Chelsea,35.0,10.0,4.0,1.0,0.0,9.0,1.0,Bournemouth
-2023-05-13,15:00,Premier League,Sat,Away,L,0,2,Crystal Palace,41.0,5.0,0.0,2.0,0.0,12.0,1.0,Bournemouth
-2023-05-20,15:00,Premier League,Sat,Home,L,0,1,Manchester Utd,41.0,10.0,4.0,1.0,0.0,6.0,0.0,Bournemouth
-2023-05-28,16:30,Premier League,Sun,Away,L,0,1,Everton,62.0,7.0,1.0,3.0,0.0,12.0,1.0,Bournemouth
-2022-08-06,17:30,Premier League,Sat,Home,L,0,1,Chelsea,38.0,8.0,3.0,3.0,0.0,14.0,0.0,Everton
-2022-08-13,12:30,Premier League,Sat,Away,L,1,2,Aston Villa,43.0,15.0,4.0,1.0,0.0,7.0,3.0,Everton
-2022-08-20,15:00,Premier League,Sat,Home,D,1,1,Nott'ham Forest,49.0,19.0,8.0,3.0,0.0,6.0,4.0,Everton
-2022-08-27,15:00,Premier League,Sat,Away,D,1,1,Brentford,42.0,14.0,7.0,2.0,0.0,8.0,2.0,Everton
-2022-08-30,20:00,Premier League,Tue,Away,D,1,1,Leeds United,31.0,7.0,2.0,3.0,0.0,9.0,2.0,Everton
-2022-09-03,12:30,Premier League,Sat,Home,D,0,0,Liverpool,39.0,14.0,3.0,2.0,0.0,7.0,3.0,Everton
-2022-09-18,14:15,Premier League,Sun,Home,W,1,0,West Ham,53.0,7.0,2.0,3.0,0.0,8.0,1.0,Everton
-2022-10-01,15:00,Premier League,Sat,Away,W,2,1,Southampton,45.0,12.0,5.0,2.0,0.0,10.0,1.0,Everton
-2022-10-09,19:00,Premier League,Sun,Home,L,1,2,Manchester Utd,40.0,11.0,2.0,2.0,0.0,7.0,1.0,Everton
-2022-10-15,17:30,Premier League,Sat,Away,L,0,2,Tottenham,38.0,4.0,0.0,4.0,0.0,13.0,0.0,Everton
-2022-10-19,19:30,Premier League,Wed,Away,L,0,1,Newcastle Utd,51.0,1.0,0.0,4.0,0.0,12.0,3.0,Everton
-2022-10-22,15:00,Premier League,Sat,Home,W,3,0,Crystal Palace,46.0,9.0,6.0,3.0,0.0,16.0,1.0,Everton
-2022-10-29,17:30,Premier League,Sat,Away,D,0,0,Fulham,44.0,9.0,4.0,1.0,0.0,8.0,5.0,Everton
-2022-11-05,17:30,Premier League,Sat,Home,L,0,2,Leicester City,49.0,12.0,2.0,0.0,0.0,9.0,0.0,Everton
-2022-11-12,15:00,Premier League,Sat,Away,L,0,3,Bournemouth,64.0,15.0,3.0,0.0,0.0,8.0,1.0,Everton
-2022-12-26,15:00,Premier League,Mon,Home,L,1,2,Wolves,58.0,12.0,5.0,1.0,0.0,9.0,1.0,Everton
-2022-12-31,15:00,Premier League,Sat,Away,D,1,1,Manchester City,26.0,2.0,1.0,4.0,0.0,14.0,2.0,Everton
-2023-01-03,19:45,Premier League,Tue,Home,L,1,4,Brighton,49.0,9.0,3.0,3.0,0.0,8.0,1.0,Everton
-2023-01-14,15:00,Premier League,Sat,Home,L,1,2,Southampton,52.0,12.0,4.0,0.0,0.0,7.0,3.0,Everton
-2023-01-21,15:00,Premier League,Sat,Away,L,0,2,West Ham,67.0,5.0,2.0,1.0,0.0,6.0,2.0,Everton
-2023-02-04,12:30,Premier League,Sat,Home,W,1,0,Arsenal,30.0,12.0,4.0,4.0,0.0,13.0,3.0,Everton
-2023-02-13,20:00,Premier League,Mon,Away,L,0,2,Liverpool,41.0,6.0,1.0,3.0,0.0,16.0,2.0,Everton
-2023-02-18,15:00,Premier League,Sat,Home,W,1,0,Leeds United,51.0,15.0,4.0,2.0,0.0,8.0,1.0,Everton
-2023-02-25,15:00,Premier League,Sat,Home,L,0,2,Aston Villa,47.0,15.0,4.0,2.0,0.0,12.0,1.0,Everton
-2023-03-01,19:45,Premier League,Wed,Away,L,0,4,Arsenal,27.0,8.0,5.0,2.0,0.0,12.0,2.0,Everton
-2023-03-05,14:00,Premier League,Sun,Away,D,2,2,Nott'ham Forest,43.0,9.0,2.0,5.0,0.0,17.0,0.0,Everton
-2023-03-11,15:00,Premier League,Sat,Home,W,1,0,Brentford,33.0,13.0,6.0,2.0,0.0,11.0,3.0,Everton
-2023-03-18,17:30,Premier League,Sat,Away,D,2,2,Chelsea,32.0,12.0,3.0,2.0,0.0,12.0,1.0,Everton
-2023-04-03,20:00,Premier League,Mon,Home,D,1,1,Tottenham,39.0,15.0,6.0,0.0,1.0,10.0,1.0,Everton
-2023-04-08,12:30,Premier League,Sat,Away,L,0,2,Manchester Utd,37.0,15.0,1.0,0.0,0.0,9.0,2.0,Everton
-2023-04-15,15:00,Premier League,Sat,Home,L,1,3,Fulham,46.0,15.0,7.0,3.0,0.0,10.0,1.0,Everton
-2023-04-22,15:00,Premier League,Sat,Away,D,0,0,Crystal Palace,44.0,10.0,5.0,3.0,1.0,14.0,3.0,Everton
-2023-04-27,19:45,Premier League,Thu,Home,L,1,4,Newcastle Utd,40.0,13.0,5.0,2.0,0.0,8.0,3.0,Everton
-2023-05-01,20:00,Premier League,Mon,Away,D,2,2,Leicester City,46.0,22.0,7.0,1.0,0.0,12.0,3.0,Everton
-2023-05-08,17:30,Premier League,Mon,Away,W,5,1,Brighton,22.0,10.0,5.0,5.0,0.0,13.0,1.0,Everton
-2023-05-14,14:00,Premier League,Sun,Home,L,0,3,Manchester City,37.0,7.0,2.0,1.0,0.0,12.0,1.0,Everton
-2023-05-20,15:00,Premier League,Sat,Away,D,1,1,Wolves,48.0,19.0,4.0,1.0,0.0,10.0,0.0,Everton
-2023-05-28,16:30,Premier League,Sun,Home,W,1,0,Bournemouth,38.0,13.0,6.0,1.0,0.0,11.0,0.0,Everton
-2022-08-06,15:00,Premier League,Sat,Home,W,2,1,Wolves,40.0,12.0,4.0,2.0,0.0,13.0,0.0,Leeds United
-2022-08-13,15:00,Premier League,Sat,Away,D,2,2,Southampton,57.0,13.0,5.0,3.0,0.0,12.0,1.0,Leeds United
-2022-08-21,14:00,Premier League,Sun,Home,W,3,0,Chelsea,39.0,12.0,6.0,0.0,0.0,16.0,1.0,Leeds United
-2022-08-27,15:00,Premier League,Sat,Away,L,0,1,Brighton,56.0,10.0,2.0,3.0,0.0,14.0,1.0,Leeds United
-2022-08-30,20:00,Premier League,Tue,Home,D,1,1,Everton,69.0,14.0,5.0,3.0,0.0,10.0,2.0,Leeds United
-2022-09-03,15:00,Premier League,Sat,Away,L,2,5,Brentford,68.0,17.0,6.0,2.0,0.0,9.0,1.0,Leeds United
-2022-10-02,16:30,Premier League,Sun,Home,D,0,0,Aston Villa,44.0,6.0,1.0,5.0,1.0,23.0,0.0,Leeds United
-2022-10-09,14:00,Premier League,Sun,Away,L,1,2,Crystal Palace,46.0,10.0,4.0,3.0,0.0,23.0,2.0,Leeds United
-2022-10-16,14:00,Premier League,Sun,Home,L,0,1,Arsenal,47.0,15.0,4.0,0.0,0.0,10.0,4.0,Leeds United
-2022-10-20,20:15,Premier League,Thu,Away,L,0,2,Leicester City,54.0,14.0,2.0,1.0,0.0,11.0,2.0,Leeds United
-2022-10-23,14:00,Premier League,Sun,Home,L,2,3,Fulham,57.0,14.0,5.0,1.0,0.0,12.0,4.0,Leeds United
-2022-10-29,19:45,Premier League,Sat,Away,W,2,1,Liverpool,32.0,14.0,6.0,1.0,0.0,3.0,0.0,Leeds United
-2022-11-05,15:00,Premier League,Sat,Home,W,4,3,Bournemouth,60.0,17.0,3.0,2.0,0.0,16.0,0.0,Leeds United
-2022-11-12,15:00,Premier League,Sat,Away,L,3,4,Tottenham,45.0,12.0,5.0,3.0,1.0,7.0,1.0,Leeds United
-2022-12-28,20:00,Premier League,Wed,Home,L,1,3,Manchester City,31.0,9.0,1.0,3.0,0.0,11.0,0.0,Leeds United
-2022-12-31,15:00,Premier League,Sat,Away,D,0,0,Newcastle Utd,40.0,8.0,1.0,5.0,0.0,19.0,0.0,Leeds United
-2023-01-04,19:45,Premier League,Wed,Home,D,2,2,West Ham,62.0,14.0,5.0,3.0,0.0,11.0,3.0,Leeds United
-2023-01-13,20:00,Premier League,Fri,Away,L,1,2,Aston Villa,48.0,16.0,3.0,2.0,0.0,18.0,5.0,Leeds United
-2023-01-22,14:00,Premier League,Sun,Home,D,0,0,Brentford,58.0,9.0,5.0,2.0,0.0,10.0,1.0,Leeds United
-2023-02-05,14:00,Premier League,Sun,Away,L,0,1,Nott'ham Forest,70.0,10.0,4.0,2.0,0.0,14.0,3.0,Leeds United
-2023-02-08,20:00,Premier League,Wed,Away,D,2,2,Manchester Utd,34.0,8.0,2.0,3.0,0.0,11.0,0.0,Leeds United
-2023-02-12,14:00,Premier League,Sun,Home,L,0,2,Manchester Utd,34.0,16.0,6.0,2.0,0.0,10.0,3.0,Leeds United
-2023-02-18,15:00,Premier League,Sat,Away,L,0,1,Everton,49.0,8.0,0.0,3.0,0.0,6.0,0.0,Leeds United
-2023-02-25,15:00,Premier League,Sat,Home,W,1,0,Southampton,61.0,14.0,4.0,2.0,0.0,15.0,2.0,Leeds United
-2023-03-04,15:00,Premier League,Sat,Away,L,0,1,Chelsea,43.0,11.0,2.0,0.0,0.0,7.0,2.0,Leeds United
-2023-03-11,15:00,Premier League,Sat,Home,D,2,2,Brighton,38.0,12.0,4.0,1.0,0.0,12.0,3.0,Leeds United
-2023-03-18,15:00,Premier League,Sat,Away,W,4,2,Wolves,35.0,11.0,4.0,5.0,0.0,9.0,0.0,Leeds United
-2023-04-01,15:00,Premier League,Sat,Away,L,1,4,Arsenal,34.0,7.0,5.0,2.0,0.0,13.0,1.0,Leeds United
-2023-04-04,19:45,Premier League,Tue,Home,W,2,1,Nott'ham Forest,61.0,21.0,6.0,1.0,0.0,11.0,3.0,Leeds United
-2023-04-09,14:00,Premier League,Sun,Home,L,1,5,Crystal Palace,48.0,11.0,7.0,3.0,0.0,11.0,2.0,Leeds United
-2023-04-17,20:00,Premier League,Mon,Home,L,1,6,Liverpool,27.0,13.0,3.0,0.0,0.0,6.0,1.0,Leeds United
-2023-04-22,12:30,Premier League,Sat,Away,L,1,2,Fulham,50.0,10.0,2.0,4.0,0.0,15.0,2.0,Leeds United
-2023-04-25,20:00,Premier League,Tue,Home,D,1,1,Leicester City,41.0,13.0,3.0,4.0,0.0,14.0,4.0,Leeds United
-2023-04-30,14:00,Premier League,Sun,Away,L,1,4,Bournemouth,58.0,15.0,6.0,0.0,0.0,14.0,1.0,Leeds United
-2023-05-06,15:00,Premier League,Sat,Away,L,1,2,Manchester City,20.0,4.0,2.0,3.0,0.0,16.0,3.0,Leeds United
-2023-05-13,12:30,Premier League,Sat,Home,D,2,2,Newcastle Utd,36.0,8.0,3.0,4.0,1.0,16.0,0.0,Leeds United
-2023-05-21,13:30,Premier League,Sun,Away,L,1,3,West Ham,41.0,12.0,3.0,3.0,0.0,11.0,1.0,Leeds United
-2023-05-28,16:30,Premier League,Sun,Home,L,1,4,Tottenham,52.0,19.0,2.0,3.0,0.0,8.0,1.0,Leeds United
-2022-08-07,14:00,Premier League,Sun,Home,D,2,2,Brentford,56.0,14.0,5.0,0.0,0.0,6.0,2.0,Leicester City
-2022-08-13,15:00,Premier League,Sat,Away,L,2,4,Arsenal,50.0,6.0,2.0,1.0,0.0,9.0,3.0,Leicester City
-2022-08-20,15:00,Premier League,Sat,Home,L,1,2,Southampton,62.0,6.0,1.0,2.0,0.0,11.0,0.0,Leicester City
-2022-08-27,15:00,Premier League,Sat,Away,L,1,2,Chelsea,55.0,17.0,5.0,2.0,0.0,7.0,1.0,Leicester City
-2022-09-01,20:00,Premier League,Thu,Home,L,0,1,Manchester Utd,53.0,10.0,2.0,1.0,0.0,7.0,0.0,Leicester City
-2022-09-04,14:00,Premier League,Sun,Away,L,2,5,Brighton,47.0,6.0,4.0,1.0,0.0,8.0,3.0,Leicester City
-2022-09-17,17:30,Premier League,Sat,Away,L,2,6,Tottenham,56.0,18.0,6.0,2.0,0.0,9.0,0.0,Leicester City
-2022-10-03,20:00,Premier League,Mon,Home,W,4,0,Nott'ham Forest,51.0,17.0,7.0,2.0,0.0,13.0,3.0,Leicester City
-2022-10-08,15:00,Premier League,Sat,Away,L,1,2,Bournemouth,55.0,9.0,5.0,2.0,0.0,16.0,0.0,Leicester City
-2022-10-15,12:30,Premier League,Sat,Home,D,0,0,Crystal Palace,54.0,14.0,5.0,2.0,0.0,18.0,2.0,Leicester City
-2022-10-20,20:15,Premier League,Thu,Home,W,2,0,Leeds United,46.0,5.0,1.0,2.0,0.0,15.0,4.0,Leicester City
-2022-10-23,14:00,Premier League,Sun,Away,W,4,0,Wolves,40.0,5.0,4.0,1.0,0.0,12.0,3.0,Leicester City
-2022-10-29,12:30,Premier League,Sat,Home,L,0,1,Manchester City,36.0,10.0,5.0,0.0,0.0,5.0,0.0,Leicester City
-2022-11-05,17:30,Premier League,Sat,Away,W,2,0,Everton,51.0,22.0,8.0,0.0,0.0,5.0,1.0,Leicester City
-2022-11-12,15:00,Premier League,Sat,Away,W,2,0,West Ham,46.0,8.0,5.0,1.0,0.0,8.0,0.0,Leicester City
-2022-12-26,15:00,Premier League,Mon,Home,L,0,3,Newcastle Utd,60.0,8.0,2.0,0.0,0.0,9.0,3.0,Leicester City
-2022-12-30,20:00,Premier League,Fri,Away,L,1,2,Liverpool,43.0,7.0,2.0,1.0,0.0,15.0,5.0,Leicester City
-2023-01-03,19:45,Premier League,Tue,Home,L,0,1,Fulham,61.0,15.0,6.0,2.0,0.0,12.0,0.0,Leicester City
-2023-01-14,15:00,Premier League,Sat,Away,L,0,2,Nott'ham Forest,61.0,6.0,1.0,2.0,0.0,12.0,1.0,Leicester City
-2023-01-21,15:00,Premier League,Sat,Home,D,2,2,Brighton,37.0,9.0,2.0,0.0,0.0,9.0,0.0,Leicester City
-2023-02-04,15:00,Premier League,Sat,Away,W,4,2,Aston Villa,38.0,9.0,5.0,3.0,0.0,10.0,8.0,Leicester City
-2023-02-11,15:00,Premier League,Sat,Home,W,4,1,Tottenham,49.0,15.0,6.0,5.0,0.0,14.0,2.0,Leicester City
-2023-02-19,14:00,Premier League,Sun,Away,L,0,3,Manchester Utd,43.0,19.0,3.0,2.0,0.0,9.0,1.0,Leicester City
-2023-02-25,15:00,Premier League,Sat,Home,L,0,1,Arsenal,35.0,1.0,0.0,0.0,0.0,14.0,4.0,Leicester City
-2023-03-04,17:30,Premier League,Sat,Away,L,0,1,Southampton,65.0,11.0,0.0,2.0,0.0,11.0,2.0,Leicester City
-2023-03-11,15:00,Premier League,Sat,Home,L,1,3,Chelsea,48.0,17.0,6.0,3.0,1.0,10.0,0.0,Leicester City
-2023-03-18,15:00,Premier League,Sat,Away,D,1,1,Brentford,47.0,14.0,1.0,2.0,0.0,11.0,3.0,Leicester City
-2023-04-01,15:00,Premier League,Sat,Away,L,1,2,Crystal Palace,48.0,3.0,2.0,4.0,0.0,16.0,2.0,Leicester City
-2023-04-04,19:45,Premier League,Tue,Home,L,1,2,Aston Villa,36.0,9.0,4.0,4.0,1.0,10.0,2.0,Leicester City
-2023-04-08,15:00,Premier League,Sat,Home,L,0,1,Bournemouth,51.0,14.0,4.0,0.0,0.0,10.0,3.0,Leicester City
-2023-04-15,17:30,Premier League,Sat,Away,L,1,3,Manchester City,30.0,11.0,4.0,1.0,0.0,8.0,3.0,Leicester City
-2023-04-22,15:00,Premier League,Sat,Home,W,2,1,Wolves,42.0,14.0,6.0,1.0,0.0,17.0,1.0,Leicester City
-2023-04-25,20:00,Premier League,Tue,Away,D,1,1,Leeds United,59.0,15.0,3.0,2.0,0.0,15.0,6.0,Leicester City
-2023-05-01,20:00,Premier League,Mon,Home,D,2,2,Everton,54.0,14.0,4.0,4.0,0.0,10.0,6.0,Leicester City
-2023-05-08,15:00,Premier League,Mon,Away,L,3,5,Fulham,43.0,16.0,7.0,3.0,0.0,15.0,4.0,Leicester City
-2023-05-15,20:00,Premier League,Mon,Home,L,0,3,Liverpool,34.0,4.0,4.0,2.0,0.0,11.0,3.0,Leicester City
-2023-05-22,20:00,Premier League,Mon,Away,D,0,0,Newcastle Utd,23.0,1.0,1.0,0.0,0.0,5.0,0.0,Leicester City
-2023-05-28,16:30,Premier League,Sun,Home,W,2,1,West Ham,48.0,13.0,4.0,1.0,0.0,8.0,2.0,Leicester City
-2022-08-06,15:00,Premier League,Sat,Away,L,1,4,Tottenham,42.0,10.0,2.0,0.0,0.0,6.0,0.0,Southampton
-2022-08-13,15:00,Premier League,Sat,Home,D,2,2,Leeds United,43.0,14.0,4.0,1.0,0.0,10.0,1.0,Southampton
-2022-08-20,15:00,Premier League,Sat,Away,W,2,1,Leicester City,38.0,9.0,3.0,3.0,0.0,15.0,1.0,Southampton
-2022-08-27,12:30,Premier League,Sat,Home,L,0,1,Manchester Utd,49.0,17.0,4.0,0.0,0.0,4.0,1.0,Southampton
-2022-08-30,19:45,Premier League,Tue,Home,W,2,1,Chelsea,33.0,9.0,5.0,2.0,0.0,15.0,0.0,Southampton
-2022-09-03,15:00,Premier League,Sat,Away,L,0,1,Wolves,49.0,12.0,1.0,2.0,0.0,14.0,0.0,Southampton
-2022-09-16,20:00,Premier League,Fri,Away,L,0,1,Aston Villa,47.0,7.0,1.0,1.0,0.0,13.0,0.0,Southampton
-2022-10-01,15:00,Premier League,Sat,Home,L,1,2,Everton,55.0,22.0,6.0,2.0,0.0,11.0,0.0,Southampton
-2022-10-08,15:00,Premier League,Sat,Away,L,0,4,Manchester City,35.0,5.0,0.0,1.0,0.0,8.0,1.0,Southampton
-2022-10-16,14:00,Premier League,Sun,Home,D,1,1,West Ham,39.0,10.0,8.0,1.0,0.0,7.0,1.0,Southampton
-2022-10-19,19:30,Premier League,Wed,Away,W,1,0,Bournemouth,46.0,9.0,3.0,3.0,0.0,13.0,0.0,Southampton
-2022-10-23,14:00,Premier League,Sun,Home,D,1,1,Arsenal,41.0,10.0,3.0,2.0,0.0,11.0,4.0,Southampton
-2022-10-29,15:00,Premier League,Sat,Away,L,0,1,Crystal Palace,56.0,14.0,4.0,3.0,0.0,12.0,3.0,Southampton
-2022-11-06,14:00,Premier League,Sun,Home,L,1,4,Newcastle Utd,55.0,16.0,5.0,1.0,0.0,7.0,4.0,Southampton
-2022-11-12,15:00,Premier League,Sat,Away,L,1,3,Liverpool,40.0,9.0,5.0,2.0,0.0,8.0,2.0,Southampton
-2022-12-26,15:00,Premier League,Mon,Home,L,1,3,Brighton,34.0,13.0,3.0,1.0,0.0,9.0,0.0,Southampton
-2022-12-31,15:00,Premier League,Sat,Away,L,1,2,Fulham,38.0,9.0,3.0,1.0,0.0,13.0,0.0,Southampton
-2023-01-04,19:30,Premier League,Wed,Home,L,0,1,Nott'ham Forest,63.0,8.0,0.0,2.0,0.0,14.0,1.0,Southampton
-2023-01-14,15:00,Premier League,Sat,Away,W,2,1,Everton,48.0,13.0,5.0,3.0,0.0,18.0,2.0,Southampton
-2023-01-21,15:00,Premier League,Sat,Home,L,0,1,Aston Villa,37.0,8.0,5.0,1.0,0.0,19.0,3.0,Southampton
-2023-02-04,15:00,Premier League,Sat,Away,L,0,3,Brentford,51.0,14.0,5.0,2.0,0.0,9.0,2.0,Southampton
-2023-02-11,15:00,Premier League,Sat,Home,L,1,2,Wolves,41.0,17.0,2.0,2.0,0.0,12.0,0.0,Southampton
-2023-02-18,15:00,Premier League,Sat,Away,W,1,0,Chelsea,38.0,8.0,4.0,6.0,0.0,25.0,1.0,Southampton
-2023-02-25,15:00,Premier League,Sat,Away,L,0,1,Leeds United,39.0,8.0,2.0,4.0,0.0,13.0,3.0,Southampton
-2023-03-04,17:30,Premier League,Sat,Home,W,1,0,Leicester City,35.0,10.0,4.0,4.0,0.0,12.0,4.0,Southampton
-2023-03-12,14:00,Premier League,Sun,Away,D,0,0,Manchester Utd,53.0,17.0,4.0,0.0,0.0,9.0,2.0,Southampton
-2023-03-15,19:30,Premier League,Wed,Home,L,0,2,Brentford,66.0,7.0,0.0,1.0,0.0,14.0,1.0,Southampton
-2023-03-18,15:00,Premier League,Sat,Home,D,3,3,Tottenham,51.0,18.0,6.0,1.0,0.0,13.0,2.0,Southampton
-2023-04-02,14:00,Premier League,Sun,Away,L,0,1,West Ham,57.0,9.0,3.0,2.0,0.0,11.0,1.0,Southampton
-2023-04-08,17:30,Premier League,Sat,Home,L,1,4,Manchester City,27.0,4.0,1.0,0.0,0.0,6.0,0.0,Southampton
-2023-04-15,15:00,Premier League,Sat,Home,L,0,2,Crystal Palace,58.0,11.0,4.0,3.0,0.0,6.0,3.0,Southampton
-2023-04-21,20:00,Premier League,Fri,Away,D,3,3,Arsenal,26.0,8.0,6.0,5.0,0.0,14.0,2.0,Southampton
-2023-04-27,19:45,Premier League,Thu,Home,L,0,1,Bournemouth,57.0,11.0,2.0,0.0,0.0,9.0,4.0,Southampton
-2023-04-30,14:00,Premier League,Sun,Away,L,1,3,Newcastle Utd,37.0,4.0,3.0,4.0,0.0,10.0,2.0,Southampton
-2023-05-08,20:00,Premier League,Mon,Away,L,3,4,Nott'ham Forest,64.0,18.0,4.0,0.0,0.0,10.0,1.0,Southampton
-2023-05-13,15:00,Premier League,Sat,Home,L,0,2,Fulham,36.0,5.0,1.0,2.0,0.0,17.0,4.0,Southampton
-2023-05-21,14:00,Premier League,Sun,Away,L,1,3,Brighton,37.0,5.0,1.0,5.0,0.0,9.0,1.0,Southampton
-2023-05-28,16:30,Premier League,Sun,Home,D,4,4,Liverpool,31.0,15.0,10.0,0.0,0.0,4.0,0.0,Southampton
+Date,Competition,Day,Venue,Result,GF,GA,Opponent,Possession,Shots,Shots Target,Yellow,Red,Fouls,Offside,Team
+2022-08-07,Premier League,Sun,Away,W,2,1,Manchester Utd,38.0,15.0,4.0,1,0,12.0,1.0,Brighton and Hove Albion
+2022-08-13,Premier League,Sat,Home,D,0,0,Newcastle Utd,54.0,13.0,5.0,2,0,8.0,1.0,Brighton and Hove Albion
+2022-08-21,Premier League,Sun,Away,W,2,0,West Ham,50.0,10.0,1.0,0,0,7.0,1.0,Brighton and Hove Albion
+2022-08-27,Premier League,Sat,Home,W,1,0,Leeds United,44.0,13.0,4.0,2,0,10.0,2.0,Brighton and Hove Albion
+2022-08-30,Premier League,Tue,Away,L,1,2,Fulham,61.0,6.0,2.0,1,0,11.0,2.0,Brighton and Hove Albion
+2022-09-04,Premier League,Sun,Home,W,5,2,Leicester City,53.0,22.0,10.0,1,0,6.0,2.0,Brighton and Hove Albion
+2022-10-01,Premier League,Sat,Away,D,3,3,Liverpool,46.0,6.0,6.0,1,0,13.0,0.0,Brighton and Hove Albion
+2022-10-08,Premier League,Sat,Home,L,0,1,Tottenham,59.0,14.0,4.0,1,0,9.0,2.0,Brighton and Hove Albion
+2022-10-14,Premier League,Fri,Away,L,0,2,Brentford,72.0,21.0,7.0,1,0,15.0,3.0,Brighton and Hove Albion
+2022-10-18,Premier League,Tue,Home,D,0,0,Nott'ham Forest,70.0,19.0,7.0,3,0,10.0,1.0,Brighton and Hove Albion
+2022-10-22,Premier League,Sat,Away,L,1,3,Manchester City,52.0,8.0,2.0,3,0,12.0,4.0,Brighton and Hove Albion
+2022-10-29,Premier League,Sat,Home,W,4,1,Chelsea,41.0,19.0,7.0,1,0,16.0,0.0,Brighton and Hove Albion
+2022-11-05,Premier League,Sat,Away,W,3,2,Wolves,71.0,19.0,8.0,0,0,11.0,1.0,Brighton and Hove Albion
+2022-11-13,Premier League,Sun,Home,L,1,2,Aston Villa,65.0,7.0,2.0,2,0,14.0,3.0,Brighton and Hove Albion
+2022-12-26,Premier League,Mon,Away,W,3,1,Southampton,66.0,7.0,4.0,2,0,10.0,1.0,Brighton and Hove Albion
+2022-12-31,Premier League,Sat,Home,L,2,4,Arsenal,68.0,9.0,5.0,3,0,7.0,5.0,Brighton and Hove Albion
+2023-01-03,Premier League,Tue,Away,W,4,1,Everton,51.0,19.0,8.0,1,0,10.0,0.0,Brighton and Hove Albion
+2023-01-14,Premier League,Sat,Home,W,3,0,Liverpool,61.0,16.0,8.0,1,0,9.0,4.0,Brighton and Hove Albion
+2023-01-21,Premier League,Sat,Away,D,2,2,Leicester City,63.0,13.0,4.0,1,0,9.0,2.0,Brighton and Hove Albion
+2023-02-04,Premier League,Sat,Home,W,1,0,Bournemouth,71.0,20.0,6.0,3,0,14.0,0.0,Brighton and Hove Albion
+2023-02-11,Premier League,Sat,Away,D,1,1,Crystal Palace,73.0,17.0,7.0,1,0,11.0,2.0,Brighton and Hove Albion
+2023-02-18,Premier League,Sat,Home,L,0,1,Fulham,65.0,21.0,7.0,0,0,12.0,4.0,Brighton and Hove Albion
+2023-03-04,Premier League,Sat,Home,W,4,0,West Ham,65.0,19.0,8.0,0,0,6.0,0.0,Brighton and Hove Albion
+2023-03-11,Premier League,Sat,Away,D,2,2,Leeds United,62.0,15.0,3.0,1,0,9.0,3.0,Brighton and Hove Albion
+2023-03-15,Premier League,Wed,Home,W,1,0,Crystal Palace,57.0,11.0,5.0,1,0,13.0,2.0,Brighton and Hove Albion
+2023-04-01,Premier League,Sat,Home,D,3,3,Brentford,72.0,32.0,13.0,1,0,16.0,2.0,Brighton and Hove Albion
+2023-04-04,Premier League,Tue,Away,W,2,0,Bournemouth,63.0,16.0,6.0,1,0,5.0,0.0,Brighton and Hove Albion
+2023-04-08,Premier League,Sat,Away,L,1,2,Tottenham,65.0,17.0,4.0,1,0,15.0,1.0,Brighton and Hove Albion
+2023-04-15,Premier League,Sat,Away,W,2,1,Chelsea,57.0,26.0,10.0,2,0,11.0,1.0,Brighton and Hove Albion
+2023-04-26,Premier League,Wed,Away,L,1,3,Nott'ham Forest,74.0,17.0,7.0,0,0,8.0,2.0,Brighton and Hove Albion
+2023-04-29,Premier League,Sat,Home,W,6,0,Wolves,57.0,22.0,8.0,1,0,14.0,2.0,Brighton and Hove Albion
+2023-05-04,Premier League,Thu,Home,W,1,0,Manchester Utd,59.0,21.0,5.0,4,0,10.0,0.0,Brighton and Hove Albion
+2023-05-08,Premier League,Mon,Home,L,1,5,Everton,78.0,23.0,5.0,1,0,11.0,1.0,Brighton and Hove Albion
+2023-05-14,Premier League,Sun,Away,W,3,0,Arsenal,59.0,12.0,6.0,2,0,17.0,4.0,Brighton and Hove Albion
+2023-05-18,Premier League,Thu,Away,L,1,4,Newcastle Utd,65.0,8.0,2.0,4,0,16.0,2.0,Brighton and Hove Albion
+2023-05-21,Premier League,Sun,Home,W,3,1,Southampton,63.0,26.0,8.0,2,0,8.0,1.0,Brighton and Hove Albion
+2023-05-24,Premier League,Wed,Home,D,1,1,Manchester City,40.0,20.0,7.0,2,0,16.0,2.0,Brighton and Hove Albion
+2023-05-28,Premier League,Sun,Away,L,1,2,Aston Villa,59.0,8.0,4.0,4,0,16.0,6.0,Brighton and Hove Albion
+2022-08-06,Premier League,Sat,Away,L,0,2,Bournemouth,65.0,15.0,2.0,3,0,16.0,4.0,Aston Villa
+2022-08-13,Premier League,Sat,Home,W,2,1,Everton,57.0,12.0,3.0,4,0,9.0,2.0,Aston Villa
+2022-08-20,Premier League,Sat,Away,L,1,3,Crystal Palace,49.0,13.0,5.0,1,0,14.0,1.0,Aston Villa
+2022-08-28,Premier League,Sun,Home,L,0,1,West Ham,58.0,9.0,3.0,2,0,10.0,2.0,Aston Villa
+2022-08-31,Premier League,Wed,Away,L,1,2,Arsenal,41.0,4.0,3.0,3,0,14.0,1.0,Aston Villa
+2022-09-03,Premier League,Sat,Home,D,1,1,Manchester City,29.0,3.0,1.0,2,0,7.0,5.0,Aston Villa
+2022-09-16,Premier League,Fri,Home,W,1,0,Southampton,53.0,11.0,3.0,3,0,13.0,1.0,Aston Villa
+2022-10-02,Premier League,Sun,Away,D,0,0,Leeds United,56.0,19.0,6.0,2,0,12.0,2.0,Aston Villa
+2022-10-10,Premier League,Mon,Away,D,1,1,Nott'ham Forest,60.0,12.0,2.0,3,0,19.0,3.0,Aston Villa
+2022-10-16,Premier League,Sun,Home,L,0,2,Chelsea,42.0,18.0,7.0,0,0,12.0,3.0,Aston Villa
+2022-10-20,Premier League,Thu,Away,L,0,3,Fulham,40.0,12.0,6.0,2,1,11.0,3.0,Aston Villa
+2022-10-23,Premier League,Sun,Home,W,4,0,Brentford,45.0,18.0,10.0,1,0,14.0,0.0,Aston Villa
+2022-10-29,Premier League,Sat,Away,L,0,4,Newcastle Utd,41.0,3.0,0.0,1,0,11.0,3.0,Aston Villa
+2022-11-06,Premier League,Sun,Home,W,3,1,Manchester Utd,42.0,6.0,4.0,3,0,6.0,0.0,Aston Villa
+2022-11-13,Premier League,Sun,Away,W,2,1,Brighton,35.0,7.0,1.0,7,0,11.0,1.0,Aston Villa
+2022-12-26,Premier League,Mon,Home,L,1,3,Liverpool,48.0,12.0,6.0,0,0,7.0,3.0,Aston Villa
+2023-01-01,Premier League,Sun,Away,W,2,0,Tottenham,41.0,13.0,4.0,3,0,10.0,0.0,Aston Villa
+2023-01-04,Premier League,Wed,Home,D,1,1,Wolves,56.0,13.0,3.0,1,0,6.0,1.0,Aston Villa
+2023-01-13,Premier League,Fri,Home,W,2,1,Leeds United,52.0,11.0,5.0,2,0,12.0,2.0,Aston Villa
+2023-01-21,Premier League,Sat,Away,W,1,0,Southampton,63.0,16.0,5.0,2,0,9.0,0.0,Aston Villa
+2023-02-04,Premier League,Sat,Home,L,2,4,Leicester City,62.0,19.0,4.0,0,0,10.0,2.0,Aston Villa
+2023-02-12,Premier League,Sun,Away,L,1,3,Manchester City,33.0,6.0,2.0,2,0,14.0,4.0,Aston Villa
+2023-02-18,Premier League,Sat,Home,L,2,4,Arsenal,33.0,7.0,5.0,2,0,13.0,0.0,Aston Villa
+2023-02-25,Premier League,Sat,Away,W,2,0,Everton,53.0,8.0,4.0,1,0,12.0,0.0,Aston Villa
+2023-03-04,Premier League,Sat,Home,W,1,0,Crystal Palace,58.0,8.0,1.0,2,0,14.0,0.0,Aston Villa
+2023-03-12,Premier League,Sun,Away,D,1,1,West Ham,59.0,12.0,4.0,0,0,6.0,1.0,Aston Villa
+2023-03-18,Premier League,Sat,Home,W,3,0,Bournemouth,56.0,20.0,9.0,1,0,8.0,0.0,Aston Villa
+2023-04-01,Premier League,Sat,Away,W,2,0,Chelsea,31.0,5.0,2.0,3,0,16.0,0.0,Aston Villa
+2023-04-04,Premier League,Tue,Away,W,2,1,Leicester City,64.0,15.0,5.0,0,0,14.0,1.0,Aston Villa
+2023-04-08,Premier League,Sat,Home,W,2,0,Nott'ham Forest,63.0,8.0,3.0,3,0,7.0,1.0,Aston Villa
+2023-04-15,Premier League,Sat,Home,W,3,0,Newcastle Utd,52.0,16.0,6.0,1,0,13.0,1.0,Aston Villa
+2023-04-22,Premier League,Sat,Away,D,1,1,Brentford,56.0,14.0,2.0,2,0,8.0,3.0,Aston Villa
+2023-04-25,Premier League,Tue,Home,W,1,0,Fulham,51.0,14.0,3.0,3,0,6.0,0.0,Aston Villa
+2023-04-30,Premier League,Sun,Away,L,0,1,Manchester Utd,43.0,7.0,1.0,0,0,7.0,3.0,Aston Villa
+2023-05-06,Premier League,Sat,Away,L,0,1,Wolves,62.0,16.0,3.0,3,0,9.0,2.0,Aston Villa
+2023-05-13,Premier League,Sat,Home,W,2,1,Tottenham,48.0,8.0,4.0,3,0,9.0,2.0,Aston Villa
+2023-05-20,Premier League,Sat,Away,D,1,1,Liverpool,34.0,5.0,3.0,5,0,13.0,1.0,Aston Villa
+2023-05-28,Premier League,Sun,Home,W,2,1,Brighton,41.0,12.0,5.0,4,0,15.0,0.0,Aston Villa
+2022-08-06,Premier League,Sat,Away,D,2,2,Fulham,67.0,11.0,3.0,0,0,9.0,4.0,Liverpool
+2022-08-15,Premier League,Mon,Home,D,1,1,Crystal Palace,72.0,24.0,4.0,2,1,7.0,3.0,Liverpool
+2022-08-22,Premier League,Mon,Away,L,1,2,Manchester Utd,70.0,17.0,5.0,1,0,7.0,2.0,Liverpool
+2022-08-27,Premier League,Sat,Home,W,9,0,Bournemouth,69.0,19.0,12.0,0,0,6.0,3.0,Liverpool
+2022-08-31,Premier League,Wed,Home,W,2,1,Newcastle Utd,72.0,23.0,6.0,0,0,9.0,2.0,Liverpool
+2022-09-03,Premier League,Sat,Away,D,0,0,Everton,61.0,23.0,8.0,2,0,11.0,2.0,Liverpool
+2022-10-01,Premier League,Sat,Home,D,3,3,Brighton,54.0,15.0,7.0,1,0,9.0,1.0,Liverpool
+2022-10-09,Premier League,Sun,Away,L,2,3,Arsenal,57.0,8.0,3.0,2,0,11.0,6.0,Liverpool
+2022-10-16,Premier League,Sun,Home,W,1,0,Manchester City,37.0,13.0,2.0,3,0,10.0,3.0,Liverpool
+2022-10-19,Premier League,Wed,Home,W,1,0,West Ham,54.0,22.0,7.0,0,0,9.0,1.0,Liverpool
+2022-10-22,Premier League,Sat,Away,L,0,1,Nott'ham Forest,75.0,15.0,7.0,1,0,8.0,0.0,Liverpool
+2022-10-29,Premier League,Sat,Home,L,1,2,Leeds United,68.0,22.0,10.0,0,0,9.0,0.0,Liverpool
+2022-11-06,Premier League,Sun,Away,W,2,1,Tottenham,53.0,13.0,6.0,0,0,8.0,2.0,Liverpool
+2022-11-12,Premier League,Sat,Home,W,3,1,Southampton,60.0,15.0,7.0,0,0,8.0,0.0,Liverpool
+2022-12-26,Premier League,Mon,Away,W,3,1,Aston Villa,52.0,16.0,9.0,0,0,12.0,3.0,Liverpool
+2022-12-30,Premier League,Fri,Home,W,2,1,Leicester City,57.0,21.0,5.0,0,0,8.0,2.0,Liverpool
+2023-01-02,Premier League,Mon,Away,L,1,3,Brentford,72.0,16.0,5.0,3,0,8.0,4.0,Liverpool
+2023-01-14,Premier League,Sat,Away,L,0,3,Brighton,39.0,6.0,2.0,3,0,15.0,2.0,Liverpool
+2023-01-21,Premier League,Sat,Home,D,0,0,Chelsea,48.0,15.0,3.0,3,0,16.0,5.0,Liverpool
+2023-02-04,Premier League,Sat,Away,L,0,3,Wolves,59.0,22.0,2.0,1,0,7.0,2.0,Liverpool
+2023-02-13,Premier League,Mon,Home,W,2,0,Everton,59.0,15.0,6.0,1,0,8.0,4.0,Liverpool
+2023-02-18,Premier League,Sat,Away,W,2,0,Newcastle Utd,62.0,13.0,7.0,1,0,8.0,0.0,Liverpool
+2023-02-25,Premier League,Sat,Away,D,0,0,Crystal Palace,63.0,12.0,4.0,5,0,14.0,1.0,Liverpool
+2023-03-01,Premier League,Wed,Home,W,2,0,Wolves,57.0,15.0,6.0,2,0,13.0,1.0,Liverpool
+2023-03-05,Premier League,Sun,Home,W,7,0,Manchester Utd,59.0,18.0,8.0,2,0,13.0,0.0,Liverpool
+2023-03-11,Premier League,Sat,Away,L,0,1,Bournemouth,69.0,14.0,5.0,1,0,9.0,4.0,Liverpool
+2023-04-01,Premier League,Sat,Away,L,1,4,Manchester City,32.0,4.0,1.0,1,0,12.0,5.0,Liverpool
+2023-04-04,Premier League,Tue,Away,D,0,0,Chelsea,51.0,7.0,3.0,4,0,17.0,3.0,Liverpool
+2023-04-09,Premier League,Sun,Home,D,2,2,Arsenal,59.0,20.0,6.0,4,0,11.0,2.0,Liverpool
+2023-04-17,Premier League,Mon,Away,W,6,1,Leeds United,73.0,13.0,7.0,1,0,12.0,2.0,Liverpool
+2023-04-22,Premier League,Sat,Home,W,3,2,Nott'ham Forest,80.0,18.0,5.0,0,0,9.0,2.0,Liverpool
+2023-04-26,Premier League,Wed,Away,W,2,1,West Ham,72.0,20.0,4.0,0,0,8.0,1.0,Liverpool
+2023-04-30,Premier League,Sun,Home,W,4,3,Tottenham,67.0,11.0,3.0,3,0,12.0,0.0,Liverpool
+2023-05-03,Premier League,Wed,Home,W,1,0,Fulham,57.0,14.0,2.0,0,0,10.0,3.0,Liverpool
+2023-05-06,Premier League,Sat,Home,W,1,0,Brentford,54.0,15.0,5.0,4,0,19.0,1.0,Liverpool
+2023-05-15,Premier League,Mon,Away,W,3,0,Leicester City,66.0,16.0,5.0,1,0,17.0,4.0,Liverpool
+2023-05-20,Premier League,Sat,Home,D,1,1,Aston Villa,66.0,10.0,5.0,3,0,16.0,4.0,Liverpool
+2023-05-28,Premier League,Sun,Away,D,4,4,Southampton,69.0,30.0,8.0,2,0,10.0,0.0,Liverpool
+2022-08-06,Premier League,Sat,Home,W,4,1,Southampton,58.0,18.0,8.0,3,0,11.0,2.0,Tottenham Hotspur
+2022-08-14,Premier League,Sun,Away,D,2,2,Chelsea,37.0,10.0,5.0,0,0,9.0,1.0,Tottenham Hotspur
+2022-08-20,Premier League,Sat,Home,W,1,0,Wolves,50.0,11.0,4.0,2,0,10.0,2.0,Tottenham Hotspur
+2022-08-28,Premier League,Sun,Away,W,2,0,Nott'ham Forest,45.0,17.0,5.0,1,0,13.0,3.0,Tottenham Hotspur
+2022-08-31,Premier League,Wed,Away,D,1,1,West Ham,61.0,12.0,3.0,5,0,10.0,0.0,Tottenham Hotspur
+2022-09-03,Premier League,Sat,Home,W,2,1,Fulham,52.0,23.0,10.0,3,0,9.0,3.0,Tottenham Hotspur
+2022-09-17,Premier League,Sat,Home,W,6,2,Leicester City,44.0,16.0,11.0,1,0,9.0,1.0,Tottenham Hotspur
+2022-10-01,Premier League,Sat,Away,L,1,3,Arsenal,36.0,6.0,2.0,1,1,10.0,3.0,Tottenham Hotspur
+2022-10-08,Premier League,Sat,Away,W,1,0,Brighton,41.0,8.0,3.0,2,0,14.0,3.0,Tottenham Hotspur
+2022-10-15,Premier League,Sat,Home,W,2,0,Everton,62.0,20.0,6.0,1,0,12.0,0.0,Tottenham Hotspur
+2022-10-19,Premier League,Wed,Away,L,0,2,Manchester Utd,48.0,9.0,2.0,0,0,7.0,0.0,Tottenham Hotspur
+2022-10-23,Premier League,Sun,Home,L,1,2,Newcastle Utd,53.0,17.0,4.0,4,0,12.0,3.0,Tottenham Hotspur
+2022-10-29,Premier League,Sat,Away,W,3,2,Bournemouth,69.0,23.0,7.0,2,0,5.0,3.0,Tottenham Hotspur
+2022-11-06,Premier League,Sun,Home,L,1,2,Liverpool,47.0,14.0,5.0,0,0,10.0,1.0,Tottenham Hotspur
+2022-11-12,Premier League,Sat,Home,W,4,3,Leeds United,55.0,14.0,7.0,1,0,8.0,0.0,Tottenham Hotspur
+2022-12-26,Premier League,Mon,Away,D,2,2,Brentford,61.0,15.0,8.0,1,0,10.0,5.0,Tottenham Hotspur
+2023-01-01,Premier League,Sun,Home,L,0,2,Aston Villa,59.0,6.0,1.0,4,0,15.0,1.0,Tottenham Hotspur
+2023-01-04,Premier League,Wed,Away,W,4,0,Crystal Palace,53.0,14.0,6.0,2,0,8.0,2.0,Tottenham Hotspur
+2023-01-15,Premier League,Sun,Home,L,0,2,Arsenal,51.0,17.0,7.0,4,0,16.0,1.0,Tottenham Hotspur
+2023-01-19,Premier League,Thu,Away,L,2,4,Manchester City,42.0,9.0,3.0,2,0,14.0,1.0,Tottenham Hotspur
+2023-01-23,Premier League,Mon,Away,W,1,0,Fulham,46.0,10.0,3.0,3,0,10.0,0.0,Tottenham Hotspur
+2023-02-05,Premier League,Sun,Home,W,1,0,Manchester City,36.0,12.0,3.0,4,1,19.0,2.0,Tottenham Hotspur
+2023-02-11,Premier League,Sat,Away,L,1,4,Leicester City,51.0,11.0,4.0,2,0,9.0,2.0,Tottenham Hotspur
+2023-02-19,Premier League,Sun,Home,W,2,0,West Ham,57.0,16.0,6.0,2,0,16.0,0.0,Tottenham Hotspur
+2023-02-26,Premier League,Sun,Home,W,2,0,Chelsea,41.0,8.0,3.0,2,0,10.0,0.0,Tottenham Hotspur
+2023-03-04,Premier League,Sat,Away,L,0,1,Wolves,54.0,21.0,6.0,1,0,18.0,1.0,Tottenham Hotspur
+2023-03-11,Premier League,Sat,Home,W,3,1,Nott'ham Forest,55.0,14.0,6.0,3,0,13.0,1.0,Tottenham Hotspur
+2023-03-18,Premier League,Sat,Away,D,3,3,Southampton,49.0,17.0,3.0,1,0,8.0,1.0,Tottenham Hotspur
+2023-04-03,Premier League,Mon,Away,D,1,1,Everton,61.0,7.0,0.0,3,1,14.0,3.0,Tottenham Hotspur
+2023-04-08,Premier League,Sat,Home,W,2,1,Brighton,35.0,9.0,3.0,3,0,15.0,2.0,Tottenham Hotspur
+2023-04-15,Premier League,Sat,Home,L,2,3,Bournemouth,58.0,24.0,8.0,1,0,8.0,1.0,Tottenham Hotspur
+2023-04-23,Premier League,Sun,Away,L,1,6,Newcastle Utd,44.0,11.0,3.0,3,0,13.0,0.0,Tottenham Hotspur
+2023-04-27,Premier League,Thu,Home,D,2,2,Manchester Utd,40.0,18.0,7.0,1,0,8.0,2.0,Tottenham Hotspur
+2023-04-30,Premier League,Sun,Away,L,3,4,Liverpool,33.0,10.0,6.0,2,0,6.0,5.0,Tottenham Hotspur
+2023-05-06,Premier League,Sat,Home,W,1,0,Crystal Palace,56.0,8.0,3.0,3,0,15.0,1.0,Tottenham Hotspur
+2023-05-13,Premier League,Sat,Away,L,1,2,Aston Villa,52.0,4.0,1.0,3,0,14.0,9.0,Tottenham Hotspur
+2023-05-20,Premier League,Sat,Home,L,1,3,Brentford,61.0,22.0,7.0,1,0,11.0,1.0,Tottenham Hotspur
+2023-05-28,Premier League,Sun,Away,W,4,1,Leeds United,48.0,11.0,7.0,0,0,5.0,1.0,Tottenham Hotspur
+2022-08-05,Premier League,Fri,Away,W,2,0,Crystal Palace,44.0,10.0,2.0,2,0,11.0,2.0,Arsenal
+2022-08-13,Premier League,Sat,Home,W,4,2,Leicester City,50.0,19.0,7.0,1,0,15.0,2.0,Arsenal
+2022-08-20,Premier League,Sat,Away,W,3,0,Bournemouth,57.0,14.0,6.0,1,0,10.0,3.0,Arsenal
+2022-08-27,Premier League,Sat,Home,W,2,1,Fulham,71.0,22.0,8.0,2,0,6.0,1.0,Arsenal
+2022-08-31,Premier League,Wed,Home,W,2,1,Aston Villa,59.0,22.0,8.0,2,0,10.0,1.0,Arsenal
+2022-09-04,Premier League,Sun,Away,L,1,3,Manchester Utd,60.0,16.0,3.0,3,0,9.0,0.0,Arsenal
+2022-09-18,Premier League,Sun,Away,W,3,0,Brentford,63.0,13.0,7.0,2,0,10.0,1.0,Arsenal
+2022-10-01,Premier League,Sat,Home,W,3,1,Tottenham,64.0,22.0,9.0,2,0,10.0,1.0,Arsenal
+2022-10-09,Premier League,Sun,Home,W,3,2,Liverpool,43.0,10.0,6.0,1,0,11.0,3.0,Arsenal
+2022-10-16,Premier League,Sun,Away,W,1,0,Leeds United,53.0,9.0,4.0,2,0,11.0,0.0,Arsenal
+2022-10-23,Premier League,Sun,Away,D,1,1,Southampton,59.0,12.0,3.0,1,0,8.0,3.0,Arsenal
+2022-10-30,Premier League,Sun,Home,W,5,0,Nott'ham Forest,69.0,24.0,9.0,0,0,9.0,1.0,Arsenal
+2022-11-06,Premier League,Sun,Away,W,1,0,Chelsea,55.0,14.0,2.0,2,0,13.0,0.0,Arsenal
+2022-11-12,Premier League,Sat,Away,W,2,0,Wolves,62.0,14.0,3.0,2,0,6.0,1.0,Arsenal
+2022-12-26,Premier League,Mon,Home,W,3,1,West Ham,66.0,16.0,5.0,0,0,13.0,3.0,Arsenal
+2022-12-31,Premier League,Sat,Away,W,4,2,Brighton,32.0,14.0,7.0,3,0,11.0,0.0,Arsenal
+2023-01-03,Premier League,Tue,Home,D,0,0,Newcastle Utd,66.0,17.0,4.0,4,0,10.0,1.0,Arsenal
+2023-01-15,Premier League,Sun,Away,W,2,0,Tottenham,49.0,14.0,5.0,2,0,15.0,2.0,Arsenal
+2023-01-22,Premier League,Sun,Home,W,3,2,Manchester Utd,57.0,25.0,5.0,1,0,8.0,1.0,Arsenal
+2023-02-04,Premier League,Sat,Away,L,0,1,Everton,70.0,15.0,2.0,1,0,8.0,0.0,Arsenal
+2023-02-11,Premier League,Sat,Home,D,1,1,Brentford,69.0,23.0,7.0,0,0,9.0,1.0,Arsenal
+2023-02-15,Premier League,Wed,Home,L,1,3,Manchester City,63.0,9.0,0.0,2,0,11.0,0.0,Arsenal
+2023-02-18,Premier League,Sat,Away,W,4,2,Aston Villa,67.0,20.0,5.0,1,0,4.0,2.0,Arsenal
+2023-02-25,Premier League,Sat,Away,W,1,0,Leicester City,65.0,10.0,2.0,1,0,9.0,4.0,Arsenal
+2023-03-01,Premier League,Wed,Home,W,4,0,Everton,73.0,15.0,5.0,0,0,5.0,4.0,Arsenal
+2023-03-04,Premier League,Sat,Home,W,3,2,Bournemouth,79.0,31.0,9.0,0,0,6.0,0.0,Arsenal
+2023-03-12,Premier League,Sun,Away,W,3,0,Fulham,55.0,15.0,7.0,1,0,9.0,2.0,Arsenal
+2023-03-19,Premier League,Sun,Home,W,4,1,Crystal Palace,62.0,15.0,5.0,0,0,8.0,2.0,Arsenal
+2023-04-01,Premier League,Sat,Home,W,4,1,Leeds United,66.0,12.0,4.0,0,0,11.0,5.0,Arsenal
+2023-04-09,Premier League,Sun,Away,D,2,2,Liverpool,41.0,9.0,5.0,4,0,11.0,2.0,Arsenal
+2023-04-16,Premier League,Sun,Away,D,2,2,West Ham,70.0,10.0,5.0,2,0,8.0,1.0,Arsenal
+2023-04-21,Premier League,Fri,Home,D,3,3,Southampton,74.0,25.0,5.0,1,0,10.0,1.0,Arsenal
+2023-04-26,Premier League,Wed,Away,L,1,4,Manchester City,48.0,8.0,2.0,1,0,13.0,1.0,Arsenal
+2023-05-02,Premier League,Tue,Home,W,3,1,Chelsea,55.0,16.0,9.0,0,0,10.0,1.0,Arsenal
+2023-05-07,Premier League,Sun,Away,W,2,0,Newcastle Utd,45.0,10.0,6.0,1,0,12.0,1.0,Arsenal
+2023-05-14,Premier League,Sun,Home,L,0,3,Brighton,41.0,14.0,2.0,1,0,13.0,1.0,Arsenal
+2023-05-20,Premier League,Sat,Away,L,0,1,Nott'ham Forest,81.0,11.0,3.0,2,0,12.0,1.0,Arsenal
+2023-05-28,Premier League,Sun,Home,W,5,0,Wolves,51.0,14.0,8.0,0,0,8.0,1.0,Arsenal
+2022-08-06,Premier League,Sat,Home,W,2,0,Nott'ham Forest,61.0,23.0,9.0,0,0,9.0,2.0,Newcastle United
+2022-08-13,Premier League,Sat,Away,D,0,0,Brighton,46.0,4.0,1.0,3,0,6.0,4.0,Newcastle United
+2022-08-21,Premier League,Sun,Home,D,3,3,Manchester City,31.0,12.0,5.0,4,0,14.0,2.0,Newcastle United
+2022-08-28,Premier League,Sun,Away,D,1,1,Wolves,63.0,21.0,6.0,1,0,11.0,1.0,Newcastle United
+2022-08-31,Premier League,Wed,Away,L,1,2,Liverpool,28.0,5.0,2.0,2,0,10.0,2.0,Newcastle United
+2022-09-03,Premier League,Sat,Home,D,0,0,Crystal Palace,52.0,23.0,5.0,2,0,19.0,2.0,Newcastle United
+2022-09-17,Premier League,Sat,Home,D,1,1,Bournemouth,72.0,19.0,6.0,2,0,10.0,3.0,Newcastle United
+2022-10-01,Premier League,Sat,Away,W,4,1,Fulham,67.0,19.0,10.0,0,0,10.0,7.0,Newcastle United
+2022-10-08,Premier League,Sat,Home,W,5,1,Brentford,54.0,16.0,6.0,0,0,14.0,1.0,Newcastle United
+2022-10-16,Premier League,Sun,Away,D,0,0,Manchester Utd,37.0,9.0,2.0,1,0,11.0,0.0,Newcastle United
+2022-10-19,Premier League,Wed,Home,W,1,0,Everton,49.0,16.0,4.0,2,0,9.0,0.0,Newcastle United
+2022-10-23,Premier League,Sun,Away,W,2,1,Tottenham,47.0,13.0,5.0,2,0,6.0,4.0,Newcastle United
+2022-10-29,Premier League,Sat,Home,W,4,0,Aston Villa,59.0,19.0,6.0,1,0,11.0,2.0,Newcastle United
+2022-11-06,Premier League,Sun,Away,W,4,1,Southampton,45.0,7.0,4.0,0,0,10.0,1.0,Newcastle United
+2022-11-12,Premier League,Sat,Home,W,1,0,Chelsea,49.0,10.0,3.0,4,0,14.0,3.0,Newcastle United
+2022-12-26,Premier League,Mon,Away,W,3,0,Leicester City,40.0,11.0,4.0,0,0,6.0,1.0,Newcastle United
+2022-12-31,Premier League,Sat,Home,D,0,0,Leeds United,60.0,16.0,5.0,3,0,13.0,3.0,Newcastle United
+2023-01-03,Premier League,Tue,Away,D,0,0,Arsenal,34.0,8.0,1.0,5,0,16.0,4.0,Newcastle United
+2023-01-15,Premier League,Sun,Home,W,1,0,Fulham,62.0,20.0,5.0,1,0,6.0,2.0,Newcastle United
+2023-01-21,Premier League,Sat,Away,D,0,0,Crystal Palace,60.0,16.0,7.0,2,0,7.0,1.0,Newcastle United
+2023-02-04,Premier League,Sat,Home,D,1,1,West Ham,62.0,8.0,2.0,2,0,11.0,0.0,Newcastle United
+2023-02-11,Premier League,Sat,Away,D,1,1,Bournemouth,66.0,15.0,7.0,3,0,10.0,5.0,Newcastle United
+2023-02-18,Premier League,Sat,Home,L,0,2,Liverpool,38.0,14.0,4.0,1,1,3.0,3.0,Newcastle United
+2023-03-04,Premier League,Sat,Away,L,0,2,Manchester City,44.0,5.0,2.0,4,0,13.0,1.0,Newcastle United
+2023-03-12,Premier League,Sun,Home,W,2,1,Wolves,43.0,19.0,8.0,1,0,11.0,0.0,Newcastle United
+2023-03-17,Premier League,Fri,Away,W,2,1,Nott'ham Forest,61.0,14.0,3.0,1,0,9.0,1.0,Newcastle United
+2023-04-02,Premier League,Sun,Home,W,2,0,Manchester Utd,46.0,22.0,6.0,0,0,8.0,1.0,Newcastle United
+2023-04-05,Premier League,Wed,Away,W,5,1,West Ham,58.0,15.0,7.0,1,0,12.0,0.0,Newcastle United
+2023-04-08,Premier League,Sat,Away,W,2,1,Brentford,58.0,10.0,4.0,2,0,15.0,2.0,Newcastle United
+2023-04-15,Premier League,Sat,Away,L,0,3,Aston Villa,48.0,8.0,2.0,1,0,15.0,4.0,Newcastle United
+2023-04-23,Premier League,Sun,Home,W,6,1,Tottenham,56.0,25.0,8.0,0,0,7.0,2.0,Newcastle United
+2023-04-27,Premier League,Thu,Away,W,4,1,Everton,60.0,15.0,7.0,1,0,6.0,1.0,Newcastle United
+2023-04-30,Premier League,Sun,Home,W,3,1,Southampton,63.0,22.0,5.0,1,0,7.0,1.0,Newcastle United
+2023-05-07,Premier League,Sun,Home,L,0,2,Arsenal,55.0,12.0,5.0,2,0,16.0,0.0,Newcastle United
+2023-05-13,Premier League,Sat,Away,D,2,2,Leeds United,64.0,16.0,3.0,2,0,14.0,2.0,Newcastle United
+2023-05-18,Premier League,Thu,Home,W,4,1,Brighton,35.0,22.0,8.0,2,0,17.0,1.0,Newcastle United
+2023-05-22,Premier League,Mon,Home,D,0,0,Leicester City,77.0,23.0,3.0,2,0,9.0,1.0,Newcastle United
+2023-05-28,Premier League,Sun,Away,D,1,1,Chelsea,36.0,13.0,4.0,0,0,11.0,1.0,Newcastle United
+2022-08-06,Premier League,Sat,Home,D,2,2,Liverpool,33.0,8.0,2.0,2,0,7.0,4.0,Fulham
+2022-08-13,Premier League,Sat,Away,D,0,0,Wolves,41.0,8.0,2.0,3,0,14.0,0.0,Fulham
+2022-08-20,Premier League,Sat,Home,W,3,2,Brentford,43.0,18.0,9.0,3,0,13.0,5.0,Fulham
+2022-08-27,Premier League,Sat,Away,L,1,2,Arsenal,29.0,11.0,3.0,3,0,12.0,0.0,Fulham
+2022-08-30,Premier League,Tue,Home,W,2,1,Brighton,39.0,10.0,3.0,2,0,9.0,0.0,Fulham
+2022-09-03,Premier League,Sat,Away,L,1,2,Tottenham,48.0,9.0,3.0,4,0,6.0,0.0,Fulham
+2022-09-16,Premier League,Fri,Away,W,3,2,Nott'ham Forest,59.0,15.0,7.0,4,0,10.0,1.0,Fulham
+2022-10-01,Premier League,Sat,Home,L,1,4,Newcastle Utd,33.0,3.0,1.0,2,1,9.0,4.0,Fulham
+2022-10-09,Premier League,Sun,Away,L,1,3,West Ham,50.0,8.0,2.0,3,0,7.0,2.0,Fulham
+2022-10-15,Premier League,Sat,Home,D,2,2,Bournemouth,69.0,18.0,3.0,2,0,9.0,1.0,Fulham
+2022-10-20,Premier League,Thu,Home,W,3,0,Aston Villa,60.0,17.0,6.0,0,0,11.0,0.0,Fulham
+2022-10-23,Premier League,Sun,Away,W,3,2,Leeds United,43.0,11.0,4.0,1,0,8.0,4.0,Fulham
+2022-10-29,Premier League,Sat,Home,D,0,0,Everton,56.0,24.0,6.0,2,0,10.0,0.0,Fulham
+2022-11-05,Premier League,Sat,Away,L,1,2,Manchester City,30.0,3.0,1.0,4,0,11.0,0.0,Fulham
+2022-11-13,Premier League,Sun,Home,L,1,2,Manchester Utd,53.0,14.0,7.0,1,0,9.0,1.0,Fulham
+2022-12-26,Premier League,Mon,Away,W,3,0,Crystal Palace,64.0,23.0,10.0,0,0,15.0,2.0,Fulham
+2022-12-31,Premier League,Sat,Home,W,2,1,Southampton,62.0,7.0,1.0,0,0,8.0,1.0,Fulham
+2023-01-03,Premier League,Tue,Away,W,1,0,Leicester City,39.0,11.0,2.0,6,0,11.0,1.0,Fulham
+2023-01-12,Premier League,Thu,Home,W,2,1,Chelsea,48.0,8.0,3.0,4,0,12.0,3.0,Fulham
+2023-01-15,Premier League,Sun,Away,L,0,1,Newcastle Utd,38.0,4.0,0.0,3,0,14.0,3.0,Fulham
+2023-01-23,Premier League,Mon,Home,L,0,1,Tottenham,54.0,10.0,5.0,1,0,10.0,2.0,Fulham
+2023-02-03,Premier League,Fri,Away,D,0,0,Chelsea,34.0,10.0,4.0,4,0,12.0,0.0,Fulham
+2023-02-11,Premier League,Sat,Home,W,2,0,Nott'ham Forest,50.0,16.0,3.0,0,0,9.0,1.0,Fulham
+2023-02-18,Premier League,Sat,Away,W,1,0,Brighton,35.0,5.0,2.0,5,0,14.0,0.0,Fulham
+2023-02-24,Premier League,Fri,Home,D,1,1,Wolves,51.0,10.0,5.0,2,0,12.0,1.0,Fulham
+2023-03-06,Premier League,Mon,Away,L,2,3,Brentford,63.0,9.0,5.0,3,0,17.0,1.0,Fulham
+2023-03-12,Premier League,Sun,Home,L,0,3,Arsenal,45.0,12.0,2.0,0,0,10.0,2.0,Fulham
+2023-04-01,Premier League,Sat,Away,L,1,2,Bournemouth,57.0,10.0,2.0,4,0,13.0,1.0,Fulham
+2023-04-08,Premier League,Sat,Home,L,0,1,West Ham,76.0,16.0,3.0,1,0,10.0,0.0,Fulham
+2023-04-15,Premier League,Sat,Away,W,3,1,Everton,54.0,21.0,7.0,2,0,6.0,0.0,Fulham
+2023-04-22,Premier League,Sat,Home,W,2,1,Leeds United,50.0,12.0,5.0,1,0,10.0,5.0,Fulham
+2023-04-25,Premier League,Tue,Away,L,0,1,Aston Villa,49.0,1.0,0.0,2,0,18.0,5.0,Fulham
+2023-04-30,Premier League,Sun,Home,L,1,2,Manchester City,38.0,4.0,1.0,1,0,9.0,3.0,Fulham
+2023-05-03,Premier League,Wed,Away,L,0,1,Liverpool,43.0,9.0,3.0,0,0,8.0,2.0,Fulham
+2023-05-08,Premier League,Mon,Home,W,5,3,Leicester City,57.0,17.0,7.0,0,0,13.0,1.0,Fulham
+2023-05-13,Premier League,Sat,Away,W,2,0,Southampton,64.0,9.0,3.0,0,0,12.0,1.0,Fulham
+2023-05-20,Premier League,Sat,Home,D,2,2,Crystal Palace,49.0,10.0,3.0,3,0,13.0,2.0,Fulham
+2023-05-28,Premier League,Sun,Away,L,1,2,Manchester Utd,47.0,9.0,2.0,2,0,10.0,1.0,Fulham
+2022-08-05,Premier League,Fri,Home,L,0,2,Arsenal,56.0,10.0,2.0,1,0,16.0,1.0,Crystal Palace
+2022-08-15,Premier League,Mon,Away,D,1,1,Liverpool,28.0,7.0,3.0,4,0,8.0,2.0,Crystal Palace
+2022-08-20,Premier League,Sat,Home,W,3,1,Aston Villa,51.0,16.0,8.0,2,0,16.0,1.0,Crystal Palace
+2022-08-27,Premier League,Sat,Away,L,2,4,Manchester City,26.0,2.0,2.0,2,0,8.0,1.0,Crystal Palace
+2022-08-30,Premier League,Tue,Home,D,1,1,Brentford,49.0,13.0,4.0,1,0,11.0,1.0,Crystal Palace
+2022-09-03,Premier League,Sat,Away,D,0,0,Newcastle Utd,48.0,19.0,9.0,1,0,12.0,1.0,Crystal Palace
+2022-10-01,Premier League,Sat,Home,L,1,2,Chelsea,36.0,7.0,3.0,1,0,11.0,1.0,Crystal Palace
+2022-10-09,Premier League,Sun,Home,W,2,1,Leeds United,54.0,13.0,5.0,3,0,13.0,2.0,Crystal Palace
+2022-10-15,Premier League,Sat,Away,D,0,0,Leicester City,46.0,8.0,1.0,2,0,13.0,1.0,Crystal Palace
+2022-10-18,Premier League,Tue,Home,W,2,1,Wolves,51.0,14.0,4.0,3,0,14.0,0.0,Crystal Palace
+2022-10-22,Premier League,Sat,Away,L,0,3,Everton,54.0,9.0,2.0,4,0,14.0,2.0,Crystal Palace
+2022-10-29,Premier League,Sat,Home,W,1,0,Southampton,44.0,12.0,3.0,3,0,13.0,5.0,Crystal Palace
+2022-11-06,Premier League,Sun,Away,W,2,1,West Ham,58.0,15.0,6.0,1,0,7.0,0.0,Crystal Palace
+2022-11-12,Premier League,Sat,Away,L,0,1,Nott'ham Forest,68.0,7.0,0.0,4,0,13.0,0.0,Crystal Palace
+2022-12-26,Premier League,Mon,Home,L,0,3,Fulham,36.0,4.0,0.0,2,2,12.0,1.0,Crystal Palace
+2022-12-31,Premier League,Sat,Away,W,2,0,Bournemouth,41.0,15.0,6.0,1,0,11.0,1.0,Crystal Palace
+2023-01-04,Premier League,Wed,Home,L,0,4,Tottenham,47.0,19.0,4.0,1,0,11.0,1.0,Crystal Palace
+2023-01-15,Premier League,Sun,Away,L,0,1,Chelsea,39.0,10.0,5.0,5,0,17.0,1.0,Crystal Palace
+2023-01-18,Premier League,Wed,Home,D,1,1,Manchester Utd,40.0,10.0,5.0,1,0,9.0,0.0,Crystal Palace
+2023-01-21,Premier League,Sat,Home,D,0,0,Newcastle Utd,40.0,6.0,1.0,4,0,13.0,0.0,Crystal Palace
+2023-02-04,Premier League,Sat,Away,L,1,2,Manchester Utd,48.0,10.0,3.0,2,0,9.0,4.0,Crystal Palace
+2023-02-11,Premier League,Sat,Home,D,1,1,Brighton,27.0,6.0,1.0,4,0,10.0,3.0,Crystal Palace
+2023-02-18,Premier League,Sat,Away,D,1,1,Brentford,41.0,10.0,4.0,2,0,8.0,2.0,Crystal Palace
+2023-02-25,Premier League,Sat,Home,D,0,0,Liverpool,37.0,6.0,0.0,2,0,11.0,4.0,Crystal Palace
+2023-03-04,Premier League,Sat,Away,L,0,1,Aston Villa,42.0,3.0,0.0,5,1,17.0,5.0,Crystal Palace
+2023-03-11,Premier League,Sat,Home,L,0,1,Manchester City,33.0,4.0,0.0,2,0,11.0,3.0,Crystal Palace
+2023-03-15,Premier League,Wed,Away,L,0,1,Brighton,43.0,11.0,3.0,2,0,20.0,0.0,Crystal Palace
+2023-03-19,Premier League,Sun,Away,L,1,4,Arsenal,38.0,9.0,5.0,1,0,10.0,2.0,Crystal Palace
+2023-04-01,Premier League,Sat,Home,W,2,1,Leicester City,52.0,31.0,9.0,3,0,12.0,1.0,Crystal Palace
+2023-04-09,Premier League,Sun,Away,W,5,1,Leeds United,52.0,16.0,7.0,1,0,8.0,2.0,Crystal Palace
+2023-04-15,Premier League,Sat,Away,W,2,0,Southampton,42.0,10.0,2.0,1,0,13.0,1.0,Crystal Palace
+2023-04-22,Premier League,Sat,Home,D,0,0,Everton,56.0,12.0,2.0,1,0,12.0,1.0,Crystal Palace
+2023-04-25,Premier League,Tue,Away,L,0,2,Wolves,59.0,14.0,4.0,4,0,14.0,1.0,Crystal Palace
+2023-04-29,Premier League,Sat,Home,W,4,3,West Ham,59.0,15.0,5.0,1,0,9.0,1.0,Crystal Palace
+2023-05-06,Premier League,Sat,Away,L,0,1,Tottenham,44.0,7.0,2.0,5,0,14.0,0.0,Crystal Palace
+2023-05-13,Premier League,Sat,Home,W,2,0,Bournemouth,59.0,17.0,5.0,0,0,5.0,2.0,Crystal Palace
+2023-05-20,Premier League,Sat,Away,D,2,2,Fulham,51.0,11.0,5.0,0,0,12.0,2.0,Crystal Palace
+2023-05-28,Premier League,Sun,Home,D,1,1,Nott'ham Forest,66.0,15.0,3.0,0,0,9.0,2.0,Crystal Palace
+2022-08-07,Premier League,Sun,Home,L,1,2,Brighton,62.0,17.0,5.0,4,0,7.0,3.0,Manchester United
+2022-08-13,Premier League,Sat,Away,L,0,4,Brentford,66.0,15.0,4.0,4,0,15.0,2.0,Manchester United
+2022-08-22,Premier League,Mon,Home,W,2,1,Liverpool,30.0,13.0,5.0,3,0,11.0,2.0,Manchester United
+2022-08-27,Premier League,Sat,Away,W,1,0,Southampton,51.0,11.0,4.0,3,0,14.0,1.0,Manchester United
+2022-09-01,Premier League,Thu,Away,W,1,0,Leicester City,47.0,9.0,2.0,3,0,15.0,2.0,Manchester United
+2022-09-04,Premier League,Sun,Home,W,3,1,Arsenal,40.0,10.0,6.0,3,0,13.0,4.0,Manchester United
+2022-10-02,Premier League,Sun,Away,L,3,6,Manchester City,47.0,11.0,7.0,3,0,9.0,0.0,Manchester United
+2022-10-09,Premier League,Sun,Away,W,2,1,Everton,60.0,12.0,4.0,1,0,13.0,4.0,Manchester United
+2022-10-16,Premier League,Sun,Home,D,0,0,Newcastle Utd,63.0,15.0,2.0,3,0,13.0,2.0,Manchester United
+2022-10-19,Premier League,Wed,Home,W,2,0,Tottenham,52.0,28.0,10.0,1,0,7.0,4.0,Manchester United
+2022-10-22,Premier League,Sat,Away,D,1,1,Chelsea,52.0,13.0,6.0,4,0,10.0,3.0,Manchester United
+2022-10-30,Premier League,Sun,Home,W,1,0,West Ham,53.0,16.0,3.0,1,0,12.0,1.0,Manchester United
+2022-11-06,Premier League,Sun,Away,L,1,3,Aston Villa,58.0,8.0,3.0,3,0,12.0,3.0,Manchester United
+2022-11-13,Premier League,Sun,Away,W,2,1,Fulham,47.0,14.0,9.0,1,0,10.0,2.0,Manchester United
+2022-12-27,Premier League,Tue,Home,W,3,0,Nott'ham Forest,65.0,17.0,8.0,3,0,13.0,1.0,Manchester United
+2022-12-31,Premier League,Sat,Away,W,1,0,Wolves,54.0,16.0,6.0,3,0,11.0,2.0,Manchester United
+2023-01-03,Premier League,Tue,Home,W,3,0,Bournemouth,58.0,18.0,6.0,0,0,13.0,0.0,Manchester United
+2023-01-14,Premier League,Sat,Home,W,2,1,Manchester City,30.0,8.0,3.0,3,0,15.0,6.0,Manchester United
+2023-01-18,Premier League,Wed,Away,D,1,1,Crystal Palace,60.0,15.0,4.0,2,0,10.0,0.0,Manchester United
+2023-01-22,Premier League,Sun,Away,L,2,3,Arsenal,43.0,6.0,4.0,2,0,9.0,4.0,Manchester United
+2023-02-04,Premier League,Sat,Home,W,2,1,Crystal Palace,52.0,13.0,4.0,1,1,9.0,1.0,Manchester United
+2023-02-08,Premier League,Wed,Home,D,2,2,Leeds United,66.0,24.0,6.0,1,0,7.0,1.0,Manchester United
+2023-02-12,Premier League,Sun,Away,W,2,0,Leeds United,66.0,11.0,5.0,1,0,13.0,3.0,Manchester United
+2023-02-19,Premier League,Sun,Home,W,3,0,Leicester City,57.0,26.0,8.0,0,0,9.0,0.0,Manchester United
+2023-03-05,Premier League,Sun,Away,L,0,7,Liverpool,41.0,8.0,4.0,3,0,14.0,4.0,Manchester United
+2023-03-12,Premier League,Sun,Home,D,0,0,Southampton,47.0,10.0,4.0,2,1,12.0,0.0,Manchester United
+2023-04-02,Premier League,Sun,Away,L,0,2,Newcastle Utd,54.0,6.0,1.0,0,0,12.0,0.0,Manchester United
+2023-04-05,Premier League,Wed,Home,W,1,0,Brentford,64.0,18.0,3.0,3,0,9.0,2.0,Manchester United
+2023-04-08,Premier League,Sat,Home,W,2,0,Everton,63.0,29.0,11.0,0,0,10.0,3.0,Manchester United
+2023-04-16,Premier League,Sun,Away,W,2,0,Nott'ham Forest,68.0,22.0,7.0,2,0,9.0,3.0,Manchester United
+2023-04-27,Premier League,Thu,Away,D,2,2,Tottenham,60.0,17.0,7.0,2,0,7.0,3.0,Manchester United
+2023-04-30,Premier League,Sun,Home,W,1,0,Aston Villa,57.0,14.0,6.0,2,0,16.0,7.0,Manchester United
+2023-05-04,Premier League,Thu,Away,L,0,1,Brighton,41.0,16.0,5.0,4,0,14.0,2.0,Manchester United
+2023-05-07,Premier League,Sun,Away,L,0,1,West Ham,65.0,19.0,4.0,2,0,9.0,1.0,Manchester United
+2023-05-13,Premier League,Sat,Home,W,2,0,Wolves,48.0,27.0,9.0,3,0,9.0,0.0,Manchester United
+2023-05-20,Premier League,Sat,Away,W,1,0,Bournemouth,59.0,20.0,5.0,0,0,7.0,2.0,Manchester United
+2023-05-25,Premier League,Thu,Home,W,4,1,Chelsea,42.0,17.0,8.0,1,0,12.0,0.0,Manchester United
+2023-05-28,Premier League,Sun,Home,W,2,1,Fulham,53.0,21.0,8.0,1,0,14.0,1.0,Manchester United
+2022-08-06,Premier League,Sat,Away,W,1,0,Everton,62.0,14.0,5.0,2,0,11.0,2.0,Chelsea
+2022-08-14,Premier League,Sun,Home,D,2,2,Tottenham,63.0,16.0,3.0,3,0,9.0,2.0,Chelsea
+2022-08-21,Premier League,Sun,Away,L,0,3,Leeds United,61.0,14.0,3.0,3,1,15.0,7.0,Chelsea
+2022-08-27,Premier League,Sat,Home,W,2,1,Leicester City,45.0,7.0,4.0,3,1,10.0,3.0,Chelsea
+2022-08-30,Premier League,Tue,Away,L,1,2,Southampton,67.0,10.0,4.0,1,0,10.0,3.0,Chelsea
+2022-09-03,Premier League,Sat,Home,W,2,1,West Ham,67.0,8.0,3.0,4,0,6.0,1.0,Chelsea
+2022-10-01,Premier League,Sat,Away,W,2,1,Crystal Palace,64.0,13.0,3.0,3,0,13.0,0.0,Chelsea
+2022-10-08,Premier League,Sat,Home,W,3,0,Wolves,57.0,20.0,7.0,2,0,8.0,3.0,Chelsea
+2022-10-16,Premier League,Sun,Away,W,2,0,Aston Villa,58.0,8.0,4.0,3,0,11.0,1.0,Chelsea
+2022-10-19,Premier League,Wed,Away,D,0,0,Brentford,66.0,14.0,5.0,0,0,7.0,0.0,Chelsea
+2022-10-22,Premier League,Sat,Home,D,1,1,Manchester Utd,48.0,5.0,1.0,1,0,8.0,2.0,Chelsea
+2022-10-29,Premier League,Sat,Away,L,1,4,Brighton,59.0,15.0,7.0,2,0,6.0,0.0,Chelsea
+2022-11-06,Premier League,Sun,Home,L,0,1,Arsenal,45.0,5.0,1.0,5,0,19.0,3.0,Chelsea
+2022-11-12,Premier League,Sat,Away,L,0,1,Newcastle Utd,51.0,5.0,2.0,2,0,11.0,0.0,Chelsea
+2022-12-27,Premier League,Tue,Home,W,2,0,Bournemouth,60.0,15.0,5.0,0,0,8.0,3.0,Chelsea
+2023-01-01,Premier League,Sun,Away,D,1,1,Nott'ham Forest,71.0,7.0,2.0,2,0,14.0,2.0,Chelsea
+2023-01-05,Premier League,Thu,Home,L,0,1,Manchester City,48.0,8.0,2.0,2,0,9.0,2.0,Chelsea
+2023-01-12,Premier League,Thu,Away,L,1,2,Fulham,52.0,20.0,10.0,3,1,16.0,3.0,Chelsea
+2023-01-15,Premier League,Sun,Home,W,1,0,Crystal Palace,61.0,15.0,5.0,2,0,10.0,3.0,Chelsea
+2023-01-21,Premier League,Sat,Away,D,0,0,Liverpool,52.0,11.0,2.0,1,0,9.0,1.0,Chelsea
+2023-02-03,Premier League,Fri,Home,D,0,0,Fulham,66.0,12.0,2.0,1,0,16.0,3.0,Chelsea
+2023-02-11,Premier League,Sat,Away,D,1,1,West Ham,71.0,12.0,4.0,1,0,11.0,4.0,Chelsea
+2023-02-18,Premier League,Sat,Home,L,0,1,Southampton,62.0,17.0,4.0,3,0,16.0,3.0,Chelsea
+2023-02-26,Premier League,Sun,Away,L,0,2,Tottenham,59.0,10.0,2.0,3,0,10.0,2.0,Chelsea
+2023-03-04,Premier League,Sat,Home,W,1,0,Leeds United,57.0,13.0,3.0,2,0,11.0,2.0,Chelsea
+2023-03-11,Premier League,Sat,Away,W,3,1,Leicester City,52.0,12.0,6.0,2,0,11.0,4.0,Chelsea
+2023-03-18,Premier League,Sat,Home,D,2,2,Everton,68.0,19.0,6.0,2,0,8.0,2.0,Chelsea
+2023-04-01,Premier League,Sat,Home,L,0,2,Aston Villa,69.0,27.0,7.0,3,0,14.0,2.0,Chelsea
+2023-04-04,Premier League,Tue,Home,D,0,0,Liverpool,49.0,12.0,2.0,1,0,6.0,4.0,Chelsea
+2023-04-08,Premier League,Sat,Away,L,0,1,Wolves,62.0,13.0,1.0,5,0,10.0,1.0,Chelsea
+2023-04-15,Premier League,Sat,Home,L,1,2,Brighton,43.0,8.0,2.0,2,0,11.0,1.0,Chelsea
+2023-04-26,Premier League,Wed,Home,L,0,2,Brentford,71.0,15.0,4.0,1,0,5.0,0.0,Chelsea
+2023-05-02,Premier League,Tue,Away,L,1,3,Arsenal,45.0,7.0,4.0,2,0,10.0,0.0,Chelsea
+2023-05-06,Premier League,Sat,Away,W,3,1,Bournemouth,65.0,11.0,5.0,3,0,11.0,0.0,Chelsea
+2023-05-13,Premier League,Sat,Home,D,2,2,Nott'ham Forest,75.0,14.0,6.0,3,0,13.0,1.0,Chelsea
+2023-05-21,Premier League,Sun,Away,L,0,1,Manchester City,36.0,13.0,6.0,2,0,9.0,2.0,Chelsea
+2023-05-25,Premier League,Thu,Away,L,1,4,Manchester Utd,58.0,14.0,5.0,1,0,6.0,0.0,Chelsea
+2023-05-28,Premier League,Sun,Home,D,1,1,Newcastle Utd,64.0,22.0,4.0,0,0,9.0,2.0,Chelsea
+2022-08-07,Premier League,Sun,Away,D,2,2,Leicester City,44.0,8.0,3.0,0,0,5.0,2.0,Brentford
+2022-08-13,Premier League,Sat,Home,W,4,0,Manchester Utd,34.0,13.0,7.0,0,0,6.0,1.0,Brentford
+2022-08-20,Premier League,Sat,Away,L,2,3,Fulham,57.0,13.0,5.0,2,0,7.0,7.0,Brentford
+2022-08-27,Premier League,Sat,Home,D,1,1,Everton,58.0,20.0,5.0,2,0,8.0,0.0,Brentford
+2022-08-30,Premier League,Tue,Away,D,1,1,Crystal Palace,51.0,9.0,3.0,2,0,8.0,0.0,Brentford
+2022-09-03,Premier League,Sat,Home,W,5,2,Leeds United,32.0,13.0,7.0,2,0,8.0,1.0,Brentford
+2022-09-18,Premier League,Sun,Home,L,0,3,Arsenal,37.0,5.0,2.0,0,0,10.0,3.0,Brentford
+2022-10-01,Premier League,Sat,Away,D,0,0,Bournemouth,58.0,13.0,4.0,2,0,10.0,2.0,Brentford
+2022-10-08,Premier League,Sat,Away,L,1,5,Newcastle Utd,46.0,5.0,2.0,1,0,9.0,3.0,Brentford
+2022-10-14,Premier League,Fri,Home,W,2,0,Brighton,28.0,6.0,1.0,3,0,12.0,0.0,Brentford
+2022-10-19,Premier League,Wed,Home,D,0,0,Chelsea,34.0,8.0,5.0,0,0,7.0,2.0,Brentford
+2022-10-23,Premier League,Sun,Away,L,0,4,Aston Villa,55.0,12.0,3.0,0,0,11.0,1.0,Brentford
+2022-10-29,Premier League,Sat,Home,D,1,1,Wolves,58.0,12.0,3.0,3,0,10.0,0.0,Brentford
+2022-11-05,Premier League,Sat,Away,D,2,2,Nott'ham Forest,52.0,5.0,1.0,2,0,11.0,2.0,Brentford
+2022-11-12,Premier League,Sat,Away,W,2,1,Manchester City,26.0,10.0,7.0,2,0,7.0,2.0,Brentford
+2022-12-26,Premier League,Mon,Home,D,2,2,Tottenham,39.0,9.0,4.0,3,0,11.0,1.0,Brentford
+2022-12-30,Premier League,Fri,Away,W,2,0,West Ham,37.0,9.0,6.0,0,0,5.0,0.0,Brentford
+2023-01-02,Premier League,Mon,Home,W,3,1,Liverpool,28.0,10.0,7.0,1,0,5.0,7.0,Brentford
+2023-01-14,Premier League,Sat,Home,W,2,0,Bournemouth,50.0,11.0,3.0,1,0,5.0,2.0,Brentford
+2023-01-22,Premier League,Sun,Away,D,0,0,Leeds United,42.0,6.0,0.0,2,0,18.0,1.0,Brentford
+2023-02-04,Premier League,Sat,Home,W,3,0,Southampton,49.0,14.0,3.0,1,0,10.0,1.0,Brentford
+2023-02-11,Premier League,Sat,Away,D,1,1,Arsenal,31.0,9.0,2.0,2,0,9.0,1.0,Brentford
+2023-02-18,Premier League,Sat,Home,D,1,1,Crystal Palace,59.0,12.0,5.0,2,0,10.0,3.0,Brentford
+2023-03-06,Premier League,Mon,Home,W,3,2,Fulham,37.0,13.0,5.0,0,0,12.0,3.0,Brentford
+2023-03-11,Premier League,Sat,Away,L,0,1,Everton,67.0,12.0,3.0,1,0,12.0,1.0,Brentford
+2023-03-15,Premier League,Wed,Away,W,2,0,Southampton,34.0,11.0,4.0,2,0,10.0,1.0,Brentford
+2023-03-18,Premier League,Sat,Home,D,1,1,Leicester City,53.0,11.0,2.0,3,1,10.0,1.0,Brentford
+2023-04-01,Premier League,Sat,Away,D,3,3,Brighton,28.0,7.0,5.0,1,0,10.0,2.0,Brentford
+2023-04-05,Premier League,Wed,Away,L,0,1,Manchester Utd,36.0,6.0,1.0,2,0,13.0,1.0,Brentford
+2023-04-08,Premier League,Sat,Home,L,1,2,Newcastle Utd,42.0,10.0,4.0,0,0,10.0,2.0,Brentford
+2023-04-15,Premier League,Sat,Away,L,0,2,Wolves,50.0,10.0,3.0,1,0,8.0,1.0,Brentford
+2023-04-22,Premier League,Sat,Home,D,1,1,Aston Villa,44.0,16.0,5.0,3,0,12.0,6.0,Brentford
+2023-04-26,Premier League,Wed,Away,W,2,0,Chelsea,29.0,7.0,1.0,2,0,13.0,2.0,Brentford
+2023-04-29,Premier League,Sat,Home,W,2,1,Nott'ham Forest,68.0,14.0,8.0,1,0,6.0,1.0,Brentford
+2023-05-06,Premier League,Sat,Away,L,0,1,Liverpool,46.0,5.0,1.0,2,0,10.0,2.0,Brentford
+2023-05-14,Premier League,Sun,Home,W,2,0,West Ham,53.0,24.0,9.0,1,0,5.0,3.0,Brentford
+2023-05-20,Premier League,Sat,Away,W,3,1,Tottenham,39.0,11.0,4.0,1,0,9.0,1.0,Brentford
+2023-05-28,Premier League,Sun,Home,W,1,0,Manchester City,35.0,11.0,4.0,4,0,12.0,3.0,Brentford
+2022-08-07,Premier League,Sun,Away,W,2,0,West Ham,75.0,13.0,1.0,1,0,4.0,1.0,Manchester City
+2022-08-13,Premier League,Sat,Home,W,4,0,Bournemouth,67.0,19.0,7.0,0,0,9.0,2.0,Manchester City
+2022-08-21,Premier League,Sun,Away,D,3,3,Newcastle Utd,69.0,21.0,10.0,2,0,7.0,1.0,Manchester City
+2022-08-27,Premier League,Sat,Home,W,4,2,Crystal Palace,74.0,18.0,5.0,1,0,14.0,2.0,Manchester City
+2022-08-31,Premier League,Wed,Home,W,6,0,Nott'ham Forest,74.0,17.0,9.0,0,0,9.0,2.0,Manchester City
+2022-09-03,Premier League,Sat,Away,D,1,1,Aston Villa,71.0,13.0,4.0,0,0,6.0,3.0,Manchester City
+2022-09-17,Premier League,Sat,Away,W,3,0,Wolves,59.0,16.0,7.0,1,0,9.0,1.0,Manchester City
+2022-10-02,Premier League,Sun,Home,W,6,3,Manchester Utd,53.0,22.0,9.0,0,0,3.0,1.0,Manchester City
+2022-10-08,Premier League,Sat,Home,W,4,0,Southampton,65.0,21.0,8.0,0,0,4.0,1.0,Manchester City
+2022-10-16,Premier League,Sun,Away,L,0,1,Liverpool,63.0,16.0,6.0,1,0,7.0,0.0,Manchester City
+2022-10-22,Premier League,Sat,Home,W,3,1,Brighton,48.0,9.0,3.0,1,0,11.0,0.0,Manchester City
+2022-10-29,Premier League,Sat,Away,W,1,0,Leicester City,64.0,15.0,5.0,0,0,10.0,2.0,Manchester City
+2022-11-05,Premier League,Sat,Home,W,2,1,Fulham,70.0,15.0,4.0,2,1,6.0,3.0,Manchester City
+2022-11-12,Premier League,Sat,Home,L,1,2,Brentford,74.0,29.0,6.0,2,0,9.0,2.0,Manchester City
+2022-12-28,Premier League,Wed,Away,W,3,1,Leeds United,69.0,26.0,9.0,3,0,14.0,1.0,Manchester City
+2022-12-31,Premier League,Sat,Home,D,1,1,Everton,74.0,16.0,3.0,3,0,13.0,3.0,Manchester City
+2023-01-05,Premier League,Thu,Away,W,1,0,Chelsea,52.0,12.0,3.0,0,0,9.0,1.0,Manchester City
+2023-01-14,Premier League,Sat,Away,L,1,2,Manchester Utd,70.0,5.0,1.0,0,0,5.0,2.0,Manchester City
+2023-01-19,Premier League,Thu,Home,W,4,2,Tottenham,58.0,16.0,6.0,1,0,10.0,0.0,Manchester City
+2023-01-22,Premier League,Sun,Home,W,3,0,Wolves,55.0,12.0,5.0,1,0,10.0,1.0,Manchester City
+2023-02-05,Premier League,Sun,Away,L,0,1,Tottenham,64.0,15.0,5.0,3,0,14.0,1.0,Manchester City
+2023-02-12,Premier League,Sun,Home,W,3,1,Aston Villa,67.0,16.0,7.0,1,0,13.0,1.0,Manchester City
+2023-02-15,Premier League,Wed,Away,W,3,1,Arsenal,37.0,9.0,5.0,4,0,15.0,3.0,Manchester City
+2023-02-18,Premier League,Sat,Away,D,1,1,Nott'ham Forest,73.0,23.0,6.0,0,0,6.0,0.0,Manchester City
+2023-02-25,Premier League,Sat,Away,W,4,1,Bournemouth,66.0,20.0,5.0,2,0,9.0,2.0,Manchester City
+2023-03-04,Premier League,Sat,Home,W,2,0,Newcastle Utd,56.0,11.0,3.0,2,0,8.0,0.0,Manchester City
+2023-03-11,Premier League,Sat,Away,W,1,0,Crystal Palace,67.0,13.0,3.0,2,0,17.0,2.0,Manchester City
+2023-04-01,Premier League,Sat,Home,W,4,1,Liverpool,68.0,17.0,8.0,1,0,9.0,3.0,Manchester City
+2023-04-08,Premier League,Sat,Away,W,4,1,Southampton,73.0,12.0,7.0,2,0,10.0,2.0,Manchester City
+2023-04-15,Premier League,Sat,Home,W,3,1,Leicester City,70.0,11.0,3.0,1,0,8.0,0.0,Manchester City
+2023-04-26,Premier League,Wed,Home,W,4,1,Arsenal,52.0,14.0,9.0,3,0,13.0,0.0,Manchester City
+2023-04-30,Premier League,Sun,Away,W,2,1,Fulham,62.0,11.0,8.0,3,0,10.0,1.0,Manchester City
+2023-05-03,Premier League,Wed,Home,W,3,0,West Ham,69.0,16.0,7.0,0,0,8.0,1.0,Manchester City
+2023-05-06,Premier League,Sat,Home,W,2,1,Leeds United,80.0,17.0,6.0,0,0,3.0,4.0,Manchester City
+2023-05-14,Premier League,Sun,Away,W,3,0,Everton,63.0,9.0,4.0,0,0,4.0,0.0,Manchester City
+2023-05-21,Premier League,Sun,Home,W,1,0,Chelsea,64.0,15.0,2.0,0,0,12.0,2.0,Manchester City
+2023-05-24,Premier League,Wed,Away,D,1,1,Brighton,60.0,13.0,4.0,1,0,11.0,0.0,Manchester City
+2023-05-28,Premier League,Sun,Away,L,0,1,Brentford,65.0,17.0,2.0,0,0,8.0,0.0,Manchester City
+2022-08-06,Premier League,Sat,Away,L,1,2,Leeds United,60.0,15.0,6.0,0,0,9.0,1.0,Wolverhampton Wanderers
+2022-08-13,Premier League,Sat,Home,D,0,0,Fulham,59.0,7.0,1.0,3,0,7.0,1.0,Wolverhampton Wanderers
+2022-08-20,Premier League,Sat,Away,L,0,1,Tottenham,50.0,20.0,3.0,2,0,8.0,0.0,Wolverhampton Wanderers
+2022-08-28,Premier League,Sun,Home,D,1,1,Newcastle Utd,37.0,10.0,4.0,2,0,10.0,3.0,Wolverhampton Wanderers
+2022-08-31,Premier League,Wed,Away,D,0,0,Bournemouth,65.0,17.0,3.0,1,0,12.0,3.0,Wolverhampton Wanderers
+2022-09-03,Premier League,Sat,Home,W,1,0,Southampton,51.0,7.0,2.0,4,0,10.0,1.0,Wolverhampton Wanderers
+2022-09-17,Premier League,Sat,Home,L,0,3,Manchester City,41.0,6.0,1.0,2,1,7.0,0.0,Wolverhampton Wanderers
+2022-10-01,Premier League,Sat,Away,L,0,2,West Ham,61.0,15.0,4.0,2,0,6.0,1.0,Wolverhampton Wanderers
+2022-10-08,Premier League,Sat,Away,L,0,3,Chelsea,43.0,8.0,2.0,0,0,8.0,0.0,Wolverhampton Wanderers
+2022-10-15,Premier League,Sat,Home,W,1,0,Nott'ham Forest,58.0,8.0,1.0,2,0,17.0,2.0,Wolverhampton Wanderers
+2022-10-18,Premier League,Tue,Away,L,1,2,Crystal Palace,49.0,10.0,4.0,1,0,18.0,4.0,Wolverhampton Wanderers
+2022-10-23,Premier League,Sun,Home,L,0,4,Leicester City,60.0,21.0,5.0,2,0,10.0,3.0,Wolverhampton Wanderers
+2022-10-29,Premier League,Sat,Away,D,1,1,Brentford,42.0,13.0,4.0,3,1,17.0,1.0,Wolverhampton Wanderers
+2022-11-05,Premier League,Sat,Home,L,2,3,Brighton,29.0,7.0,4.0,2,1,15.0,1.0,Wolverhampton Wanderers
+2022-11-12,Premier League,Sat,Home,L,0,2,Arsenal,38.0,11.0,2.0,3,0,5.0,3.0,Wolverhampton Wanderers
+2022-12-26,Premier League,Mon,Away,W,2,1,Everton,42.0,7.0,4.0,6,0,22.0,2.0,Wolverhampton Wanderers
+2022-12-31,Premier League,Sat,Home,L,0,1,Manchester Utd,46.0,10.0,3.0,1,0,11.0,1.0,Wolverhampton Wanderers
+2023-01-04,Premier League,Wed,Away,D,1,1,Aston Villa,44.0,10.0,3.0,3,0,12.0,4.0,Wolverhampton Wanderers
+2023-01-14,Premier League,Sat,Home,W,1,0,West Ham,58.0,17.0,4.0,0,0,10.0,4.0,Wolverhampton Wanderers
+2023-01-22,Premier League,Sun,Away,L,0,3,Manchester City,45.0,10.0,1.0,2,0,10.0,0.0,Wolverhampton Wanderers
+2023-02-04,Premier League,Sat,Home,W,3,0,Liverpool,41.0,12.0,5.0,1,0,9.0,1.0,Wolverhampton Wanderers
+2023-02-11,Premier League,Sat,Away,W,2,1,Southampton,59.0,11.0,1.0,4,1,14.0,3.0,Wolverhampton Wanderers
+2023-02-18,Premier League,Sat,Home,L,0,1,Bournemouth,68.0,15.0,4.0,3,0,12.0,2.0,Wolverhampton Wanderers
+2023-02-24,Premier League,Fri,Away,D,1,1,Fulham,49.0,8.0,2.0,0,0,17.0,1.0,Wolverhampton Wanderers
+2023-03-01,Premier League,Wed,Away,L,0,2,Liverpool,43.0,4.0,1.0,3,0,14.0,3.0,Wolverhampton Wanderers
+2023-03-04,Premier League,Sat,Home,W,1,0,Tottenham,46.0,8.0,5.0,1,0,11.0,3.0,Wolverhampton Wanderers
+2023-03-12,Premier League,Sun,Away,L,1,2,Newcastle Utd,57.0,7.0,4.0,2,0,10.0,0.0,Wolverhampton Wanderers
+2023-03-18,Premier League,Sat,Home,L,2,4,Leeds United,65.0,23.0,8.0,3,2,15.0,2.0,Wolverhampton Wanderers
+2023-04-01,Premier League,Sat,Away,D,1,1,Nott'ham Forest,71.0,8.0,1.0,5,0,13.0,0.0,Wolverhampton Wanderers
+2023-04-08,Premier League,Sat,Home,W,1,0,Chelsea,38.0,9.0,4.0,2,0,14.0,2.0,Wolverhampton Wanderers
+2023-04-15,Premier League,Sat,Home,W,2,0,Brentford,50.0,11.0,9.0,1,0,12.0,0.0,Wolverhampton Wanderers
+2023-04-22,Premier League,Sat,Away,L,1,2,Leicester City,58.0,16.0,3.0,3,0,16.0,3.0,Wolverhampton Wanderers
+2023-04-25,Premier League,Tue,Home,W,2,0,Crystal Palace,41.0,8.0,2.0,5,0,13.0,2.0,Wolverhampton Wanderers
+2023-04-29,Premier League,Sat,Away,L,0,6,Brighton,43.0,10.0,2.0,1,0,11.0,0.0,Wolverhampton Wanderers
+2023-05-06,Premier League,Sat,Home,W,1,0,Aston Villa,38.0,6.0,2.0,3,0,20.0,3.0,Wolverhampton Wanderers
+2023-05-13,Premier League,Sat,Away,L,0,2,Manchester Utd,52.0,5.0,0.0,2,0,9.0,1.0,Wolverhampton Wanderers
+2023-05-20,Premier League,Sat,Home,D,1,1,Everton,52.0,13.0,5.0,5,0,18.0,1.0,Wolverhampton Wanderers
+2023-05-28,Premier League,Sun,Away,L,0,5,Arsenal,49.0,6.0,0.0,0,0,11.0,0.0,Wolverhampton Wanderers
+2022-08-06,Premier League,Sat,Home,W,2,0,Aston Villa,35.0,7.0,3.0,3,0,18.0,1.0,Bournemouth
+2022-08-13,Premier League,Sat,Away,L,0,4,Manchester City,33.0,3.0,1.0,3,0,9.0,1.0,Bournemouth
+2022-08-20,Premier League,Sat,Home,L,0,3,Arsenal,43.0,6.0,1.0,2,0,12.0,1.0,Bournemouth
+2022-08-27,Premier League,Sat,Away,L,0,9,Liverpool,31.0,5.0,2.0,1,0,5.0,0.0,Bournemouth
+2022-08-31,Premier League,Wed,Home,D,0,0,Wolves,35.0,5.0,2.0,2,0,12.0,0.0,Bournemouth
+2022-09-03,Premier League,Sat,Away,W,3,2,Nott'ham Forest,48.0,8.0,3.0,1,0,10.0,1.0,Bournemouth
+2022-09-17,Premier League,Sat,Away,D,1,1,Newcastle Utd,28.0,10.0,3.0,2,0,11.0,1.0,Bournemouth
+2022-10-01,Premier League,Sat,Home,D,0,0,Brentford,42.0,7.0,0.0,1,0,11.0,1.0,Bournemouth
+2022-10-08,Premier League,Sat,Home,W,2,1,Leicester City,45.0,10.0,4.0,1,0,8.0,3.0,Bournemouth
+2022-10-15,Premier League,Sat,Away,D,2,2,Fulham,31.0,10.0,6.0,0,0,11.0,0.0,Bournemouth
+2022-10-19,Premier League,Wed,Home,L,0,1,Southampton,54.0,15.0,3.0,1,0,8.0,2.0,Bournemouth
+2022-10-24,Premier League,Mon,Away,L,0,2,West Ham,45.0,5.0,3.0,2,0,11.0,0.0,Bournemouth
+2022-10-29,Premier League,Sat,Home,L,2,3,Tottenham,31.0,6.0,4.0,1,0,10.0,0.0,Bournemouth
+2022-11-05,Premier League,Sat,Away,L,3,4,Leeds United,40.0,9.0,5.0,2,0,10.0,0.0,Bournemouth
+2022-11-12,Premier League,Sat,Home,W,3,0,Everton,36.0,16.0,8.0,2,0,12.0,1.0,Bournemouth
+2022-12-27,Premier League,Tue,Away,L,0,2,Chelsea,40.0,9.0,4.0,0,0,10.0,0.0,Bournemouth
+2022-12-31,Premier League,Sat,Home,L,0,2,Crystal Palace,59.0,6.0,2.0,4,0,17.0,1.0,Bournemouth
+2023-01-03,Premier League,Tue,Away,L,0,3,Manchester Utd,42.0,7.0,4.0,3,0,7.0,2.0,Bournemouth
+2023-01-14,Premier League,Sat,Away,L,0,2,Brentford,50.0,7.0,2.0,1,0,9.0,1.0,Bournemouth
+2023-01-21,Premier League,Sat,Home,D,1,1,Nott'ham Forest,43.0,16.0,3.0,1,0,10.0,2.0,Bournemouth
+2023-02-04,Premier League,Sat,Away,L,0,1,Brighton,29.0,12.0,2.0,1,0,7.0,1.0,Bournemouth
+2023-02-11,Premier League,Sat,Home,D,1,1,Newcastle Utd,34.0,11.0,4.0,2,0,8.0,2.0,Bournemouth
+2023-02-18,Premier League,Sat,Away,W,1,0,Wolves,32.0,5.0,1.0,3,0,10.0,0.0,Bournemouth
+2023-02-25,Premier League,Sat,Home,L,1,4,Manchester City,35.0,13.0,2.0,2,0,10.0,1.0,Bournemouth
+2023-03-04,Premier League,Sat,Away,L,2,3,Arsenal,21.0,4.0,4.0,2,0,8.0,0.0,Bournemouth
+2023-03-11,Premier League,Sat,Home,W,1,0,Liverpool,31.0,5.0,2.0,2,0,7.0,2.0,Bournemouth
+2023-03-18,Premier League,Sat,Away,L,0,3,Aston Villa,44.0,10.0,3.0,4,0,13.0,2.0,Bournemouth
+2023-04-01,Premier League,Sat,Home,W,2,1,Fulham,43.0,12.0,6.0,1,0,15.0,1.0,Bournemouth
+2023-04-04,Premier League,Tue,Home,L,0,2,Brighton,37.0,14.0,3.0,1,0,11.0,1.0,Bournemouth
+2023-04-08,Premier League,Sat,Away,W,1,0,Leicester City,49.0,19.0,7.0,3,0,13.0,2.0,Bournemouth
+2023-04-15,Premier League,Sat,Away,W,3,2,Tottenham,42.0,9.0,6.0,2,0,9.0,1.0,Bournemouth
+2023-04-23,Premier League,Sun,Home,L,0,4,West Ham,64.0,17.0,5.0,1,0,7.0,0.0,Bournemouth
+2023-04-27,Premier League,Thu,Away,W,1,0,Southampton,43.0,16.0,2.0,3,0,11.0,2.0,Bournemouth
+2023-04-30,Premier League,Sun,Home,W,4,1,Leeds United,42.0,12.0,7.0,1,0,12.0,2.0,Bournemouth
+2023-05-06,Premier League,Sat,Home,L,1,3,Chelsea,35.0,10.0,4.0,1,0,9.0,1.0,Bournemouth
+2023-05-13,Premier League,Sat,Away,L,0,2,Crystal Palace,41.0,5.0,0.0,2,0,12.0,1.0,Bournemouth
+2023-05-20,Premier League,Sat,Home,L,0,1,Manchester Utd,41.0,10.0,4.0,1,0,6.0,0.0,Bournemouth
+2023-05-28,Premier League,Sun,Away,L,0,1,Everton,62.0,7.0,1.0,3,0,12.0,1.0,Bournemouth
+2022-08-06,Premier League,Sat,Away,L,0,2,Newcastle Utd,39.0,5.0,0.0,3,0,14.0,0.0,Nottingham Forest
+2022-08-14,Premier League,Sun,Home,W,1,0,West Ham,43.0,13.0,6.0,4,0,10.0,3.0,Nottingham Forest
+2022-08-20,Premier League,Sat,Away,D,1,1,Everton,51.0,14.0,5.0,2,0,9.0,1.0,Nottingham Forest
+2022-08-28,Premier League,Sun,Home,L,0,2,Tottenham,55.0,17.0,1.0,6,0,11.0,1.0,Nottingham Forest
+2022-08-31,Premier League,Wed,Away,L,0,6,Manchester City,26.0,8.0,1.0,1,0,7.0,2.0,Nottingham Forest
+2022-09-03,Premier League,Sat,Home,L,2,3,Bournemouth,52.0,10.0,2.0,2,0,13.0,1.0,Nottingham Forest
+2022-09-16,Premier League,Fri,Home,L,2,3,Fulham,41.0,11.0,3.0,2,0,11.0,2.0,Nottingham Forest
+2022-10-03,Premier League,Mon,Away,L,0,4,Leicester City,49.0,10.0,3.0,4,0,12.0,4.0,Nottingham Forest
+2022-10-10,Premier League,Mon,Home,D,1,1,Aston Villa,40.0,6.0,3.0,3,0,13.0,0.0,Nottingham Forest
+2022-10-15,Premier League,Sat,Away,L,0,1,Wolves,42.0,9.0,1.0,2,0,13.0,1.0,Nottingham Forest
+2022-10-18,Premier League,Tue,Away,D,0,0,Brighton,30.0,3.0,0.0,1,0,14.0,0.0,Nottingham Forest
+2022-10-22,Premier League,Sat,Home,W,1,0,Liverpool,25.0,10.0,7.0,2,0,14.0,3.0,Nottingham Forest
+2022-10-30,Premier League,Sun,Away,L,0,5,Arsenal,31.0,5.0,2.0,1,0,8.0,2.0,Nottingham Forest
+2022-11-05,Premier League,Sat,Home,D,2,2,Brentford,48.0,15.0,6.0,2,0,10.0,0.0,Nottingham Forest
+2022-11-12,Premier League,Sat,Home,W,1,0,Crystal Palace,32.0,9.0,2.0,1,0,11.0,3.0,Nottingham Forest
+2022-12-27,Premier League,Tue,Away,L,0,3,Manchester Utd,35.0,8.0,3.0,1,0,4.0,2.0,Nottingham Forest
+2023-01-01,Premier League,Sun,Home,D,1,1,Chelsea,29.0,12.0,5.0,2,0,16.0,2.0,Nottingham Forest
+2023-01-04,Premier League,Wed,Away,W,1,0,Southampton,37.0,11.0,1.0,2,0,17.0,0.0,Nottingham Forest
+2023-01-14,Premier League,Sat,Home,W,2,0,Leicester City,39.0,15.0,5.0,1,0,11.0,2.0,Nottingham Forest
+2023-01-21,Premier League,Sat,Away,D,1,1,Bournemouth,57.0,20.0,5.0,2,0,7.0,2.0,Nottingham Forest
+2023-02-05,Premier League,Sun,Home,W,1,0,Leeds United,30.0,6.0,2.0,4,0,15.0,2.0,Nottingham Forest
+2023-02-11,Premier League,Sat,Away,L,0,2,Fulham,50.0,10.0,1.0,1,0,11.0,3.0,Nottingham Forest
+2023-02-18,Premier League,Sat,Home,D,1,1,Manchester City,27.0,4.0,1.0,1,0,8.0,2.0,Nottingham Forest
+2023-02-25,Premier League,Sat,Away,L,0,4,West Ham,51.0,8.0,3.0,0,0,5.0,1.0,Nottingham Forest
+2023-03-05,Premier League,Sun,Home,D,2,2,Everton,57.0,10.0,4.0,3,0,11.0,0.0,Nottingham Forest
+2023-03-11,Premier League,Sat,Away,L,1,3,Tottenham,45.0,8.0,4.0,1,0,13.0,1.0,Nottingham Forest
+2023-03-17,Premier League,Fri,Home,L,1,2,Newcastle Utd,39.0,5.0,3.0,5,0,17.0,1.0,Nottingham Forest
+2023-04-01,Premier League,Sat,Home,D,1,1,Wolves,29.0,17.0,7.0,3,0,14.0,2.0,Nottingham Forest
+2023-04-04,Premier League,Tue,Away,L,1,2,Leeds United,39.0,13.0,1.0,4,0,13.0,3.0,Nottingham Forest
+2023-04-08,Premier League,Sat,Away,L,0,2,Aston Villa,37.0,6.0,2.0,4,0,17.0,7.0,Nottingham Forest
+2023-04-16,Premier League,Sun,Home,L,0,2,Manchester Utd,32.0,6.0,0.0,2,0,9.0,1.0,Nottingham Forest
+2023-04-22,Premier League,Sat,Away,L,2,3,Liverpool,20.0,11.0,5.0,1,0,12.0,3.0,Nottingham Forest
+2023-04-26,Premier League,Wed,Home,W,3,1,Brighton,26.0,10.0,3.0,2,0,7.0,1.0,Nottingham Forest
+2023-04-29,Premier League,Sat,Away,L,1,2,Brentford,32.0,5.0,3.0,2,0,13.0,1.0,Nottingham Forest
+2023-05-08,Premier League,Mon,Home,W,4,3,Southampton,36.0,8.0,3.0,1,0,16.0,3.0,Nottingham Forest
+2023-05-13,Premier League,Sat,Away,D,2,2,Chelsea,25.0,11.0,2.0,1,0,15.0,2.0,Nottingham Forest
+2023-05-20,Premier League,Sat,Home,W,1,0,Arsenal,19.0,6.0,2.0,3,0,11.0,1.0,Nottingham Forest
+2023-05-28,Premier League,Sun,Away,D,1,1,Crystal Palace,34.0,7.0,4.0,2,0,13.0,2.0,Nottingham Forest
+2022-08-06,Premier League,Sat,Home,L,0,1,Chelsea,38.0,8.0,3.0,3,0,14.0,0.0,Everton
+2022-08-13,Premier League,Sat,Away,L,1,2,Aston Villa,43.0,15.0,4.0,1,0,7.0,3.0,Everton
+2022-08-20,Premier League,Sat,Home,D,1,1,Nott'ham Forest,49.0,19.0,8.0,3,0,6.0,4.0,Everton
+2022-08-27,Premier League,Sat,Away,D,1,1,Brentford,42.0,14.0,7.0,2,0,8.0,2.0,Everton
+2022-08-30,Premier League,Tue,Away,D,1,1,Leeds United,31.0,7.0,2.0,3,0,9.0,2.0,Everton
+2022-09-03,Premier League,Sat,Home,D,0,0,Liverpool,39.0,14.0,3.0,2,0,7.0,3.0,Everton
+2022-09-18,Premier League,Sun,Home,W,1,0,West Ham,53.0,7.0,2.0,3,0,8.0,1.0,Everton
+2022-10-01,Premier League,Sat,Away,W,2,1,Southampton,45.0,12.0,5.0,2,0,10.0,1.0,Everton
+2022-10-09,Premier League,Sun,Home,L,1,2,Manchester Utd,40.0,11.0,2.0,2,0,7.0,1.0,Everton
+2022-10-15,Premier League,Sat,Away,L,0,2,Tottenham,38.0,4.0,0.0,4,0,13.0,0.0,Everton
+2022-10-19,Premier League,Wed,Away,L,0,1,Newcastle Utd,51.0,1.0,0.0,4,0,12.0,3.0,Everton
+2022-10-22,Premier League,Sat,Home,W,3,0,Crystal Palace,46.0,9.0,6.0,3,0,16.0,1.0,Everton
+2022-10-29,Premier League,Sat,Away,D,0,0,Fulham,44.0,9.0,4.0,1,0,8.0,5.0,Everton
+2022-11-05,Premier League,Sat,Home,L,0,2,Leicester City,49.0,12.0,2.0,0,0,9.0,0.0,Everton
+2022-11-12,Premier League,Sat,Away,L,0,3,Bournemouth,64.0,15.0,3.0,0,0,8.0,1.0,Everton
+2022-12-26,Premier League,Mon,Home,L,1,2,Wolves,58.0,12.0,5.0,1,0,9.0,1.0,Everton
+2022-12-31,Premier League,Sat,Away,D,1,1,Manchester City,26.0,2.0,1.0,4,0,14.0,2.0,Everton
+2023-01-03,Premier League,Tue,Home,L,1,4,Brighton,49.0,9.0,3.0,3,0,8.0,1.0,Everton
+2023-01-14,Premier League,Sat,Home,L,1,2,Southampton,52.0,12.0,4.0,0,0,7.0,3.0,Everton
+2023-01-21,Premier League,Sat,Away,L,0,2,West Ham,67.0,5.0,2.0,1,0,6.0,2.0,Everton
+2023-02-04,Premier League,Sat,Home,W,1,0,Arsenal,30.0,12.0,4.0,4,0,13.0,3.0,Everton
+2023-02-13,Premier League,Mon,Away,L,0,2,Liverpool,41.0,6.0,1.0,3,0,16.0,2.0,Everton
+2023-02-18,Premier League,Sat,Home,W,1,0,Leeds United,51.0,15.0,4.0,2,0,8.0,1.0,Everton
+2023-02-25,Premier League,Sat,Home,L,0,2,Aston Villa,47.0,15.0,4.0,2,0,12.0,1.0,Everton
+2023-03-01,Premier League,Wed,Away,L,0,4,Arsenal,27.0,8.0,5.0,2,0,12.0,2.0,Everton
+2023-03-05,Premier League,Sun,Away,D,2,2,Nott'ham Forest,43.0,9.0,2.0,5,0,17.0,0.0,Everton
+2023-03-11,Premier League,Sat,Home,W,1,0,Brentford,33.0,13.0,6.0,2,0,11.0,3.0,Everton
+2023-03-18,Premier League,Sat,Away,D,2,2,Chelsea,32.0,12.0,3.0,2,0,12.0,1.0,Everton
+2023-04-03,Premier League,Mon,Home,D,1,1,Tottenham,39.0,15.0,6.0,0,1,10.0,1.0,Everton
+2023-04-08,Premier League,Sat,Away,L,0,2,Manchester Utd,37.0,15.0,1.0,0,0,9.0,2.0,Everton
+2023-04-15,Premier League,Sat,Home,L,1,3,Fulham,46.0,15.0,7.0,3,0,10.0,1.0,Everton
+2023-04-22,Premier League,Sat,Away,D,0,0,Crystal Palace,44.0,10.0,5.0,3,1,14.0,3.0,Everton
+2023-04-27,Premier League,Thu,Home,L,1,4,Newcastle Utd,40.0,13.0,5.0,2,0,8.0,3.0,Everton
+2023-05-01,Premier League,Mon,Away,D,2,2,Leicester City,46.0,22.0,7.0,1,0,12.0,3.0,Everton
+2023-05-08,Premier League,Mon,Away,W,5,1,Brighton,22.0,10.0,5.0,5,0,13.0,1.0,Everton
+2023-05-14,Premier League,Sun,Home,L,0,3,Manchester City,37.0,7.0,2.0,1,0,12.0,1.0,Everton
+2023-05-20,Premier League,Sat,Away,D,1,1,Wolves,48.0,19.0,4.0,1,0,10.0,0.0,Everton
+2023-05-28,Premier League,Sun,Home,W,1,0,Bournemouth,38.0,13.0,6.0,1,0,11.0,0.0,Everton
+2022-08-07,Premier League,Sun,Home,L,0,2,Manchester City,25.0,6.0,1.0,0,0,8.0,4.0,West Ham United
+2022-08-14,Premier League,Sun,Away,L,0,1,Nott'ham Forest,57.0,18.0,3.0,1,0,11.0,2.0,West Ham United
+2022-08-21,Premier League,Sun,Home,L,0,2,Brighton,50.0,13.0,3.0,2,0,10.0,3.0,West Ham United
+2022-08-28,Premier League,Sun,Away,W,1,0,Aston Villa,42.0,7.0,2.0,0,0,10.0,1.0,West Ham United
+2022-08-31,Premier League,Wed,Home,D,1,1,Tottenham,39.0,14.0,4.0,2,0,10.0,1.0,West Ham United
+2022-09-03,Premier League,Sat,Away,L,1,2,Chelsea,33.0,6.0,3.0,2,0,11.0,1.0,West Ham United
+2022-09-18,Premier League,Sun,Away,L,0,1,Everton,47.0,14.0,4.0,1,0,11.0,1.0,West Ham United
+2022-10-01,Premier League,Sat,Home,W,2,0,Wolves,39.0,18.0,5.0,2,0,8.0,2.0,West Ham United
+2022-10-09,Premier League,Sun,Home,W,3,1,Fulham,50.0,16.0,7.0,1,0,9.0,1.0,West Ham United
+2022-10-16,Premier League,Sun,Away,D,1,1,Southampton,61.0,25.0,4.0,1,0,3.0,0.0,West Ham United
+2022-10-19,Premier League,Wed,Away,L,0,1,Liverpool,46.0,7.0,2.0,0,0,8.0,0.0,West Ham United
+2022-10-24,Premier League,Mon,Home,W,2,0,Bournemouth,55.0,19.0,3.0,0,0,9.0,1.0,West Ham United
+2022-10-30,Premier League,Sun,Away,L,0,1,Manchester Utd,47.0,13.0,4.0,3,0,10.0,2.0,West Ham United
+2022-11-06,Premier League,Sun,Home,L,1,2,Crystal Palace,42.0,5.0,2.0,1,0,10.0,4.0,West Ham United
+2022-11-12,Premier League,Sat,Home,L,0,2,Leicester City,54.0,18.0,6.0,3,0,9.0,2.0,West Ham United
+2022-12-26,Premier League,Mon,Away,L,1,3,Arsenal,34.0,7.0,3.0,2,0,17.0,0.0,West Ham United
+2022-12-30,Premier League,Fri,Home,L,0,2,Brentford,63.0,20.0,5.0,1,0,9.0,0.0,West Ham United
+2023-01-04,Premier League,Wed,Away,D,2,2,Leeds United,38.0,14.0,1.0,1,0,18.0,3.0,West Ham United
+2023-01-14,Premier League,Sat,Away,L,0,1,Wolves,42.0,16.0,3.0,2,0,7.0,1.0,West Ham United
+2023-01-21,Premier League,Sat,Home,W,2,0,Everton,33.0,11.0,4.0,1,0,9.0,1.0,West Ham United
+2023-02-04,Premier League,Sat,Away,D,1,1,Newcastle Utd,38.0,10.0,1.0,1,0,13.0,2.0,West Ham United
+2023-02-11,Premier League,Sat,Home,D,1,1,Chelsea,29.0,10.0,2.0,1,0,9.0,3.0,West Ham United
+2023-02-19,Premier League,Sun,Away,L,0,2,Tottenham,43.0,6.0,1.0,1,0,10.0,0.0,West Ham United
+2023-02-25,Premier League,Sat,Home,W,4,0,Nott'ham Forest,49.0,18.0,5.0,0,0,8.0,1.0,West Ham United
+2023-03-04,Premier League,Sat,Away,L,0,4,Brighton,35.0,3.0,2.0,3,0,8.0,0.0,West Ham United
+2023-03-12,Premier League,Sun,Home,D,1,1,Aston Villa,41.0,16.0,4.0,1,0,9.0,6.0,West Ham United
+2023-04-02,Premier League,Sun,Home,W,1,0,Southampton,43.0,12.0,2.0,0,0,10.0,1.0,West Ham United
+2023-04-05,Premier League,Wed,Home,L,1,5,Newcastle Utd,42.0,7.0,2.0,2,0,11.0,0.0,West Ham United
+2023-04-08,Premier League,Sat,Away,W,1,0,Fulham,24.0,9.0,5.0,1,0,12.0,2.0,West Ham United
+2023-04-16,Premier League,Sun,Home,D,2,2,Arsenal,30.0,15.0,2.0,1,0,11.0,4.0,West Ham United
+2023-04-23,Premier League,Sun,Away,W,4,0,Bournemouth,36.0,18.0,10.0,2,0,8.0,3.0,West Ham United
+2023-04-26,Premier League,Wed,Home,L,1,2,Liverpool,28.0,7.0,2.0,0,0,6.0,1.0,West Ham United
+2023-04-29,Premier League,Sat,Away,L,3,4,Crystal Palace,41.0,8.0,4.0,2,0,17.0,1.0,West Ham United
+2023-05-03,Premier League,Wed,Away,L,0,3,Manchester City,31.0,6.0,2.0,1,0,8.0,0.0,West Ham United
+2023-05-07,Premier League,Sun,Home,W,1,0,Manchester Utd,35.0,15.0,4.0,0,0,4.0,1.0,West Ham United
+2023-05-14,Premier League,Sun,Away,L,0,2,Brentford,47.0,4.0,4.0,0,0,5.0,3.0,West Ham United
+2023-05-21,Premier League,Sun,Home,W,3,1,Leeds United,59.0,19.0,9.0,1,0,6.0,1.0,West Ham United
+2023-05-28,Premier League,Sun,Away,L,1,2,Leicester City,52.0,16.0,3.0,1,0,10.0,3.0,West Ham United
+2022-08-06,Premier League,Sat,Away,L,1,4,Tottenham,42.0,10.0,2.0,0,0,6.0,0.0,Southampton
+2022-08-13,Premier League,Sat,Home,D,2,2,Leeds United,43.0,14.0,4.0,1,0,10.0,1.0,Southampton
+2022-08-20,Premier League,Sat,Away,W,2,1,Leicester City,38.0,9.0,3.0,3,0,15.0,1.0,Southampton
+2022-08-27,Premier League,Sat,Home,L,0,1,Manchester Utd,49.0,17.0,4.0,0,0,4.0,1.0,Southampton
+2022-08-30,Premier League,Tue,Home,W,2,1,Chelsea,33.0,9.0,5.0,2,0,15.0,0.0,Southampton
+2022-09-03,Premier League,Sat,Away,L,0,1,Wolves,49.0,12.0,1.0,2,0,14.0,0.0,Southampton
+2022-09-16,Premier League,Fri,Away,L,0,1,Aston Villa,47.0,7.0,1.0,1,0,13.0,0.0,Southampton
+2022-10-01,Premier League,Sat,Home,L,1,2,Everton,55.0,22.0,6.0,2,0,11.0,0.0,Southampton
+2022-10-08,Premier League,Sat,Away,L,0,4,Manchester City,35.0,5.0,0.0,1,0,8.0,1.0,Southampton
+2022-10-16,Premier League,Sun,Home,D,1,1,West Ham,39.0,10.0,8.0,1,0,7.0,1.0,Southampton
+2022-10-19,Premier League,Wed,Away,W,1,0,Bournemouth,46.0,9.0,3.0,3,0,13.0,0.0,Southampton
+2022-10-23,Premier League,Sun,Home,D,1,1,Arsenal,41.0,10.0,3.0,2,0,11.0,4.0,Southampton
+2022-10-29,Premier League,Sat,Away,L,0,1,Crystal Palace,56.0,14.0,4.0,3,0,12.0,3.0,Southampton
+2022-11-06,Premier League,Sun,Home,L,1,4,Newcastle Utd,55.0,16.0,5.0,1,0,7.0,4.0,Southampton
+2022-11-12,Premier League,Sat,Away,L,1,3,Liverpool,40.0,9.0,5.0,2,0,8.0,2.0,Southampton
+2022-12-26,Premier League,Mon,Home,L,1,3,Brighton,34.0,13.0,3.0,1,0,9.0,0.0,Southampton
+2022-12-31,Premier League,Sat,Away,L,1,2,Fulham,38.0,9.0,3.0,1,0,13.0,0.0,Southampton
+2023-01-04,Premier League,Wed,Home,L,0,1,Nott'ham Forest,63.0,8.0,0.0,2,0,14.0,1.0,Southampton
+2023-01-14,Premier League,Sat,Away,W,2,1,Everton,48.0,13.0,5.0,3,0,18.0,2.0,Southampton
+2023-01-21,Premier League,Sat,Home,L,0,1,Aston Villa,37.0,8.0,5.0,1,0,19.0,3.0,Southampton
+2023-02-04,Premier League,Sat,Away,L,0,3,Brentford,51.0,14.0,5.0,2,0,9.0,2.0,Southampton
+2023-02-11,Premier League,Sat,Home,L,1,2,Wolves,41.0,17.0,2.0,2,0,12.0,0.0,Southampton
+2023-02-18,Premier League,Sat,Away,W,1,0,Chelsea,38.0,8.0,4.0,6,0,25.0,1.0,Southampton
+2023-02-25,Premier League,Sat,Away,L,0,1,Leeds United,39.0,8.0,2.0,4,0,13.0,3.0,Southampton
+2023-03-04,Premier League,Sat,Home,W,1,0,Leicester City,35.0,10.0,4.0,4,0,12.0,4.0,Southampton
+2023-03-12,Premier League,Sun,Away,D,0,0,Manchester Utd,53.0,17.0,4.0,0,0,9.0,2.0,Southampton
+2023-03-15,Premier League,Wed,Home,L,0,2,Brentford,66.0,7.0,0.0,1,0,14.0,1.0,Southampton
+2023-03-18,Premier League,Sat,Home,D,3,3,Tottenham,51.0,18.0,6.0,1,0,13.0,2.0,Southampton
+2023-04-02,Premier League,Sun,Away,L,0,1,West Ham,57.0,9.0,3.0,2,0,11.0,1.0,Southampton
+2023-04-08,Premier League,Sat,Home,L,1,4,Manchester City,27.0,4.0,1.0,0,0,6.0,0.0,Southampton
+2023-04-15,Premier League,Sat,Home,L,0,2,Crystal Palace,58.0,11.0,4.0,3,0,6.0,3.0,Southampton
+2023-04-21,Premier League,Fri,Away,D,3,3,Arsenal,26.0,8.0,6.0,5,0,14.0,2.0,Southampton
+2023-04-27,Premier League,Thu,Home,L,0,1,Bournemouth,57.0,11.0,2.0,0,0,9.0,4.0,Southampton
+2023-04-30,Premier League,Sun,Away,L,1,3,Newcastle Utd,37.0,4.0,3.0,4,0,10.0,2.0,Southampton
+2023-05-08,Premier League,Mon,Away,L,3,4,Nott'ham Forest,64.0,18.0,4.0,0,0,10.0,1.0,Southampton
+2023-05-13,Premier League,Sat,Home,L,0,2,Fulham,36.0,5.0,1.0,2,0,17.0,4.0,Southampton
+2023-05-21,Premier League,Sun,Away,L,1,3,Brighton,37.0,5.0,1.0,5,0,9.0,1.0,Southampton
+2023-05-28,Premier League,Sun,Home,D,4,4,Liverpool,31.0,15.0,10.0,0,0,4.0,0.0,Southampton
+2022-08-07,Premier League,Sun,Home,D,2,2,Brentford,56.0,14.0,5.0,0,0,6.0,2.0,Leicester City
+2022-08-13,Premier League,Sat,Away,L,2,4,Arsenal,50.0,6.0,2.0,1,0,9.0,3.0,Leicester City
+2022-08-20,Premier League,Sat,Home,L,1,2,Southampton,62.0,6.0,1.0,2,0,11.0,0.0,Leicester City
+2022-08-27,Premier League,Sat,Away,L,1,2,Chelsea,55.0,17.0,5.0,2,0,7.0,1.0,Leicester City
+2022-09-01,Premier League,Thu,Home,L,0,1,Manchester Utd,53.0,10.0,2.0,1,0,7.0,0.0,Leicester City
+2022-09-04,Premier League,Sun,Away,L,2,5,Brighton,47.0,6.0,4.0,1,0,8.0,3.0,Leicester City
+2022-09-17,Premier League,Sat,Away,L,2,6,Tottenham,56.0,18.0,6.0,2,0,9.0,0.0,Leicester City
+2022-10-03,Premier League,Mon,Home,W,4,0,Nott'ham Forest,51.0,17.0,7.0,2,0,13.0,3.0,Leicester City
+2022-10-08,Premier League,Sat,Away,L,1,2,Bournemouth,55.0,9.0,5.0,2,0,16.0,0.0,Leicester City
+2022-10-15,Premier League,Sat,Home,D,0,0,Crystal Palace,54.0,14.0,5.0,2,0,18.0,2.0,Leicester City
+2022-10-20,Premier League,Thu,Home,W,2,0,Leeds United,46.0,5.0,1.0,2,0,15.0,4.0,Leicester City
+2022-10-23,Premier League,Sun,Away,W,4,0,Wolves,40.0,5.0,4.0,1,0,12.0,3.0,Leicester City
+2022-10-29,Premier League,Sat,Home,L,0,1,Manchester City,36.0,10.0,5.0,0,0,5.0,0.0,Leicester City
+2022-11-05,Premier League,Sat,Away,W,2,0,Everton,51.0,22.0,8.0,0,0,5.0,1.0,Leicester City
+2022-11-12,Premier League,Sat,Away,W,2,0,West Ham,46.0,8.0,5.0,1,0,8.0,0.0,Leicester City
+2022-12-26,Premier League,Mon,Home,L,0,3,Newcastle Utd,60.0,8.0,2.0,0,0,9.0,3.0,Leicester City
+2022-12-30,Premier League,Fri,Away,L,1,2,Liverpool,43.0,7.0,2.0,1,0,15.0,5.0,Leicester City
+2023-01-03,Premier League,Tue,Home,L,0,1,Fulham,61.0,15.0,6.0,2,0,12.0,0.0,Leicester City
+2023-01-14,Premier League,Sat,Away,L,0,2,Nott'ham Forest,61.0,6.0,1.0,2,0,12.0,1.0,Leicester City
+2023-01-21,Premier League,Sat,Home,D,2,2,Brighton,37.0,9.0,2.0,0,0,9.0,0.0,Leicester City
+2023-02-04,Premier League,Sat,Away,W,4,2,Aston Villa,38.0,9.0,5.0,3,0,10.0,8.0,Leicester City
+2023-02-11,Premier League,Sat,Home,W,4,1,Tottenham,49.0,15.0,6.0,5,0,14.0,2.0,Leicester City
+2023-02-19,Premier League,Sun,Away,L,0,3,Manchester Utd,43.0,19.0,3.0,2,0,9.0,1.0,Leicester City
+2023-02-25,Premier League,Sat,Home,L,0,1,Arsenal,35.0,1.0,0.0,0,0,14.0,4.0,Leicester City
+2023-03-04,Premier League,Sat,Away,L,0,1,Southampton,65.0,11.0,0.0,2,0,11.0,2.0,Leicester City
+2023-03-11,Premier League,Sat,Home,L,1,3,Chelsea,48.0,17.0,6.0,3,1,10.0,0.0,Leicester City
+2023-03-18,Premier League,Sat,Away,D,1,1,Brentford,47.0,14.0,1.0,2,0,11.0,3.0,Leicester City
+2023-04-01,Premier League,Sat,Away,L,1,2,Crystal Palace,48.0,3.0,2.0,4,0,16.0,2.0,Leicester City
+2023-04-04,Premier League,Tue,Home,L,1,2,Aston Villa,36.0,9.0,4.0,4,1,10.0,2.0,Leicester City
+2023-04-08,Premier League,Sat,Home,L,0,1,Bournemouth,51.0,14.0,4.0,0,0,10.0,3.0,Leicester City
+2023-04-15,Premier League,Sat,Away,L,1,3,Manchester City,30.0,11.0,4.0,1,0,8.0,3.0,Leicester City
+2023-04-22,Premier League,Sat,Home,W,2,1,Wolves,42.0,14.0,6.0,1,0,17.0,1.0,Leicester City
+2023-04-25,Premier League,Tue,Away,D,1,1,Leeds United,59.0,15.0,3.0,2,0,15.0,6.0,Leicester City
+2023-05-01,Premier League,Mon,Home,D,2,2,Everton,54.0,14.0,4.0,4,0,10.0,6.0,Leicester City
+2023-05-08,Premier League,Mon,Away,L,3,5,Fulham,43.0,16.0,7.0,3,0,15.0,4.0,Leicester City
+2023-05-15,Premier League,Mon,Home,L,0,3,Liverpool,34.0,4.0,4.0,2,0,11.0,3.0,Leicester City
+2023-05-22,Premier League,Mon,Away,D,0,0,Newcastle Utd,23.0,1.0,1.0,0,0,5.0,0.0,Leicester City
+2023-05-28,Premier League,Sun,Home,W,2,1,West Ham,48.0,13.0,4.0,1,0,8.0,2.0,Leicester City
+2022-08-06,Premier League,Sat,Home,W,2,1,Wolves,40.0,12.0,4.0,2,0,13.0,0.0,Leeds United
+2022-08-13,Premier League,Sat,Away,D,2,2,Southampton,57.0,13.0,5.0,3,0,12.0,1.0,Leeds United
+2022-08-21,Premier League,Sun,Home,W,3,0,Chelsea,39.0,12.0,6.0,0,0,16.0,1.0,Leeds United
+2022-08-27,Premier League,Sat,Away,L,0,1,Brighton,56.0,10.0,2.0,3,0,14.0,1.0,Leeds United
+2022-08-30,Premier League,Tue,Home,D,1,1,Everton,69.0,14.0,5.0,3,0,10.0,2.0,Leeds United
+2022-09-03,Premier League,Sat,Away,L,2,5,Brentford,68.0,17.0,6.0,2,0,9.0,1.0,Leeds United
+2022-10-02,Premier League,Sun,Home,D,0,0,Aston Villa,44.0,6.0,1.0,5,1,23.0,0.0,Leeds United
+2022-10-09,Premier League,Sun,Away,L,1,2,Crystal Palace,46.0,10.0,4.0,3,0,23.0,2.0,Leeds United
+2022-10-16,Premier League,Sun,Home,L,0,1,Arsenal,47.0,15.0,4.0,0,0,10.0,4.0,Leeds United
+2022-10-20,Premier League,Thu,Away,L,0,2,Leicester City,54.0,14.0,2.0,1,0,11.0,2.0,Leeds United
+2022-10-23,Premier League,Sun,Home,L,2,3,Fulham,57.0,14.0,5.0,1,0,12.0,4.0,Leeds United
+2022-10-29,Premier League,Sat,Away,W,2,1,Liverpool,32.0,14.0,6.0,1,0,3.0,0.0,Leeds United
+2022-11-05,Premier League,Sat,Home,W,4,3,Bournemouth,60.0,17.0,3.0,2,0,16.0,0.0,Leeds United
+2022-11-12,Premier League,Sat,Away,L,3,4,Tottenham,45.0,12.0,5.0,3,1,7.0,1.0,Leeds United
+2022-12-28,Premier League,Wed,Home,L,1,3,Manchester City,31.0,9.0,1.0,3,0,11.0,0.0,Leeds United
+2022-12-31,Premier League,Sat,Away,D,0,0,Newcastle Utd,40.0,8.0,1.0,5,0,19.0,0.0,Leeds United
+2023-01-04,Premier League,Wed,Home,D,2,2,West Ham,62.0,14.0,5.0,3,0,11.0,3.0,Leeds United
+2023-01-13,Premier League,Fri,Away,L,1,2,Aston Villa,48.0,16.0,3.0,2,0,18.0,5.0,Leeds United
+2023-01-22,Premier League,Sun,Home,D,0,0,Brentford,58.0,9.0,5.0,2,0,10.0,1.0,Leeds United
+2023-02-05,Premier League,Sun,Away,L,0,1,Nott'ham Forest,70.0,10.0,4.0,2,0,14.0,3.0,Leeds United
+2023-02-08,Premier League,Wed,Away,D,2,2,Manchester Utd,34.0,8.0,2.0,3,0,11.0,0.0,Leeds United
+2023-02-12,Premier League,Sun,Home,L,0,2,Manchester Utd,34.0,16.0,6.0,2,0,10.0,3.0,Leeds United
+2023-02-18,Premier League,Sat,Away,L,0,1,Everton,49.0,8.0,0.0,3,0,6.0,0.0,Leeds United
+2023-02-25,Premier League,Sat,Home,W,1,0,Southampton,61.0,14.0,4.0,2,0,15.0,2.0,Leeds United
+2023-03-04,Premier League,Sat,Away,L,0,1,Chelsea,43.0,11.0,2.0,0,0,7.0,2.0,Leeds United
+2023-03-11,Premier League,Sat,Home,D,2,2,Brighton,38.0,12.0,4.0,1,0,12.0,3.0,Leeds United
+2023-03-18,Premier League,Sat,Away,W,4,2,Wolves,35.0,11.0,4.0,5,0,9.0,0.0,Leeds United
+2023-04-01,Premier League,Sat,Away,L,1,4,Arsenal,34.0,7.0,5.0,2,0,13.0,1.0,Leeds United
+2023-04-04,Premier League,Tue,Home,W,2,1,Nott'ham Forest,61.0,21.0,6.0,1,0,11.0,3.0,Leeds United
+2023-04-09,Premier League,Sun,Home,L,1,5,Crystal Palace,48.0,11.0,7.0,3,0,11.0,2.0,Leeds United
+2023-04-17,Premier League,Mon,Home,L,1,6,Liverpool,27.0,13.0,3.0,0,0,6.0,1.0,Leeds United
+2023-04-22,Premier League,Sat,Away,L,1,2,Fulham,50.0,10.0,2.0,4,0,15.0,2.0,Leeds United
+2023-04-25,Premier League,Tue,Home,D,1,1,Leicester City,41.0,13.0,3.0,4,0,14.0,4.0,Leeds United
+2023-04-30,Premier League,Sun,Away,L,1,4,Bournemouth,58.0,15.0,6.0,0,0,14.0,1.0,Leeds United
+2023-05-06,Premier League,Sat,Away,L,1,2,Manchester City,20.0,4.0,2.0,3,0,16.0,3.0,Leeds United
+2023-05-13,Premier League,Sat,Home,D,2,2,Newcastle Utd,36.0,8.0,3.0,4,1,16.0,0.0,Leeds United
+2023-05-21,Premier League,Sun,Away,L,1,3,West Ham,41.0,12.0,3.0,3,0,11.0,1.0,Leeds United
+2023-05-28,Premier League,Sun,Home,L,1,4,Tottenham,52.0,19.0,2.0,3,0,8.0,1.0,Leeds United
