@@ -24,9 +24,9 @@ urlpatterns = [
 
     # the name "home1" will be used to redirect url in html, we should use the name in html
 
-    path('', views.home, name='home1'),  #home page url (first one is path, second func, third func)
+    path('', views.home, name='home'),  #home page url (first one is path, second func, third name in html file)
     path('api/teams/', views.team_list, name='team-list'),
     path('api/delete-entire-model/', views.deleteEntireModel, name='deleteEntireModel'),
     path('api/add/', views.add_data, name='add_data'),
-    path('test/', views.frontpage)
+    path('test/', views.frontpage, name = 'test'),
 ]

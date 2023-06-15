@@ -6,8 +6,6 @@ import os
 
 class Command(BaseCommand):
     def handle(self, *args, **options):
-                # with open(os.path.join(settings.BASE_DIR, 'MainProject', 'App1', 'test.csv'), 'r') as csv_file:
-
         with open(os.path.join(settings.BASE_DIR, 'App1/PLData.csv'), 'r') as csv_file:
             csv_reader = csv.reader(csv_file, delimiter=',')
             next(csv_reader)

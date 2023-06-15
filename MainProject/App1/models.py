@@ -3,7 +3,7 @@ from django.db import models
 # Create your models here.
 
 class myModel(models.Model):
-    Date = models.CharField(max_length=255, default="DEFAULT")
+    Date = models.DateField(null=True)
     Competition = models.CharField(max_length=255, default="DEFAULT")
     Day = models.CharField(max_length=255, default="DEFAULT")
     Venue = models.CharField(max_length=255, default="DEFAULT")
@@ -21,4 +21,5 @@ class myModel(models.Model):
     Team = models.CharField(max_length=255, default="DEFAULT")
 
     def __str__(self):
+        # date = self.
         return f'Date: {self.Date}, Competition: {self.Competition}, Day: {self.Day}, Venue: {self.Venue}, Result: {self.Result}, GF: {self.GF}, GA: {self.GA}, Opponent: {self.Opponent}, Possession: {self.Possession}, Shots: {self.Shots}, Shots on Target: {self.Shots_Target}, Yellow Cards: {self.Yellow}, Red Cards: {self.Red}, Fouls: {self.Fouls}, Offside: {self.Offside}, Team: {self.Team}'
