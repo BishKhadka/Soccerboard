@@ -1,0 +1,1 @@
+teamName = {"Newcastle Utd" : "Newcastle United", "Nott'ham Forest": "Nottingham Forest", "Wolverhampton Wanderers": "Wolves", "Brighton and Hove Albion":"Brighton", "Manchester Utd":"Manchester United"}

@@ -26,14 +26,13 @@
     </style>
 </head>
 <body>
+    
     <div class="container mt-5">
         <!-- Welcome Message -->
         <div class="welcome-message mb-4">
             <h4 class="text-center">Welcome to the Website!</h4>
             <p class="text-center">Here, you can either search for the most recent result of a team or view the current league table.</p>
         </div>
-        <form method="POST" action="{% url 'home' %}">
-            {% csrf_token %}
         
             <!-- From Bootstrap
             for and if should have same value
@@ -47,14 +46,37 @@
                   <label for="search_team_result">View the Most Recent Result</label>
                   <div class="input-group">
                     <input type="hidden" name="form_type" value="searchTeamButton">
-                    <input type="text" class="form-control" id="search_team_result" name="club_name" placeholder="Enter club name" required>
+
+                        <!-- list is the suggestion list -->
+                        <input type="text" class="form-control" id="search_team_result" name="club_name" placeholder="Enter club name" list="suggestionList" required>
+                        <datalist id="suggestionList">
+                            <option>Fulham</option>
+                            <option>Aston Villa</option>
+                            <option>Tottenham Hotspur</option>
+                            <option>Manchester City</option>
+                            <option>Crystal Palace</option>
+                            <option>Manchester United</option>
+                            <option>Liverpool</option>
+                            <option>Brighton</option>
+                            <option>Newcastle United</option>
+                            <option>Brentford</option>
+                            <option>Wolves</option>
+                            <option>Leeds United</option>
+                            <option>Bournemouth</option>
+                            <option>Everton</option>
+                            <option>Nottingham Forest</option>
+                            <option>West Ham United</option>
+                            <option>Leicester City</option>
+                            <option>Southampton</option>
+                            <option>Chelsea</option>
+                            <option>Arsenal</option>
+                        </datalist>
                     <div class="input-group-append">
                       <button class="btn btn-primary" type="submit">Search</button>
                     </div>
                   </div>
                 </div>
               </form>
-              
         
         
         <div class="centered">
@@ -70,20 +92,19 @@
                     <input type="hidden" name="form_type" value="searchTableButton">
                     <select class="custom-select" id="selectedLeague" name="leagueName">
                         <option selected>Select League</option>
-                        <option value="Bundeslina">Bundeslina</option>
+                        <option value="Bundesliga">Bundesliga</option>
                         <option value="Laliga">Laliga</option>
-                        <option value="League 1">League 1</option>
+                        <option value="Ligue 1">Ligue 1</option>
                         <option value="Premier League">Premier League</option>
                         <option value="Serie A">Serie A</option>
                     </select>
                     <div class="input-group-append">
                         <button class="btn btn-primary" type="submit"">Go</button>
-                    </div>\
+                    </div>
                 </div>
             </div>
         </form>
-        
-
+    </div>
 
     <!-- Link Bootstrap JS -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>

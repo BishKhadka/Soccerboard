@@ -25,8 +25,8 @@ class getLeagueTable(object):
             self.url = "https://fbref.com/en/comps/12/La-Liga-Stats"
         elif self.leagueName.lower() == "bundesliga":
             self.url = "https://fbref.com/en/comps/20/Bundesliga-Stats"
-        elif self.leagueName.lower() == "league 1":
-            self.url = "https://fbref.com/en/comps/13/League-1-Stats"
+        elif self.leagueName.lower() == "ligue 1":
+            self.url = "https://fbref.com/en/comps/13/Ligue-1-Stats"
         return self.url
     
     def getTable(self):
@@ -54,18 +54,6 @@ import concurrent.futures
 import time
 import threading
 
-# Create your views here.
-# from .models import myModel
-import csv
-
-import requests
-from bs4 import BeautifulSoup
-import pandas as pd
-import random
-import concurrent.futures
-import time
-import threading
-
 class LeagueTable(object):
 
     def __init__(self):
@@ -74,6 +62,7 @@ class LeagueTable(object):
 
     def getUrl(self):
         return self.url
+    
     # def getTable(self):
     #     return self.table
     
@@ -117,6 +106,9 @@ class LeagueTable(object):
 #                         print(result)
 
         result.rename(columns=names, inplace=True)  # Rename columns
+        
+        teamName = {"Newcastle Utd" : "Newcastle United", "Nott'ham Forest": "Nottingham Forest", "Wolverhampton Wanderers": "Wolves", "Brighton and Hove Albion":"Brighton", "Manchester Utd":"Manchester United", "Tottenham":"Tottenham Hotspur"}
+        result.replace(teamName, inplace=True)
         return result
 
     def getAdditionalData(self, requestData, param, match, keepList):

@@ -6,3 +6,9 @@ class TeamSerializer(serializers.ModelSerializer):
         model = myModel
         fields = '__all__'  # Include all fields from the Team model
 
+
+class TeamNameSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = myModel
+        fields = ['Team']
+
