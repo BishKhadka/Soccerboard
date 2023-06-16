@@ -83,5 +83,3 @@ def api_frontpage(request):
 
 def frontpage(request):
     return render(request, 'stats.html')
-
-    

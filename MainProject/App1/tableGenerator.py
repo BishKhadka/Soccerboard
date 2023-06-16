@@ -106,7 +106,6 @@ class LeagueTable(object):
 #                         print(result)
 
         result.rename(columns=names, inplace=True)  # Rename columns
-        
         teamName = {"Newcastle Utd" : "Newcastle United", "Nott'ham Forest": "Nottingham Forest", "Wolverhampton Wanderers": "Wolves", "Brighton and Hove Albion":"Brighton", "Manchester Utd":"Manchester United", "Tottenham":"Tottenham Hotspur"}
         result.replace(teamName, inplace=True)
         return result
@@ -122,6 +121,7 @@ class LeagueTable(object):
         shooting = pd.read_html(shooting.text, match=match)[0]
         shooting.columns = shooting.columns.droplevel()
         shooting = shooting[keepList]
+
         return shooting[:-1]
 
     def getClubData(self,link):
@@ -145,6 +145,9 @@ class LeagueTable(object):
         finalClubData = finalClubData[finalClubData["Comp"] == "Premier League"]
         finalClubData["Team"] = clubName
         finalClubData['Date'] = pd.to_datetime(finalClubData['Date'], format='%Y-%m-%d')
+        # Convert float columns to int
+        int_columns = ["Poss", "Sh","SoT","CrdY","CrdR","Fls","Off"]
+        finalClubData[int_columns] = finalClubData[int_columns].astype(int)
         print(f'Data for {clubName} gathered')
         return finalClubData
 

@@ -6,6 +6,13 @@ import os
 
 class Command(BaseCommand):
     def handle(self, *args, **options):
+
+        def deleteEntireModel():
+            myModel.objects.all().delete()
+            print('Message : All instances of myModel have been deleted.')
+
+        deleteEntireModel()
+
         with open(os.path.join(settings.BASE_DIR, 'App1/PLData.csv'), 'r') as csv_file:
             csv_reader = csv.reader(csv_file, delimiter=',')
             next(csv_reader)
