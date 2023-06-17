@@ -59,7 +59,7 @@ ROOT_URLCONF = "MainProject.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [os.path.join(BASE_DIR, 'App1/templates')],   #added later
+        "DIRS": [os.path.join(BASE_DIR, 'App1/templates/App1')],   #added later
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
@@ -120,7 +120,17 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
+
+
 STATIC_URL = "static/"
+
+#added later
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'App1/static/App1'),
+]
+
+STATICFILES_STORAGE = "django.contrib.staticfiles.storage.StaticFilesStorage" 
+STATIC_ROOT = BASE_DIR / "staticfiles"
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field

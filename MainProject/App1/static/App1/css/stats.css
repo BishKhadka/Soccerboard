@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+li {
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.date {
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+}
+
+.teams {
+    display: flex;
+    align-items: center;
+}
+
+.team-name {
+    margin-right: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.score {
+    font-weight: bold;
+    color: #333;
+    padding: 6px 12px;
+    border-radius: 4px;
+    background-color: #f1f3f5;
+}
+
+.team-summary {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+}
+
+.team-stats {
+  margin-top: 20px;
+}
+.team-stats table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.team-stats th, .team-stats td {
+  text-align: center;
+  padding: 10px;
+}
+.team-stats tr:nth-child(odd) {
+  background-color: #fff;
+}
+.team-stats tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+.team-stats th:nth-child(2),
+.team-stats td:nth-child(2),
+.team-stats th:nth-child(3),
+.team-stats td:nth-child(3) {
+  text-align: center;
+  width: 33.33%;
+}

@@ -8,8 +8,9 @@ from .serializers import TeamSerializer, TeamNameSerializer
 from App1.tableGenerator import getLeagueTable
 
 import pandas as pd
-
 import requests
+
+# from django.shortcuts import redirect
 
 # GET /api/teams: Retrieve a list of all soccer teams. This endpoint can provide information about various teams, such as their names, logos, and other relevant details.
 #GET /api/standings : current standing
@@ -40,13 +41,14 @@ def home(request):
             #     team_names = pd.DataFrame(team_names)
             #     print(team_names)
    
-            return render(request, 'results.html', {'teamInstance': teamInstance, 'opponentInstance': opponentInstance})
+            return render(request, 'stats.html', {'teamInstance': teamInstance, 'opponentInstance': opponentInstance})
 
         elif form_type == 'searchTableButton':
             leagueName = request.POST.get('leagueName', '')
             print("This is the league", leagueName)
             data = getLeagueTable(leagueName).getTable()
-            return render(request, 'frontpage.html', {'data': data})
+            return render(request, 'leagueTable.html', {'data': data})
+            # return (redirect("https://www.youtube.com/watch?v=xvFZjo5PgG0"))
         
     return render(request, 'home.html')
 
@@ -81,5 +83,5 @@ def api_frontpage(request):
     data = getLeagueTable("Laliga").getTable()
     return Response(data)
 
-def frontpage(request):
+def getStats(request):
     return render(request, 'stats.html')

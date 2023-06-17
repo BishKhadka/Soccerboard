@@ -1,0 +1,81 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block head %}
+<title>Soccer Match Stats</title>
+<link rel="stylesheet" type="text/css" href="{% static 'css/stats.css' %}">
+{% endblock %}
+
+{% block body %}
+<div class="container">
+    <h2>Recent result for {{ teamInstance.Team }}</h2>
+    <ul>
+        <li>
+            <span class="date">{{ teamInstance.Date }}</span>
+            <span class="teams">
+                <span class="team-name">{{ teamInstance.Team }}</span>
+                <span class="score">{{ teamInstance.GF }}</span>
+                <span class="score">-</span>
+                <span class="score">{{ teamInstance.GA }}</span>
+                <span class="team-name">{{ teamInstance.Opponent }}</span>
+            </span>
+        </li>
+    </ul>
+</div>
+
+<div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="team-summary">
+          <div class="team-stats">
+            <table>
+              <tr>
+                <th>{{teamInstance.Team}}</th>
+                <th>Stats</th>
+                <th>{{opponentInstance.Team}}</th>
+              </tr>
+              <tr>
+                <td>{{teamInstance.Shots}}</td>
+                <td>Shots</td>
+                
+                <td>{{opponentInstance.Shots}}</td>
+              </tr>
+              <tr>
+                <td>{{teamInstance.Shots_Target}}</td>
+                <td>Shots (Target)</td>
+                
+                <td>{{opponentInstance.Shots_Target}}</td>
+              </tr>
+              <tr>
+                <td>{{teamInstance.Offside}}</td>
+                <td>Offside</td>
+                
+                <td>{{opponentInstance.Offside}}</td>
+              </tr>
+              <tr>
+                <td>{{teamInstance.Fouls}}</td>
+                <td>Fouls</td>
+                
+                <td>{{opponentInstance.Fouls}}</td>
+              </tr>
+              <tr>
+                <td>{{teamInstance.Yellow}}</td>
+                <td>Yellow</td>
+                
+                <td>{{opponentInstance.Yellow}}</td>
+              </tr>
+              <tr>
+                <td>{{teamInstance.Red}}</td>
+                <td>Red</td>
+                
+                <td>{{opponentInstance.Red}}</td>
+              </tr>
+
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}

@@ -18,6 +18,8 @@ from django.contrib import admin
 from django.urls import path
 
 from App1 import views
+from django.conf import settings
+from django.conf.urls.static import static
 
 urlpatterns = [
     path("admin/", admin.site.urls),
@@ -28,7 +30,7 @@ urlpatterns = [
     path('api/teams/', views.team_list, name='team-list'),
     path('api/delete-entire-model/', views.deleteEntireModel, name='deleteEntireModel'),
     path('api/add/', views.add_data, name='add_data'),
-    path('test/', views.frontpage, name = 'test'),
+    path('test/', views.getStats, name = 'test'),
     path('test1/', views.api_frontpage, name = 'test1'),
 
-]
+] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

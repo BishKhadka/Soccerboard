@@ -1,0 +1,18 @@
+.container {
+    max-width: 400px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+}
+
+.welcome-message {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+}
