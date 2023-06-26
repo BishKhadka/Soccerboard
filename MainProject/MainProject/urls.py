@@ -15,7 +15,7 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 
 from App1 import views
 from django.conf import settings
@@ -27,10 +27,6 @@ urlpatterns = [
     # the name "home1" will be used to redirect url in html, we should use the name in html
     #home page url (first one is path, second func, third name in html file)
     path('', views.home, name='home'),  
-    path('api/teams/', views.team_list, name='team-list'),
-    path('api/delete-entire-model/', views.deleteEntireModel, name='deleteEntireModel'),
-    path('api/add/', views.add_data, name='add_data'),
-    path('test/', views.getStats, name = 'test'),
-    path('test1/', views.api_frontpage, name = 'test1'),
+    path('soccer/', include('App1.urls'))
 
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

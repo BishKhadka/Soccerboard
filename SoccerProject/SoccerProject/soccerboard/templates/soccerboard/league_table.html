@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block head %}
+<title>Soccer Match Stats</title>
+<link rel="stylesheet" type="text/css" href="{% static 'css/league_table.css' %}">
+{% endblock %}
+
+{% block body %}
+<h1 class = "text-center mt-3" >{{league_name}}</h1>
+    <table class="data-table">
+        <thead>
+          <tr>
+            {% for column in data.columns %}
+              <th>{{ column }}</th>
+            {% endfor %}
+          </tr>
+        </thead>
+        <tbody>
+          {% for row in data.values %}
+            <tr>
+              {% for cell in row %}
+                <td>{{ cell }}</td>
+              {% endfor %}
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+{% endblock %}
