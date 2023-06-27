@@ -162,7 +162,7 @@ class AllLeagueData(object):
             if not links:
                 raise ValueError("No additional data links found")
             links = "https://fbref.com" + links[0]
-            time.sleep(random.randint(10, 40))
+            time.sleep(random.randint(20, 80))
             response = self.session.get(links)
             response.raise_for_status() 
             stats = pd.read_html(response.text, match=match)[0]
@@ -179,7 +179,7 @@ class AllLeagueData(object):
         Retrieve club data for a specific club.
         '''
         try:
-            time.sleep(random.randint(10, 40))
+            time.sleep(random.randint(20, 80))
             response = self.session.get(link)
 
             #check for network errors
@@ -206,14 +206,14 @@ class AllLeagueData(object):
                 "Shooting",
                 ["Date", "Sh", "SoT"],
             )
-            time.sleep(random.randint(10, 40))
+            time.sleep(random.randint(20, 80))
             misc = self.additional_data(
                 response,
                 "/all_comps/misc/",
                 "Miscellaneous",
                 ["Date", "CrdY", "CrdR", "Fls", "Off"],
             )
-            time.sleep(random.randint(10, 40))
+            time.sleep(random.randint(20, 80))
             finalClubData = scores.merge(shooting, how="left").merge(
                 misc, how="left"
             )

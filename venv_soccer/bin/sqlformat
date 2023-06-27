@@ -1,4 +1,4 @@
-#!/Users/vega/Desktop/SoccerProject/venv_soccer/bin/python3
+#!/Users/vega/Desktop/Soccer/venv_soccer/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

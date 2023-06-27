@@ -30,4 +30,4 @@ class Command(BaseCommand):
                                        Possession=row[8], Shots=row[9], Shots_Target=row[10],
                                        Yellow=row[11], Red=row[12], Fouls=row[13],
                                        Offside=row[14], Team=row[15],)
-        print('Message : All instances of the model have been replaced.')
+        print('Message : All instances of the model have been replaced with new data.')
