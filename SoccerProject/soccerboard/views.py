@@ -5,6 +5,7 @@ from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from .serializers import TeamSerializer, TeamNameSerializer
 from soccerboard.table_generator import LeagueTable
+from django.views.decorators.debug import sensitive_variables
 
 def home(request):
     '''
@@ -77,3 +78,11 @@ def add_data(request):
         return Response(serializer.data, status=201)
     return Response(serializer.errors, status=400)
 
+@api_view(["GET"])
+def all_data(request):
+    '''
+    Returns all data in the table as a JSON.
+    '''
+    teams = TableModel.objects.all()
+    serializer = TeamSerializer(teams, many=True)
+    return Response(serializer.data)

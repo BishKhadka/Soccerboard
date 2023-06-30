@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 
 from pathlib import Path
 import os
+from decouple import config
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -22,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = "django-insecure-2o3adun1)br#hwu^85=xq61mm+(qg)*@b=u5+gi$)l1sga2hl="
-
+SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = config('DEBUG')
 
 ALLOWED_HOSTS = []
 
@@ -79,9 +80,13 @@ WSGI_APPLICATION = "SoccerProject.wsgi.application"
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': config('DB_NAME', default=''),
+        'USER': config('DB_USER', default=''),
+        'PASSWORD': config('DB_PASSWORD', default=''),
+        'HOST': config('DB_HOST', default=''),
+        'PORT': config('DB_PORT', default=''),
     }
 }
 
@@ -109,12 +114,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
 
 LANGUAGE_CODE = "en-us"
-
-TIME_ZONE = "UTC"
-
 USE_I18N = True
-
 USE_TZ = True
+TIME_ZONE = "America/New_York"
 
 
 # Static files (CSS, JavaScript, Images)
@@ -130,8 +132,8 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 #added later
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'soccerboard/static/soccerboard'),
+    os.path.join(BASE_DIR, 'soccerboard/static/'),
 ]
 
 STATICFILES_STORAGE = "django.contrib.staticfiles.storage.StaticFilesStorage" 
-STATIC_ROOT = BASE_DIR / "staticfiles"
+STATIC_ROOT = BASE_DIR / "static"

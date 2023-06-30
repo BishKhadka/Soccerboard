@@ -1,0 +1,202 @@
+2023-06-30 05:13:13,165 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 05:13:13,165 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 05:13:13,165 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 05:13:43,305 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 05:13:43,305 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 05:13:43,305 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 05:13:56,558 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 05:13:56,558 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 05:13:56,559 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 05:18:33,643 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 05:18:33,643 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 05:18:33,643 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 05:19:18,703 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 05:19:18,703 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 05:19:18,703 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 05:20:03,187 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 05:20:03,187 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 05:20:03,187 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 05:30:02,967 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 05:30:02,967 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 05:30:02,967 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 05:40:02,726 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 05:40:02,726 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 05:40:02,726 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 05:50:03,467 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 05:50:03,468 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 05:50:03,468 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 06:00:03,242 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 06:00:03,242 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 06:00:03,243 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 06:02:58,177 - django.security.DisallowedHost - ERROR - Invalid HTTP_HOST header: 'www.google.com'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/vega/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vega/venv/lib/python3.8/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/vega/venv/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/vega/venv/lib/python3.8/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.google.com'. You may need to add 'www.google.com' to ALLOWED_HOSTS.
+2023-06-30 06:02:58,196 - django.request - WARNING - Bad Request: /
+2023-06-30 06:10:02,995 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 06:10:02,996 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 06:10:02,996 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 06:13:28,465 - django.request - WARNING - Not Found: /actuator/gateway/routes
+2023-06-30 06:20:02,772 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 06:20:02,772 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 06:20:02,772 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 06:30:02,717 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 06:30:02,717 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 06:30:02,717 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 06:40:03,493 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 06:40:03,493 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 06:40:03,493 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 06:47:31,327 - django.request - WARNING - Not Found: /boaform/admin/formLogin
+2023-06-30 06:50:03,254 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 06:50:03,254 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 06:50:03,254 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 07:00:00,003 - apscheduler.executors.default - INFO - Running job "run_custom_command (trigger: cron[hour='7', minute='0'], next run at: 2023-06-30 07:00:00 UTC)" (scheduled at 2023-06-30 07:00:00+00:00)
+2023-06-30 07:00:00,621 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 07:00:00,621 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 07:00:00,621 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 07:00:04,061 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 07:00:04,061 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 07:00:04,061 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 07:07:33,138 - django.request - WARNING - Not Found: /geoserver
+2023-06-30 07:07:40,423 - Started Scheduled Task To Run Custom Command - INFO - Model Instances Were Successfully Updated
+2023-06-30 07:07:40,423 - apscheduler.executors.default - INFO - Job "run_custom_command (trigger: cron[hour='7', minute='0'], next run at: 2023-07-01 07:00:00 UTC)" executed successfully
+2023-06-30 07:10:03,160 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 07:10:03,160 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 07:10:03,160 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 07:20:02,946 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 07:20:02,946 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 07:20:02,946 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 07:30:02,720 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 07:30:02,720 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 07:30:02,720 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 07:40:03,497 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 07:40:03,497 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 07:40:03,497 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 07:50:03,293 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 07:50:03,293 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 07:50:03,293 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 08:00:03,073 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 08:00:03,073 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 08:00:03,073 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 08:10:02,852 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 08:10:02,853 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 08:10:02,853 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 08:20:03,662 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 08:20:03,663 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 08:20:03,663 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 08:30:03,439 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 08:30:03,440 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 08:30:03,440 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 08:36:11,991 - django.request - WARNING - Not Found: /.env
+2023-06-30 08:40:03,245 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 08:40:03,246 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 08:40:03,246 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 08:50:03,030 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 08:50:03,030 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 08:50:03,030 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 09:00:02,808 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 09:00:02,809 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 09:00:02,809 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 09:10:03,591 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 09:10:03,591 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 09:10:03,591 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 09:20:03,400 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 09:20:03,400 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 09:20:03,400 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 09:30:03,177 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 09:30:03,178 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 09:30:03,178 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 09:40:02,958 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 09:40:02,959 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 09:40:02,959 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 09:50:02,721 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 09:50:02,721 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 09:50:02,721 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 10:00:03,492 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 10:00:03,492 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 10:00:03,492 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 10:10:03,265 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 10:10:03,265 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 10:10:03,265 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 10:20:03,050 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 10:20:03,051 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 10:20:03,051 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 10:30:02,823 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 10:30:02,823 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 10:30:02,823 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 10:40:03,595 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 10:40:03,595 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 10:40:03,595 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 10:50:03,371 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 10:50:03,372 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 10:50:03,372 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 11:00:03,140 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 11:00:03,140 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 11:00:03,140 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 11:10:02,915 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 11:10:02,915 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 11:10:02,915 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 11:20:03,695 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 11:20:03,696 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 11:20:03,696 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 11:30:03,471 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 11:30:03,472 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 11:30:03,472 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 11:36:08,347 - django.request - WARNING - Not Found: /shell
+2023-06-30 11:40:03,267 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 11:40:03,267 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 11:40:03,267 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 11:50:03,052 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 11:50:03,052 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 11:50:03,052 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 11:54:24,095 - django.request - WARNING - Not Found: /login
+2023-06-30 12:00:02,831 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 12:00:02,832 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 12:00:02,832 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 12:10:03,824 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 12:10:03,825 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 12:10:03,825 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 12:20:03,653 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 12:20:03,653 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 12:20:03,653 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 12:26:56,710 - django.request - WARNING - Not Found: /hudson
+2023-06-30 12:30:03,415 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 12:30:03,415 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 12:30:03,415 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 12:40:03,167 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 12:40:03,167 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 12:40:03,167 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 12:50:02,936 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 12:50:02,936 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 12:50:02,936 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 13:00:03,691 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 13:00:03,691 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 13:00:03,691 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 13:10:03,472 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 13:10:03,472 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 13:10:03,472 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 13:20:03,247 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 13:20:03,247 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 13:20:03,247 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 13:30:03,055 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 13:30:03,055 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 13:30:03,055 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 13:40:02,853 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 13:40:02,853 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 13:40:02,853 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 13:50:03,621 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 13:50:03,621 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 13:50:03,621 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 14:00:03,397 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 14:00:03,397 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 14:00:03,397 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 14:10:03,181 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 14:10:03,181 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 14:10:03,181 - apscheduler.scheduler - INFO - Scheduler started

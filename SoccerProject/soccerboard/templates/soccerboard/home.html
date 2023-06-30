@@ -3,16 +3,18 @@
 {% load static %}
 
 {% block head %}
+<br>
 <title>Home</title>
-<link rel="stylesheet" type="text/css" href="{% static 'css/home.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'soccerboard/css/home.css' %}">
 {% endblock %}
-
+<br>
 {% block body %}
 <div class="container mt-5">
     <div class="welcome-message mb-4">
-        <h4 class="text-center">Welcome to the Website!</h4>
-        <p class="text-center">Here, you can either search for the most recent result of a Premier League team or view the current top 5 league table.</p>
+        <h1 class="text-center">Welcome to Soccerboard5!</h1>
+        <p class="text-center">Here, you can either search for the 5 most recent result of a Premier League team or view the current top 5 league table.</p>
     </div>
+    <br>
 
     <form method="POST" action="{% url 'home' %}">
         {% csrf_token %}
@@ -50,7 +52,9 @@
             </div>
         </div>
     </form>
-    <h6 class="text-center">OR</h6>
+
+    <br>
+    <br>
 
     <!-- Dropdown Form -->
     <form method="POST" action="{% url 'home' %}">
