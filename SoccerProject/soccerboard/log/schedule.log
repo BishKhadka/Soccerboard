@@ -200,3 +200,6 @@ django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.google.com
 2023-06-30 14:10:03,181 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
 2023-06-30 14:10:03,181 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
 2023-06-30 14:10:03,181 - apscheduler.scheduler - INFO - Scheduler started
+2023-06-30 11:21:42,427 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-06-30 11:21:42,427 - apscheduler.scheduler - INFO - Added job "run_custom_command" to job store "default"
+2023-06-30 11:21:42,427 - apscheduler.scheduler - INFO - Scheduler started
