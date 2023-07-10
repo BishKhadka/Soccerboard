@@ -1,10 +1,25 @@
+body {
+  background-color: #babac2;
+}
+
+.table-heading {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  color: #161313;
+  text-shadow: 2px 2px 4px rgba(75, 194, 95, 0.3);
+}
+
 .data-table {
   width: 80%;
   border-collapse: collapse;
   margin: 30px auto;
 }
 
-.data-table th, .data-table td {
+.data-table th,
+.data-table td {
   padding: 10px;
   text-align: center;
   border: 1px solid lightgray;

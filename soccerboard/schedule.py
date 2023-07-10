@@ -13,7 +13,7 @@ def run_custom_command():
     logger = logging.getLogger("Started Scheduled Task To Run Custom Command")
     os.chdir(BASE_DIR)
     subprocess.call(["python3", "manage.py", "replace"])
-    logger.info("Model Instances Were Successfully Updated")
+    logger.info("Model Instances Were Successfully Updated on Schedule")
 
 log_file = os.path.join(BASE_DIR, 'soccerboard/log/schedule.log')
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", filename=log_file)

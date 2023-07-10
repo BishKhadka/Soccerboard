@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #babac2;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.contact-heading {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #746d6d;
+  text-shadow: 2px 2px 4px rgba(243, 241, 241, 0.5);
+}
+.contact-heading h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+.contact-description {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #554141;
+  text-shadow: 1px 1px 2px rgba(167, 150, 150, 0.5);
+}
+.contact-description p {
+  font-size: 16px;
+}
+
+.form-test {
+  max-width: 600px;
+  margin: 0 auto;
+}

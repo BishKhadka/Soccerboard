@@ -1,28 +1,20 @@
-.centered {
-    text-align: center;
+.header-carousel {
+  margin-top: 20px;
 }
 
-.container {
-    max-width: 400px;
+.carousel-item {
+  position: relative;
 }
 
-.form-group {
-    display: flex;
-    align-items: center;
+.carousel-caption {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  color: #fff;
 }
 
-.welcome-message {
-    background-color: #f8f9fa;
-    padding: 20px;
-    border-radius: 5px;
+.carousel-control-prev,
+.carousel-control-next {
+  color: #fff;
 }
-
-@media (max-width: 600px) {
-    .container {
-        width: 100%;
-        padding: 0 10px; 
-    }
-}
-
-
-

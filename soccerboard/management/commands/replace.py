@@ -11,19 +11,27 @@ import requests
 from datetime import datetime
 from django.utils import timezone
 
+
 class AllLeagueData(object):
     def __init__(self):
         '''
         Initialize the AllLeagueData object.
         '''
-        self.url = "https://fbref.com/en/comps/9/Premier-League-Stats"
+        self.leagues = {
+            "serie a": "https://fbref.com/en/comps/11/Serie-A-Stats",
+            "premier league": "https://fbref.com/en/comps/9/Premier-League-Stats",
+            "la liga": "https://fbref.com/en/comps/12/La-Liga-Stats",
+            "bundesliga": "https://fbref.com/en/comps/20/Bundesliga-Stats",
+            "ligue 1": "https://fbref.com/en/comps/13/Ligue-1-Stats",
+        }
+        self.curr_league = ""
         self.session = requests.Session()
-
-    def get_url(self):
+    
+    def get_leagures(self):
         '''
-        Retrieve the URL for the Premier League statistics page.
+        Returns link to all top 5 leagues
         '''
-        return self.url
+        return self.leagues
 
     def all_club_links(self, url):
         '''
@@ -31,7 +39,7 @@ class AllLeagueData(object):
         '''
         try:
             response = self.session.get(url)
-            response.raise_for_status() 
+            response.raise_for_status()
             soup = BeautifulSoup(response.text, "html.parser")
             team_table = soup.select("table.stats_table")[0]
             team_links = team_table.find_all("a")
@@ -42,9 +50,164 @@ class AllLeagueData(object):
         except requests.exceptions.RequestException as e:
             print("Error occurred while retrieving club links:", str(e))
 
+    def additional_data(self, response_data, param, match, keepList):
+        '''
+        Retrieve additional data for a specific club.
+        '''
+        try:
+            soup = BeautifulSoup(response_data.text, "html.parser")
+            all_links = soup.find_all("a")
+            links = [l.get("href") for l in all_links if l.get("href")]
+            links = [l for l in links if param in l]
+            if not links:
+                raise ValueError("No additional data links found")
+            links = "https://fbref.com" + links[0]
+            time.sleep(random.randint(30, 200))
+            response = self.session.get(links)
+            response.raise_for_status()
+
+            #get the table
+            stats = pd.read_html(response.text, match=match)[0]
+            stats.columns = stats.columns.droplevel()
+            stats = stats[keepList]
+            return stats[:-1]
+        except requests.exceptions.RequestException as e:
+            print("Error occurred while retrieving additional data:", str(e))
+        except ValueError as e:
+            print("No additional data links found:", str(e))
+
+    def club_data(self, link):
+        '''
+        Retrieve club data for a specific club.
+        '''
+
+        try:
+            
+            time.sleep(random.randint(30, 200))
+            response = self.session.get(link)
+
+            #check for network errors
+            response.raise_for_status()
+            clubName = link.split(
+                "/")[-1].replace("-Stats", "").replace("-", " ")
+            print(f"Getting Data for {clubName}")
+            scores = pd.read_html(response.text, match="Scores & Fixtures")[0]
+            scores = scores[
+                [
+                    "Date",
+                    "Comp",
+                    "Day",
+                    "Venue",
+                    "Result",
+                    "GF",
+                    "GA",
+                    "Opponent",
+                    "Poss"
+                ]
+            ]
+
+            shooting = self.additional_data(
+                response,
+                "/all_comps/shooting/",
+                "Shooting",
+                ["Date", "Sh", "SoT"],
+            )
+            time.sleep(random.randint(30, 200))
+            misc = self.additional_data(
+                response,
+                "/all_comps/misc/",
+                "Miscellaneous",
+                ["Date", "CrdY", "CrdR", "Fls", "Off"],
+            )
+            time.sleep(random.randint(30, 200))
+
+            #merge both data 
+            finalClubData = scores.merge(shooting, how="left").merge(
+                misc, how="left"
+            )
+
+            #check which league it is for
+            if self.curr_league == "serie a":
+                print(self.curr_league)
+                finalClubData = finalClubData[finalClubData["Comp"] == "Serie A"]
+                finalClubData.replace({"Milan": "AC Milan",
+                                    "Internazionale": "Inter Milan"},
+                                    inplace=True)
+
+            elif self.curr_league == "bundesliga":
+                finalClubData = finalClubData[finalClubData["Comp"]
+                                            == "Bundesliga"]
+                finalClubData.replace({"Köln": "Koln",
+                                    "Leverkusen": "Bayer Leverkusen",
+                                    "M'Gladbach": "Monchengladbach",
+                                    "Eint Frankfurt": "Eintracht Frankfurt"},
+                                    inplace=True)
+
+            elif self.curr_league == "premier league":
+                finalClubData = finalClubData[finalClubData["Comp"]
+                                            == "Premier League"]
+                finalClubData.replace({"Newcastle Utd": "Newcastle United",
+                                    "Nott'ham Forest": "Nottingham Forest",
+                                    "Wolverhampton Wanderers": "Wolves",
+                                    "Brighton and Hove Albion": "Brighton",
+                                    "Manchester Utd": "Manchester United",
+                                    "Tottenham": "Tottenham Hotspur",
+                                    "West Ham": "West Ham United"},
+                                    inplace=True)
+                
+            elif self.curr_league == "ligue 1":
+                finalClubData = finalClubData[finalClubData["Comp"] == "Ligue 1"]
+                finalClubData.replace({"Paris S-G": "Paris Saint Germain"},
+                                    inplace=True)
+
+            elif self.curr_league == "la liga":
+                finalClubData = finalClubData[finalClubData["Comp"] == "La Liga"]
+                finalClubData.replace({"Atlético Madrid": "Atletico Madrid",
+                                    "Betis": "Real Betis",
+                                    "Cádiz": "Cadiz"},
+                                    inplace=True)
+            
+            #renaming columns
+            finalClubData["Team"] = clubName
+            finalClubData["Date"] = pd.to_datetime(
+                finalClubData["Date"], format="%Y-%m-%d"
+            )
+            int_columns = ["Poss", "Sh", "SoT", "CrdY", "CrdR", "Fls", "Off"]
+            finalClubData[int_columns] = finalClubData[int_columns].astype(int)
+            print(f"Data for {clubName} gathered")
+            return finalClubData
+
+        except requests.exceptions.RequestException as e:
+            print("Error occurred while retrieving club data: ", str(e))
+
+    def additional_data(self, response_data, param, match, keepList):
+        '''
+        Retrieve additional data for a specific club.
+        '''
+        try:
+            soup = BeautifulSoup(response_data.text, "html.parser")
+            all_links = soup.find_all("a")
+            links = [l.get("href") for l in all_links if l.get("href")]
+            links = [l for l in links if param in l]
+            if not links:
+                raise ValueError("No additional data links found")
+            links = "https://fbref.com" + links[0]
+            time.sleep(random.randint(30, 200))
+            response = self.session.get(links)
+            response.raise_for_status()
+            stats = pd.read_html(response.text, match=match)[0]
+            stats.columns = stats.columns.droplevel()
+            stats = stats[keepList]
+            return stats[:-1]
+
+        except requests.exceptions.RequestException as e:
+            print("Error occurred while retrieving additional data:", str(e))
+        except ValueError as e:
+            print("No additional data links found:", str(e))
+
     def all_data(self, url):
         '''
-        Retrieve all club data for the Premier League.
+        Retrieve all club data for the specified league.
         '''
         try:
             lock = threading.Lock()
@@ -63,6 +226,7 @@ class AllLeagueData(object):
             }
             result = pd.DataFrame()
 
+            #parallel programming: gather data for clubs in parallel
             with concurrent.futures.ThreadPoolExecutor() as executor:
                 club_tasks = [
                     executor.submit(self.club_data, link)
@@ -79,105 +243,14 @@ class AllLeagueData(object):
                                 ignore_index=True,
                             )
             result.rename(columns=names, inplace=True)
-            teamName = {
-                "Newcastle Utd": "Newcastle United",
-                "Nott'ham Forest": "Nottingham Forest",
-                "Wolverhampton Wanderers": "Wolves",
-                "Brighton and Hove Albion": "Brighton",
-                "Manchester Utd": "Manchester United",
-                "Tottenham": "Tottenham Hotspur",
-                "West Ham": "West Ham United"
-            }
-            result.replace(teamName, inplace=True)
             return result
         
         except requests.exceptions.RequestException as e:
             print("Error occurred while retrieving club data:", str(e))
         except ValueError as e:
             print("No club links found:", str(e))
-
-    def additional_data(self, response_data, param, match, keepList):
-        '''
-        Retrieve additional data for a specific club.
-        '''
-        try:
-            soup = BeautifulSoup(response_data.text, "html.parser")
-            all_links = soup.find_all("a")
-            links = [l.get("href") for l in all_links if l.get("href")]
-            links = [l for l in links if param in l]
-            if not links:
-                raise ValueError("No additional data links found")
-            links = "https://fbref.com" + links[0]
-            time.sleep(random.randint(10, 30))
-            response = self.session.get(links)
-            response.raise_for_status() 
-            stats = pd.read_html(response.text, match=match)[0]
-            stats.columns = stats.columns.droplevel()
-            stats = stats[keepList]
-            return stats[:-1]
-        except requests.exceptions.RequestException as e:
-            print("Error occurred while retrieving additional data:", str(e))
-        except ValueError as e:
-            print("No additional data links found:", str(e))
-
-    def club_data(self, link):
-        '''
-        Retrieve club data for a specific club.
-        '''
-        try:
-            time.sleep(random.randint(10, 30))
-            response = self.session.get(link)
-
-            #check for network errors
-            response.raise_for_status()  
-            clubName = link.split("/")[-1].replace("-Stats", "").replace("-", " ")
-            print(f"Getting Data for {clubName}")
-            scores = pd.read_html(response.text, match="Scores & Fixtures")[0]
-            scores = scores[
-                [
-                    "Date",
-                    "Comp",
-                    "Day",
-                    "Venue",
-                    "Result",
-                    "GF",
-                    "GA",
-                    "Opponent",
-                    "Poss",
-                ]
-            ]
-            shooting = self.additional_data(
-                response,
-                "/all_comps/shooting/",
-                "Shooting",
-                ["Date", "Sh", "SoT"],
-            )
-            time.sleep(random.randint(10, 30))
-            misc = self.additional_data(
-                response,
-                "/all_comps/misc/",
-                "Miscellaneous",
-                ["Date", "CrdY", "CrdR", "Fls", "Off"],
-            )
-            time.sleep(random.randint(10, 30))
-            finalClubData = scores.merge(shooting, how="left").merge(
-                misc, how="left"
-            )
-            finalClubData = finalClubData[
-                finalClubData["Comp"] == "Premier League"
-            ]
-            finalClubData["Team"] = clubName
-            finalClubData["Date"] = pd.to_datetime(
-                finalClubData["Date"], format="%Y-%m-%d"
-            )
-            int_columns = ["Poss", "Sh", "SoT", "CrdY", "CrdR", "Fls", "Off"]
-            finalClubData[int_columns] = finalClubData[int_columns].astype(int)
-            print(f"Data for {clubName} gathered")
-            return finalClubData
-        except requests.exceptions.RequestException as e:
-            print("Error occurred while retrieving club data: ", str(e))
-
-
+    
+        
 
 class Command(BaseCommand):
 
@@ -189,22 +262,47 @@ class Command(BaseCommand):
         '''
         Replaces and populates the model instances with the data from the csv file.
         '''
-        print(f'Starting data scraping at {timezone.make_aware(datetime.now())}')
+        print(
+            f'Starting data scraping at {timezone.make_aware(datetime.now())}')
+        
         table = AllLeagueData()
-        res = table.all_data(table.get_url())
-        print("New data has been created.")
+        final_result = pd.DataFrame()
+        
+        #get data for each league
+        for league in table.leagues:
+            url = table.leagues[league]
+            table.curr_league = league
+            league_data = table.all_data(url)
+            final_result = pd.concat(
+                                [league_data, final_result],
+                                ignore_index=True,
+                            )
+        print("New data for top 5 leagues created.")
 
-        def deleteEntireModel():
-            TableModel.objects.all().delete()
+        #update the old data with the new one
+        if final_result is not None:
+            def delete_entire_model():
+                TableModel.objects.all().delete()
 
-        deleteEntireModel()
+            delete_entire_model()
 
-        for _, row in res.iterrows():
-            TableModel.objects.create(Date=row['Date'], Competition=row['Competition'], 
-                              Day=row['Day'], Venue=row['Venue'], Result=row['Result'],
-                              GF=row['GF'], GA=row['GA'], Opponent=row['Opponent'],
-                              Possession=row['Possession'], Shots=row['Shots'], Shots_Target=row['Shots Target'],
-                              Yellow=row['Yellow'], Red=row['Red'], Fouls=row['Fouls'],
-                              Offside=row['Offside'], Team=row['Team'])
-            
-        print('Message : All instances of the model have been replaced with new data.')
+            for _, row in final_result.iterrows():
+                TableModel.objects.create(
+                    Date=row['Date'],
+                    Competition=row['Competition'],
+                    Day=row['Day'],
+                    Venue=row['Venue'],
+                    Result=row['Result'],
+                    GF=row['GF'],
+                    GA=row['GA'],
+                    Opponent=row['Opponent'],
+                    Possession=row['Possession'],
+                    Shots=row['Shots'],
+                    Shots_Target=row['Shots Target'],
+                    Yellow=row['Yellow'],
+                    Red=row['Red'],
+                    Fouls=row['Fouls'],
+                    Offside=row['Offside'],
+                    Team=row['Team'])
+
+            print('Message : All instances of the model have been replaced with new data.')

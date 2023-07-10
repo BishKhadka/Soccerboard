@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block head %}
+<title>Contact Success</title>
+<link rel="stylesheet" type="text/css" href="{% static 'soccerboard/css/contact_success.css' %}">
+{% endblock %}
+{% block body %} 
+<div class="text-center container content">
+   <p class="land disabled">Your message has landed in our soccer net!</p>
+   <div class="col-md-6 offset-md-3 image-container">
+      <img id="gif" src='{% static 'soccerboard/images/success.gif' %}' alt='Success Image' class='img-fluid mb-4 image' >;
+   </div>
+</div>
+{% block script %}
+<script src="{% static 'soccerboard/js/contact_success.js' %}"></script>
+{% endblock %}

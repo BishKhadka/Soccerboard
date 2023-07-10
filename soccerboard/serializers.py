@@ -18,4 +18,4 @@ class TeamNameSerializer(serializers.ModelSerializer):
     '''
     class Meta:
         model = TableModel
-        fields = ['Team']
+        fields = ['Team', 'Competition']

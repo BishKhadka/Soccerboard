@@ -23,10 +23,6 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-
-    # the name "home1" will be used to redirect url in html, we should use the name in html
-    #home page url (first one is path, second func, third name in html file)
-    path('', views.home, name='home'),  
     path('soccer/', include('soccerboard.urls'))
 
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

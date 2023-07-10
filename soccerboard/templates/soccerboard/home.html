@@ -1,81 +1,37 @@
 {% extends 'base.html' %}
-
-{% load static %}
-
+{% load static %} 
 {% block head %}
-<br>
 <title>Home</title>
-<link rel="stylesheet" type="text/css" href="{% static 'soccerboard/css/home.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'soccerboard/css/stats.css' %}">
 {% endblock %}
-<br>
-{% block body %}
-<div class="container mt-5">
-    <div class="welcome-message mb-4">
-        <h1 class="text-center">Welcome to Soccerboard5!</h1>
-        <p class="text-center">Here, you can either search for the 5 most recent result of a Premier League team or view the current top 5 league table.</p>
-    </div>
-    <br>
-
-    <form method="POST" action="{% url 'home' %}">
-        {% csrf_token %}
-        <div class="form-group">
-            <label for="search_team_result">View the Most Recent Result</label>
-            <div class="input-group">
-                <input type="hidden" name="form_type" value="search-team-button">
-                <!-- list is the suggestion list -->
-                <input type="text" class="form-control" id="search_team_result" name="club_name" placeholder="Enter club name" list="suggestionList" required>
-                <datalist id="suggestionList">
-                    <option>Fulham</option>
-                    <option>Aston Villa</option>
-                    <option>Tottenham Hotspur</option>
-                    <option>Manchester City</option>
-                    <option>Crystal Palace</option>
-                    <option>Manchester United</option>
-                    <option>Liverpool</option>
-                    <option>Brighton</option>
-                    <option>Newcastle United</option>
-                    <option>Brentford</option>
-                    <option>Wolves</option>
-                    <option>Leeds United</option>
-                    <option>Bournemouth</option>
-                    <option>Everton</option>
-                    <option>Nottingham Forest</option>
-                    <option>West Ham United</option>
-                    <option>Leicester City</option>
-                    <option>Southampton</option>
-                    <option>Chelsea</option>
-                    <option>Arsenal</option>
-                </datalist>
-                <div class="input-group-append">
-                    <button class="btn btn-primary" type="submit">Search</button>
-                </div>
-            </div>
-        </div>
-    </form>
-
-    <br>
-    <br>
-
-    <!-- Dropdown Form -->
-    <form method="POST" action="{% url 'home' %}">
-        {% csrf_token %}
-        <div class="form-group">
-            <label for="selectedLeague">View the Current League Table</label>
-            <div class="input-group">
-                <input type="hidden" name="form_type" value="search-table-button">
-                <select class="custom-select" id="selectedLeague" name="leagueName">
-                    <option selected>Select League</option>
-                    <option value="Bundesliga">Bundesliga</option>
-                    <option value="Laliga">Laliga</option>
-                    <option value="Ligue 1">Ligue 1</option>
-                    <option value="Premier League">Premier League</option>
-                    <option value="Serie A">Serie A</option>
-                </select>
-                <div class="input-group-append">
-                    <button class="btn btn-primary" type="submit">Go</button>
-                </div>
-            </div>
-        </div>
-    </form>
-</div>
+{% block body %}  
+<!-- Header Carousel -->
+<header class="header-carousel">
+   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+         <div class="carousel-item active">
+            <img class="d-block w-100" src="{% static 'soccerboard/images/Bundesliga.jpeg' %}" alt="Bundesliga">
+         </div>
+         <div class="carousel-item">
+            <img class="d-block w-100"  src="{% static 'soccerboard/images/Laliga.webp' %}" alt="Laliga">
+         </div>
+         <div class="carousel-item">
+            <img class="d-block w-100" src="{% static 'soccerboard/images/Ligue1.png' %}" alt="Ligue1">
+         </div>
+         <div class="carousel-item">
+            <img class="d-block w-100" src="{% static 'soccerboard/images/PL.png' %}" alt="Premier League">
+         </div>
+         <div class="carousel-item">
+            <img class="d-block w-100" src="{% static 'soccerboard/images/SerieA.jpeg' %}" alt="Serie A">
+         </div>
+         <div class="carousel-item">
+            <img class="d-block w-100" src="{% static 'soccerboard/images/CL.webp' %}" alt="Champions League">
+         </div>
+      </div>
+   </div>
+</header>
 {% endblock %}
+{% block script %}
+<script src="{% static 'soccerboard/js/home.js' %}"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+{% endblock%}
