@@ -1,73 +1,76 @@
 {% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Soccer Quiz</title>
-      <link rel="stylesheet" type="text/css" href="{% static 'soccerboard/css/quiz.css' %}">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-   </head>
-   <body>
-      <div class="start-container">
-         <img class="soccer" src="{% static 'soccerboard/images/Soccer.png'%}" alt="Play Now">
-         <div class="buttons">
-            <button class="play-now">Play Now</button>
-         </div>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soccer Quiz</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'soccerboard/css/quiz.css' %}">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  </head>
+  <body>
+    <div class="start-container">
+      <img class="soccer" src="{% static 'soccerboard/images/Soccer.png'%}" alt="Play Now">
+      <div class="buttons">
+        <button class="play-now">Play Now</button>
       </div>
-      <div class="info-container">
-         <div class="rules-heading">
-            <span>Guidelines for the Quiz</span>
-         </div>
-         <div class="rules-list"></div>
-         <div class="buttons">
-            <button class="start">Start</button>
-            <button class="quit" href = "{% url 'home' %}">Quit</button>
-         </div>
+    </div>
+    <div class="info-container">
+      <div class="rules-heading">
+        <span>Guidelines for the Quiz</span>
       </div>
-      <div class="quiz-container">
-         <div class="quiz-heading">
-            <div class="outer-box">
-               <div class="inner-box"></div>
-            </div>
-            <span class="question-number"></span>
-         </div>
-         <div class="question-box">
-            <div class="countdown">
-               <div class="countdown-number"></div>
-               <svg>
-                  <circle r="18" cx="20" cy="20"></circle>
-               </svg>
-            </div>
-            <div class="question"></div>
-         </div>
-         <div class="option-list"></div>
-         <div class="buttons">
-            <button class="next">Next</button>
-         </div>
+      <div class="rules-list"></div>
+      <div class="buttons">
+        <button class="start">Start</button>
+        <button class="quit" href = "{% url 'home' %}">Quit</button>
       </div>
-      <div class="result-container">
-         <div class="icon-container">
-            <div class="star">
-               <i class="fas fa-star"></i>
-            </div>
-            <div class="star">
-               <i class="fas fa-star"></i>
-            </div>
-            <div class="star">
-               <i class="fas fa-star"></i>
-            </div>
-         </div>
-         <div class="result-text">
-            <div class="result-score"></div>
-         </div>
-         <div class="buttons">
-            <button class="replay">Replay</button>
-            <button class="quit" href="{% url 'home' %}">Quit</button>
-         </div>
+    </div>
+    <div class="quiz-container">
+      <div class="quiz-heading">
+        <div class="outer-box">
+          <div class="inner-box"></div>
+        </div>
+        <span class="question-number"></span>
       </div>
-      <script src="{% static 'soccerboard/js/questions.js' %}"></script>
-      <script src="{% static 'soccerboard/js/quiz.js' %}"></script>
-      <script src="{% static 'soccerboard/js/comments.js' %}"></script>
-   </body>
+      <div class="question-box">
+        <div class="countdown">
+          <div class="countdown-number"></div>
+          <svg>
+            <circle r="18" cx="20" cy="20"></circle>
+          </svg>
+        </div>
+        <div class="question"></div>
+      </div>
+      <div class="option-list"></div>
+      <div class="buttons">
+        <button class="next">Next</button>
+      </div>
+    </div>
+    <div class="result-container">
+      <div class="icon-container">
+        <div class="star">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="star">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="star">
+          <i class="fas fa-star"></i>
+        </div>
+      </div>
+      <div class="result-text">
+        <div class="result-score"></div>
+      </div>
+      <div class="buttons">
+        <button class="replay">Replay</button>
+        <button class="quit" href="{% url 'home' %}">Quit</button>
+      </div>
+    </div>
+    <script src="{% static 'soccerboard/js/questions.js' %}"></script>
+    <script src="{% static 'soccerboard/js/quiz.js' %}"></script>
+    <script src="{% static 'soccerboard/js/comments.js' %}"></script>
+  </body>
 </html>

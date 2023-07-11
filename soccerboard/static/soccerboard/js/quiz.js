@@ -16,7 +16,7 @@ const quitButtons = document.querySelectorAll('.quit');
 let totalQuestionsPlayed;
 let totalScore;
 let totalTimeGiven = 15;
-let totalQuizQuestions = 2;
+let totalQuizQuestions = 10;
 let tickIconHTML = '<div class="icon tick"><i class="fas fa-check"></i></div>';
 let crossIconHTML = '<div class="icon cross"><i class="fas fa-times"></i></div>';
 const totalQuestionsOnFile = questions.length;

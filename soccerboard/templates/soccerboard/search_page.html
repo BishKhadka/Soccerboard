@@ -1,56 +1,62 @@
 {% extends 'base.html' %}
+
 {% load static %}
+
 {% block head %}
 <title>Search Results</title>
 <link rel="stylesheet" type="text/css" href="{% static 'soccerboard/css/search_page.css' %}">
+
 {% endblock %}
+
 {% block body %}
-<br>
-<div class="row">
-   <div class="col-md-6 offset-md-3 text-center">
-      <img src="{% static logopath %}" alt="Image" class="img-fluid mb-4" style="width: auto; height: 200px; margin-left: auto; margin-right: 0;">
-   </div>
+
+
+<div class="row logo">
+    <div class="col-md-6 offset-md-3 text-center">
+        <img src="{% static logopath %}" alt="Image" class="img-fluid mb-4" style="width: auto; height: 200px; margin-left: auto; margin-right: 0;">
+    </div>
 </div>
 <div class="container-search mt-5">
-   <form method="POST" action="{% url 'search_page' league %}">
-      {% csrf_token %}
-      <div class = "text-center">
-         <label for="search_team_result" class = "text-center">View the Most Recent Result</label>
-      </div>
-      <div class="form-group">
-         <div class="input-group">
-            <input type="hidden" name="form_type" value="search-team-button">
-            <input type="text" class="form-control" id="search_team_result" name="club_name" placeholder="Enter club name" list="suggestionList" required>
-            <datalist id="suggestionList">
-               {% for team in team_names%}
-               <option>{{team.Team}}</option>
-               {%endfor%}
-            </datalist>
-            <div class="input-group-append">
-               <button class="btn btn-primary" type="submit">Search</button>
+    <form method="POST" action="{% url 'search_page' league %}">
+        {% csrf_token %}
+        <div class = "text-center">
+        <label for="search_team_result" class = "text-center">View the Most Recent Result</label>
+        </div>
+        <div class="form-group">
+            <div class="input-group">
+                <input type="hidden" name="form_type" value="search-team-button">
+                <input type="text" class="form-control" id="search_team_result" name="club_name" placeholder="Enter club name" list="suggestionList" required>
+                <datalist id="suggestionList">
+                    {% for team in team_names%}
+                    <option>{{team.Team}}</option>
+                    {%endfor%}
+                </datalist>
+                <div class="input-group-append">
+                    <button class="btn btn-primary" type="submit">Search</button>
+                </div>
             </div>
-         </div>
-      </div>
-   </form>
-   <br>
-   <br>
-   <!-- Dropdown Form -->
-   <form method="POST" action="{% url 'search_page' league %}">
-      {% csrf_token %}
-      <div class = "text-center">
-         <label for="selectedLeague">View the Current League Table</label>
-      </div>
-      <div class="input-group">
-         <input type="hidden" name="form_type" value="search-table-button">
-         <select class="custom-select" id="selectedLeague" name="leagueName">
-            <option selected>Select League</option>
-            <option value="{{league}}"">{{league}}</option>
-         </select>
-         <div class="input-group-append">
-            <button class="btn btn-primary" type="submit">Go</button>
-         </div>
-      </div>
-   </form>
+        </div>
+    </form>
+
+    <!-- Dropdown Form -->
+    <form method="POST" action="{% url 'search_page' league %}">
+        {% csrf_token %}
+        <div class = "text-center">
+            <label for="selectedLeague">View the Current League Table</label>
+            </div>
+    
+
+            <div class="input-group">
+                <input type="hidden" name="form_type" value="search-table-button">
+                <select class="custom-select" id="selectedLeague" name="leagueName">
+                    <option selected disabled>Select League</option>
+                    <option value="{{league}}"">{{league}}</option>
+                </select>
+                <div class="input-group-append">
+                    <button class="btn btn-primary" type="submit">Go</button>
+                </div>
+            </div>
+    </form>
 </div>
-<br>
+
 {% endblock %}

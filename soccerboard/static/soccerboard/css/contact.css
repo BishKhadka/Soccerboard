@@ -3,7 +3,6 @@ body {
   background-color: #babac2;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
 }
 
 .contact-heading {
@@ -29,4 +28,8 @@ body {
 .form-test {
   max-width: 600px;
   margin: 0 auto;
+}
+
+.btn{
+  margin-bottom: 40px;
 }

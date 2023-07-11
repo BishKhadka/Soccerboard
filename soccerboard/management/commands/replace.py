@@ -125,6 +125,14 @@ class AllLeagueData(object):
             finalClubData = scores.merge(shooting, how="left").merge(
                 misc, how="left"
             )
+            
+            #renaming columns
+            finalClubData["Team"] = clubName
+            finalClubData["Date"] = pd.to_datetime(
+                finalClubData["Date"], format="%Y-%m-%d"
+            )
+            int_columns = ["Poss", "Sh", "SoT", "CrdY", "CrdR", "Fls", "Off"]
+            finalClubData[int_columns] = finalClubData[int_columns].astype(int)
 
             #check which league it is for
             if self.curr_league == "serie a":
@@ -166,14 +174,7 @@ class AllLeagueData(object):
                                     "Betis": "Real Betis",
                                     "Cádiz": "Cadiz"},
                                     inplace=True)
-            
-            #renaming columns
-            finalClubData["Team"] = clubName
-            finalClubData["Date"] = pd.to_datetime(
-                finalClubData["Date"], format="%Y-%m-%d"
-            )
-            int_columns = ["Poss", "Sh", "SoT", "CrdY", "CrdR", "Fls", "Off"]
-            finalClubData[int_columns] = finalClubData[int_columns].astype(int)
+                
             print(f"Data for {clubName} gathered")
             return finalClubData
 
