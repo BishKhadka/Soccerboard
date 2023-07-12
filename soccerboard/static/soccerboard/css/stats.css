@@ -51,10 +51,11 @@
 }
 
 .score {
-  background-color: #85a2be;
+  background-color: #e0e7ee;
   border-radius: 5px;
-  color: #333;
-  padding: 6px;
+  color: #250e0e;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .team-name {

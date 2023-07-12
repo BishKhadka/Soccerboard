@@ -50,32 +50,6 @@ class AllLeagueData(object):
         except requests.exceptions.RequestException as e:
             print("Error occurred while retrieving club links:", str(e))
 
-    def additional_data(self, response_data, param, match, keepList):
-        '''
-        Retrieve additional data for a specific club.
-        '''
-        try:
-            soup = BeautifulSoup(response_data.text, "html.parser")
-            all_links = soup.find_all("a")
-            links = [l.get("href") for l in all_links if l.get("href")]
-            links = [l for l in links if param in l]
-            if not links:
-                raise ValueError("No additional data links found")
-            links = "https://fbref.com" + links[0]
-            time.sleep(random.randint(30, 200))
-            response = self.session.get(links)
-            response.raise_for_status()
-
-            #get the table
-            stats = pd.read_html(response.text, match=match)[0]
-            stats.columns = stats.columns.droplevel()
-            stats = stats[keepList]
-            return stats[:-1]
-        except requests.exceptions.RequestException as e:
-            print("Error occurred while retrieving additional data:", str(e))
-        except ValueError as e:
-            print("No additional data links found:", str(e))
-
     def club_data(self, link):
         '''
         Retrieve club data for a specific club.
@@ -83,7 +57,7 @@ class AllLeagueData(object):
 
         try:
             
-            time.sleep(random.randint(30, 200))
+            time.sleep(random.randint(20, 60))
             response = self.session.get(link)
 
             #check for network errors
@@ -112,14 +86,13 @@ class AllLeagueData(object):
                 "Shooting",
                 ["Date", "Sh", "SoT"],
             )
-            time.sleep(random.randint(30, 200))
+            time.sleep(random.randint(20, 60))
             misc = self.additional_data(
                 response,
                 "/all_comps/misc/",
                 "Miscellaneous",
                 ["Date", "CrdY", "CrdR", "Fls", "Off"],
             )
-            time.sleep(random.randint(30, 200))
 
             #merge both data 
             finalClubData = scores.merge(shooting, how="left").merge(
@@ -128,15 +101,9 @@ class AllLeagueData(object):
             
             #renaming columns
             finalClubData["Team"] = clubName
-            finalClubData["Date"] = pd.to_datetime(
-                finalClubData["Date"], format="%Y-%m-%d"
-            )
-            int_columns = ["Poss", "Sh", "SoT", "CrdY", "CrdR", "Fls", "Off"]
-            finalClubData[int_columns] = finalClubData[int_columns].astype(int)
 
             #check which league it is for
             if self.curr_league == "serie a":
-                print(self.curr_league)
                 finalClubData = finalClubData[finalClubData["Comp"] == "Serie A"]
                 finalClubData.replace({"Milan": "AC Milan",
                                     "Internazionale": "Inter Milan"},
@@ -174,6 +141,13 @@ class AllLeagueData(object):
                                     "Betis": "Real Betis",
                                     "Cádiz": "Cadiz"},
                                     inplace=True)
+            
+            finalClubData["Date"] = pd.to_datetime(
+                finalClubData["Date"], format="%Y-%m-%d"
+            )
+            int_columns = ["Poss", "Sh", "SoT", "CrdY", "CrdR", "Fls", "Off"]
+            finalClubData[int_columns] = finalClubData[int_columns].astype(int)
+            
                 
             print(f"Data for {clubName} gathered")
             return finalClubData
@@ -193,7 +167,7 @@ class AllLeagueData(object):
             if not links:
                 raise ValueError("No additional data links found")
             links = "https://fbref.com" + links[0]
-            time.sleep(random.randint(30, 200))
+            time.sleep(random.randint(20, 60))
             response = self.session.get(links)
             response.raise_for_status()
             stats = pd.read_html(response.text, match=match)[0]
