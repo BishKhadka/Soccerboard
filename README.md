@@ -5,7 +5,7 @@ Soccerboard is a responsive and dynamic web application build in Python using Dj
 
 
 
-## Description
+## 📜 Description
 
 Webscraping is the integral part of this project. The data for the league tables are scraped from the web using BeautifulSoup library and served to the user directly without storing in the database. The stats, however, are stored in the PostgreSQL database and are queried from the Django models using Django ORM commands. The data collection process for stats runs automatically every hour using APScheduler. To speed up the data collection and avoid memory leaks, the project uses parallel programming and threading techniques, respectively. Function-based views are predominantly used rather than class based views to avoiding too much abstraction.
 
@@ -19,7 +19,7 @@ The project also provides APIs for users to access the data about the teams usin
 
 The project follows the Python PEP 8 conventions for code style and formatting. The code is well commented and documented using docstrings and comments.
 
-## Deployment
+## ☁️ Deployment 
 
 I have deployed the Django web application on an Azure Virtual Machine running Ubuntu, using Gunicorn as the Python WSGI HTTP server and Nginx as the web server (reverse proxy). I have used PostgreSQL as a database backend.
 
@@ -28,12 +28,12 @@ The cryptographic layer (SSL/TLS) has been enabled to encrypt the data transmitt
 Here is the link to the website on my
 [studio](http://bishalkhadka.studio/soccer/). 
 
-## Architecture
+## 📐 Architecture
 <img width="860" alt="Screenshot 2023-07-12 at 15 56 15" src="https://github.com/BishKhadka/Soccerboard/assets/12107885/386851d6-2f36-4683-8e45-981436df6cd9">
 
 
 
-## API Reference
+## ⚙️ API Reference
 I used Django REST Framework to create REST APIs and execute CRUD operations.
 
 #### Get all data
@@ -65,7 +65,7 @@ Remove the entire model (requires admin privilege)
   DELETE /api/delete-entire-model/
 ```
 
-## Languages and Tools
+## 🧰 Languages and Tools
 
 <a href="https://azure.microsoft.com/en-in/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="40" height="40"/> </a> 
 <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> 
@@ -112,11 +112,11 @@ I acquired these skills through this project.
 - Automation skills
 
 
-## Acknowledgements
+## 🫶 Acknowledgements
 
  [Click Here](https://bishalkhadka.studio/soccer/acknowledgement)
  
-## Other Projects
+## 🏛️ Other Projects
 
 Checkout some of my other projects [here](https://github.com/BishKhadka). 
 
