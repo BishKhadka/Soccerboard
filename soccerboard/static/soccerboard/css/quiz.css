@@ -476,7 +476,7 @@ p{
     .info-container .buttons,
     .quiz-container .buttons,
     .result-container .buttons {
-      scale: 0.85;
+      scale: 0.9;
     }
   
     .start-container .buttons .play-now,
@@ -486,7 +486,7 @@ p{
     .quiz-container .buttons .finish,
     .result-container .buttons .replay,
     .result-container .buttons .quit {
-      scale: 0.85;
+      scale: 0.9;
     }
   }
    
