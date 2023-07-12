@@ -28,6 +28,10 @@ The cryptographic layer (SSL/TLS) has been enabled to encrypt the data transmitt
 Here is the link to the website on my
 [studio](http://bishalkhadka.studio/soccer/). 
 
+## Architecture
+<img width="707" alt="Screenshot 2023-07-12 at 15 46 54" src="https://github.com/BishKhadka/Soccerboard/assets/12107885/96677c95-c758-446f-9689-4ed0b45bfd05">
+
+
 ## API Reference
 I used Django REST Framework to create REST APIs and execute CRUD operations.
 
