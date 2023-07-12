@@ -78,8 +78,8 @@ Remove the entire model (requires admin privilege)
 <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> 
 <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> 
 <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="60" height="40"/> </a><a href="https://www.django-rest-framework.org" target="_blank" rel="noreferrer"> <img src="https://www.django-rest-framework.org/img/logo.png" alt=“djangorestframework” width="80" height="60"/> </a>
-<a href="https://www.nginx.com" target="_blank" rel="noreferrer"> <img src="https://download.logo.wine/logo/Nginx/Nginx-Logo.wine.png" alt=“Ngnix” width="80" height="60"/> </a>
-<a href="https://gunicorn.org" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Gunicorn_logo_2010.svg/1280px-Gunicorn_logo_2010.svg.png" alt=“gunicorn width="100" height="60"/></a>
+<a href="https://www.nginx.com" target="_blank" rel="noreferrer"> <img src="https://download.logo.wine/logo/Nginx/Nginx-Logo.wine.png" alt=“Ngnix” width="80" height="40"/> </a>
+<a href="https://gunicorn.org" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Gunicorn_logo_2010.svg/1280px-Gunicorn_logo_2010.svg.png" alt=“gunicorn width="100" height="40"/></a>
 
 **Front-end**: HTML, CSS, Bootstrap, JavaScript
 
