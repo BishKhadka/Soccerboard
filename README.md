@@ -29,7 +29,8 @@ Here is the link to the website on my
 [studio](http://bishalkhadka.studio/soccer/). 
 
 ## Architecture
-<img width="707" alt="Screenshot 2023-07-12 at 15 46 54" src="https://github.com/BishKhadka/Soccerboard/assets/12107885/96677c95-c758-446f-9689-4ed0b45bfd05">
+<img width="860" alt="Screenshot 2023-07-12 at 15 56 15" src="https://github.com/BishKhadka/Soccerboard/assets/12107885/386851d6-2f36-4683-8e45-981436df6cd9">
+
 
 
 ## API Reference
