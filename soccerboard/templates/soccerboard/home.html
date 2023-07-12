@@ -1,16 +1,68 @@
 {% extends 'base.html' %}
-{% load static %} 
+
+{% load static %}
 
 {% block head %}
 <title>Home</title>
-<link rel="shortcut icon" href="#" />
+<!-- <link rel="stylesheet" type="text/css" href="{% static 'soccerboard/css/home.css' %}"> -->
+<style>
+.header-carousel {
+  margin-top: 20px;
+}
 
-<link rel="stylesheet" type="text/css" href="{% static 'soccerboard/css/home.css' %}">
+.carousel-item {
+  position: relative;
+}
 
+.carousel-caption {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  color: #fff;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  color: #fff;
+}
+
+.featured{
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0 0 0;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.player-spotlight{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.spotlight-heading {
+  font-size: 30px; 
+  margin: 20px 0;
+  font-weight: 500;
+  text-align: center;
+  color: rgb(81, 68, 49);
+
+}
+
+.spotlight-heading:hover {
+  font-weight: 200;
+  text-align: center;
+  color: rgb(195, 177, 151);
+}
+
+.card{
+  margin: 20px auto;
+}
+</style>
 {% endblock %}
 
-{% block body %}  
-  <!-- Header Carousel -->
+{% block body %}
 <header class="header-carousel">
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
@@ -40,9 +92,9 @@
     <div class="spotlight-heading"> Player Spotlight (22/23)</div>
   
   <div class="player-spotlight">  
-  <div class="card" style="width: 30rem;">
 
-    <div>    <img class="card-img-top" src="{% static 'soccerboard/images/Messi.jpeg' %}" alt="Card image cap">
+    <div class="card" style="width: 30rem;">    
+      <img class="card-img-top" src="{% static 'soccerboard/images/Messi.jpeg' %}" alt="Card image cap">
       <div class="card-body">
         <h5 class="card-title">The Best FIFA Men's Player Award</h5>
           <h6 class="card-subtitle mb-2 text-muted">Lionel Messi</h6>
@@ -52,11 +104,9 @@
       </div>
     </div>
 
-  </div>
-  
-  <div class="card" style="width: 30rem;">
 
-  <div><img class="card-img-top" src="{% static 'soccerboard/images/Haaland.jpeg' %}" alt="Card image cap">
+  <div class="card" style="width: 30rem;">
+    <img class="card-img-top" src="{% static 'soccerboard/images/Haaland.jpeg' %}" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">UEFA Champions League Golden Boot</h5>
         <h6 class="card-subtitle mb-2 text-muted">Erling Haaland</h6>
@@ -67,19 +117,6 @@
   </div>
 </div>
 </div>
-</div>
-
-    <!-- <div class="card">
-      <img  class="card-img-top" alt="Player Image">
-      <div class="card-body">
-        <h5 class="card-title">Current Top Scorer</h5>
-        <h6 class="card-subtitle mb-2 text-muted">Erling Haaland</h6>
-        <p class="card-text">Goals Scored: 36</p>
-        <p class="card-text">Team: Manchester City</p>
-      </div>
-    </div> -->
-
-  
 {% endblock %}
 
 {% block script %}

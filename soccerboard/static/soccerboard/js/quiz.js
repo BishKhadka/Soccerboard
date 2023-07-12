@@ -54,8 +54,7 @@ playNowButton.addEventListener('click', function() {
 		'<span class = "rules">2. Time Limit: ' + totalTimeGiven + ' sec for each question </span>' +
 		'<span class = "rules">3. Once you select an option, it cannot be changed.</span>' +
 		'<span class = "rules">4. Once the quiz begins, there is no option to quit.</span>' +
-		'<span class = "rules">5. There is no penalty for incorrect answers.</span>'+ 
-		'<span class = "rules">6. For better experience with animations, use Chrome/Firefox/Edge.</span>';
+		'<span class = "rules">5. There is no penalty for incorrect answers.</span>';
 });
 
 //starts the quiz 
@@ -98,6 +97,7 @@ quitButtons.forEach(function(button) {
 
 //displays the next quiz question
 quizNextButton.addEventListener('click', function() {
+	quizNextButton.classList.remove('button-enabled');
 	if (quizNextButton.innerHTML == "Next") {
 		quizContainer.querySelector('.option-list').innerHTML = "";
 		createQuiz()
@@ -106,9 +106,7 @@ quizNextButton.addEventListener('click', function() {
 	} else if (quizNextButton.innerHTML == "Finish") {
 		stopCountdown()
 		showResult()
-
 	}
-
 });
 
 //displays the result of the quiz
@@ -130,9 +128,6 @@ resultReplayButton.addEventListener('click', function() {
 //creates the quiz 
 function createQuiz() {
 	currQsnIdx = getRandomQuestionNumber()
-
-    //disable the next button until an option is selected
-	// quizContainer.querySelector('.buttons .next').classList.add('next-disabled');
 
     //question header display
 	let questionNumberTag = quizContainer.querySelector('.quiz-heading .question-number');

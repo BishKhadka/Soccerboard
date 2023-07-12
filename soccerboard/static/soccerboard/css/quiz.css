@@ -17,6 +17,15 @@ body {
     background: #007bff;
 }
 
+div {
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+    -khtml-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+  }
+
 .buttons{
     border-radius: 10px;
 }
@@ -30,6 +39,7 @@ body {
 .result-container .buttons .quit{
     display: flex;
     background-color: rgb(163, 105, 238);
+    color: black;
     border-radius: 10px;
     font-size: 20px;
     cursor: pointer;
@@ -100,7 +110,6 @@ body {
 }
 
 .info-container{
-  
     background:#fff;
     width: 500px;
     border-radius: 5px;
@@ -109,7 +118,6 @@ body {
     position: absolute;
     flex-direction: column;
     visibility: hidden;
-
 }
 
 .info-container .rules-heading{
@@ -354,6 +362,7 @@ body {
     justify-content: center;
     width: 120px;
     height: 60px;
+    visibility: hidden;
 }
 
 .result-container{
@@ -422,7 +431,7 @@ p{
     justify-content: center;
     width: 120px;
     height: 60px;
-    
+    visibility: hidden;
 }
 
 .quiz-container .option-list .pointer-events-disabled{
@@ -443,41 +452,31 @@ p{
 .quiz-container.quiz-enabled,
 .result-container.result-enabled {
     position: absolute;
-    /* opacity: 1; */
     z-index: 2;
     visibility: visible;
     pointer-events: auto;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%) scale(0.7);
-
+    transform: translate(-50%, -50%) scale(0.9);
 }
-
-
 
 .start-container.start-disabled{
   visibility: hidden;
 }
 
 
-/* Add media queries for responsiveness */
 @media (max-width: 600px) {
     .info-container,
     .quiz-container,
     .result-container {
       scale: 0.7;
-      opacity: 0;
     }
 
-    /* .start-container{
-      scale: 0.7;
-    }
-     */
     .start-container .buttons,
     .info-container .buttons,
     .quiz-container .buttons,
     .result-container .buttons {
-      scale: 0.7;
+      scale: 0.85;
     }
   
     .start-container .buttons .play-now,
@@ -487,9 +486,7 @@ p{
     .quiz-container .buttons .finish,
     .result-container .buttons .replay,
     .result-container .buttons .quit {
-      scale: 0.7;
+      scale: 0.85;
     }
-
-
   }
    
