@@ -112,6 +112,10 @@ I acquired these skills through this project.
 - Automation skills
 
 
+## Acknowledgements
+
+ [Click Here](https://bishalkhadka.studio/soccer/acknowledgement)
+ 
 ## Other Projects
 
 Checkout some of my other projects [here](https://github.com/BishKhadka). 
@@ -119,8 +123,3 @@ Checkout some of my other projects [here](https://github.com/BishKhadka).
 
 ## 🔗 Connect
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/khadka-bishal/)
-
-
-## Acknowledgements
-
- [Click Here](https://bishalkhadka.studio/soccer/acknowledgement)
