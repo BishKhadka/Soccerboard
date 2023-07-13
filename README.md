@@ -1,17 +1,16 @@
 
 # Soccerboard
 
-Soccerboard is a responsive and dynamic web application build in Python using Django framework. You can play soccer quiz, get latest match stats of your favorite teams in top 5 leagues and also view the current league tables.
-
+Soccerboard is a responsive and dynamic web application built in Python using the Django framework. You can play soccer quizzes, get the latest match stats of your favorite teams in the top 5 leagues, and also view the current league tables.
 
 
 ## 📜 Description
 
-Webscraping is the integral part of this project. The data for the league tables are scraped from the web using BeautifulSoup library and served to the user directly without storing in the database. The stats, however, are stored in the PostgreSQL database and are queried from the Django models using Django ORM commands. The data collection process for stats runs automatically every hour using APScheduler. To speed up the data collection and avoid memory leaks, the project uses parallel programming and threading techniques, respectively. Function-based views are predominantly used rather than class based views to avoiding too much abstraction.
+Web scraping is an integral part of this project. The data for the league tables are scraped from the web using the BeautifulSoup library and served to the user directly without storing in the database. The stats, however, are stored in the PostgreSQL database and are queried from the Django models using Django ORM commands. The data collection process for stats runs automatically every hour using APScheduler. To speed up the data collection and avoid memory leaks, the project uses parallel programming and threading techniques, respectively. Function-based views are predominantly used rather than class-based views to avoid too much abstraction.
 
-The project includes quiz game which is written entirely in HTML, CSS, and JS. The questions are randomly selected and the options are shuffled.
+The project includes a quiz game that is written entirely in HTML, CSS, and JS. The questions are randomly selected and the options are shuffled.
 
-The contact form included has both client-side and server-side validation to validate and sanitize user input. It is ensured that the input conforms to the expected format and does not contain any malicious content that would otherwise allow an attacker to inject HTTP headers which could be a serious security vulnerability. The form also ensures that the user are not providing an empty name and message or special characters such as spaces in the required field to trick the server.
+The contact form included has both client-side and server-side validation to validate and sanitize user input. It is ensured that the input conforms to the expected format and does not contain any malicious content that would otherwise allow an attacker to inject HTTP headers which could be a serious security vulnerability. The form also ensures that the user is not providing an empty name and message or special characters such as spaces in the required field to trick the server.
 
 The templates follow a well-structured approach. The project uses a base template that contains the common elements of the web pages such as HTML introduction and Bootstrap. The other templates extend the base template and add their own content. The static files, such as images, CSS, and JavaScript, are stored in a separate folder following the industry standards to facilitate static file collection during deployment. The templates and static files have been minified for better rendering. 
 
@@ -23,7 +22,7 @@ The project follows the Python PEP 8 conventions for code style and formatting. 
 
 I have deployed the Django web application on an Azure Virtual Machine running Ubuntu, using Gunicorn as the Python WSGI HTTP server and Nginx as the web server (reverse proxy). I have used PostgreSQL as a database backend.
 
-The cryptographic layer (SSL/TLS) has been enabled to encrypt the data transmitted between user's browser and the web server. This is done to ensure that sensitive information, such as login credentials of the admin and emails/messages in the contact form, are not intercepted and read by unauthorized individuals, thus preventing man-in-the-middle attacks.
+The cryptographic layer (SSL/TLS) has been enabled to encrypt the data transmitted between the user's browser and the web server. This is done to ensure that sensitive information, such as login credentials of the admin and emails/messages in the contact form, is not intercepted and read by unauthorized individuals, thus preventing man-in-the-middle attacks.
 
 Here is the link to the website on my
 [studio](http://bishalkhadka.studio/soccer/). 
@@ -31,13 +30,16 @@ Here is the link to the website on my
 ## 📐 Architecture
 <img width="860" alt="Screenshot 2023-07-12 at 15 56 15" src="https://github.com/BishKhadka/Soccerboard/assets/12107885/386851d6-2f36-4683-8e45-981436df6cd9">
 
+## 📱 Responsive Web Design Demo
+
+https://github.com/BishKhadka/Soccerboard/assets/12107885/d0cd94a4-3793-45cb-aa54-1705db1f878a
 
 
 ## ⚙️ API Reference
 I used Django REST Framework to create REST APIs and execute CRUD operations.
 
 #### Get all data
-Returns all the data of all the teams in top 5 league
+Returns all the data of all the teams in the top 5 league
 
 ```http
   GET /api/all-data/
@@ -45,7 +47,7 @@ Returns all the data of all the teams in top 5 league
 
 
 #### Get team names
-Returns the names of all the clubs in top 5 league
+Returns the names of all the clubs in the top 5 league
 ```http
   GET /api/teams/
 ```
