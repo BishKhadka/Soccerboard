@@ -1,8 +1,10 @@
 .env
-myvenv
 *.env
 .DS_Store
 __pycache__
+.DS_Store
+__pycache__/
+myvenv/
 questions.js
 
 
