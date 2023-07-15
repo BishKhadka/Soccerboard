@@ -10,7 +10,7 @@ Web scraping is an integral part of this project. The data for the league tables
 
 The project includes a quiz game that is written entirely in HTML, CSS, and JS. The questions are randomly selected and the options are shuffled.
 
-The contact form included has both client-side and server-side validation to validate and sanitize user input. It is ensured that the input conforms to the expected format and does not contain any malicious content that would otherwise allow an attacker to inject HTTP headers which could be a serious security vulnerability. The form also ensures that the user is not providing an empty name and message or special characters such as spaces in the required field to trick the server.
+The contact form included has both client-side and server-side validation to validate and sanitize user input. It is ensured that the input conforms to the expected format and does not contain any malicious content that would otherwise allow an attacker to inject HTTP headers which could be a serious security vulnerability. The form also ensures that the user is not providing an empty name and message or special characters such as spaces in the required field.
 
 The templates follow a well-structured approach. The project uses a base template that contains the common elements of the web pages such as HTML introduction and Bootstrap. The other templates extend the base template and add their own content. The static files, such as images, CSS, and JavaScript, are stored in a separate folder following the industry standards to facilitate static file collection during deployment. The templates and static files have been minified for better rendering. 
 
