@@ -21,7 +21,7 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(name)s - %(level
 scheduler = BackgroundScheduler()
 
 #run the custom command at 7 am in the morning
-scheduler.add_job(run_custom_command, 'interval', hours=1) #
+scheduler.add_job(run_custom_command, 'interval', hours=1)
 scheduler.start()
 
 
