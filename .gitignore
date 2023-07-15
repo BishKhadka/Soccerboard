@@ -3,5 +3,6 @@ myvenv
 *.env
 .DS_Store
 __pycache__
+questions.js
 
 
