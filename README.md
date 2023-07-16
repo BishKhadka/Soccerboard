@@ -6,7 +6,7 @@ Soccerboard is a responsive and dynamic web application built in Python using th
 
 ## 📜 Description
 
-Web scraping is an integral part of this project. The data for the league tables are scraped from the web using the BeautifulSoup library and served to the user directly without storing in the database. The stats, however, are stored in the PostgreSQL database and are queried from the Django models using Django ORM commands. The data collection process for stats runs automatically every hour using APScheduler. To speed up the data collection and avoid memory leaks, the project uses parallel programming and threading techniques, respectively. Function-based views are predominantly used rather than class-based views to avoid too much abstraction.
+Web scraping is an integral part of this project. The data for the league tables are scraped from the web using the BeautifulSoup library and served to the user directly without storing in the database. The stats, however, are stored in the PostgreSQL database and are queried from the Django models using Django ORM commands. The data collection process for stats runs automatically every hour using APScheduler. To speed up the data collection and avoid memory leaks, the project uses multi-threading techniques, respectively. Function-based views are predominantly used rather than class-based views to avoid too much abstraction.
 
 The project includes a quiz game that is written entirely in HTML, CSS, and JS. The questions are randomly selected and the options are shuffled.
 
