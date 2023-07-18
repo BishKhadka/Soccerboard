@@ -42,21 +42,21 @@ I used Django REST Framework to create REST APIs and execute CRUD operations.
 Returns all the data of all the teams in the top 5 league
 
 ```http
-  GET /api/all-data/
+  GET /soccer/api/all-data/
 ```
 
 
 #### Get team names
 Returns the names of all the clubs in the top 5 league
 ```http
-  GET /api/teams/
+  GET /soccer/api/teams/
 ```
 
 #### Post results
 Create data and add it to the model (requires admin privilege)
 
 ```http
-  POST /api/add/
+  POST /soccer/api/add/
 ```
 
 #### Remove model
@@ -64,7 +64,7 @@ Remove the entire model (requires admin privilege)
 
 
 ```http
-  DELETE /api/delete-entire-model/
+  DELETE /soccer/api/delete-entire-model/
 ```
 
 ## 🧰 Languages and Tools
