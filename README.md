@@ -14,7 +14,7 @@ The contact form included has both client-side and server-side validation to val
 
 The templates follow a well-structured approach. The project uses a base template that contains the common elements of the web pages such as HTML introduction and Bootstrap. The other templates extend the base template and add their own content. The static files, such as images, CSS, and JavaScript, are stored in a separate folder following the industry standards to facilitate static file collection during deployment. The templates and static files have been minified before deployment for better rendering. However, the static files pushed to GitHub are not minified for readability purposes. 
 
-The project also provides APIs for users to access the data about the teams using function-based views. The APIs return JSON responses that contain the team name, rank, points, goals scored, goals conceded, etc. 
+The project also provides APIs for users to access the data about the teams. The APIs return JSON responses that contain the team name, rank, points, goals scored, goals conceded, etc. 
 
 The project follows the Python PEP 8 conventions for code style and formatting. The code is well commented and documented using docstrings and comments.
 
