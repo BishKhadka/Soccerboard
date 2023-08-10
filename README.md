@@ -120,7 +120,7 @@ I acquired these skills through this project.
  
 ## 🏛️ Other Projects
 
-Checkout some of my other projects [here](https://github.com/BishKhadka). 
+Check out some of my other projects [here](https://github.com/BishKhadka). 
 
 
 ## 🔗 Connect
