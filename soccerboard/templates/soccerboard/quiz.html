@@ -3,17 +3,27 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Soccer Quiz</title>
-    <link rel="stylesheet" type="text/css" href="{% static 'soccerboard/css/quiz.css' %}">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{% static 'soccerboard/css/quiz.css' %}"
+    />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
   </head>
   <body>
     <div class="start-container">
-      <img class="soccer" src="{% static 'soccerboard/images/Soccer.png'%}" alt="Play Now">
+      <img
+        class="soccer"
+        src="{% static 'soccerboard/images/Soccer.png'%}"
+        alt="Play Now"
+      />
       <div class="buttons">
         <button class="play-now">Play Now</button>
       </div>
@@ -25,7 +35,7 @@
       <div class="rules-list"></div>
       <div class="buttons">
         <button class="start">Start</button>
-        <button class="quit" href = "{% url 'home' %}">Quit</button>
+        <button class="quit" href="{% url 'home' %}">Quit</button>
       </div>
     </div>
     <div class="quiz-container">

@@ -1,54 +1,95 @@
-{% extends 'base.html' %} 
-{% load static %} 
-{% block head %} 
+{% extends 'base.html' %} {% load static %} {% block head %}
 <title>Acknowledgement</title>
-<link rel="stylesheet" type="text/css" href="{% static 'soccerboard/css/acknowledgement.css' %}"> 
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="{% static 'soccerboard/css/acknowledgement.css' %}"
+/>
 
-{% endblock %} 
-{% block body %} 
+{% endblock %} {% block body %}
 <div class="container">
-  <p>I do not own the images and statistical data used on this website. The majority of the data has been gathered from Fbref, and the sources are listed below:</p>
+  <p>
+    I do not own the images and statistical data used on this website. The
+    majority of the data has been gathered from Fbref. The sources are listed
+    below:
+  </p>
   <ul>
     <li>
       <a href="https://www.fbref.com">Fbref (Most Data Scraped from here)</a>
-      <img src="https://pbs.twimg.com/media/FTcHMaNWAAAnJi6.png" alt="Site Logo" class="site-logo">
+      <img
+        src="https://pbs.twimg.com/media/FTcHMaNWAAAnJi6.png"
+        alt="Site Logo"
+        class="site-logo"
+      />
     </li>
     <li>
       <a href="https://www.goal.com/">GOAL.com</a>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Goal-com-logo-eps-vector-image.png" alt="Site Logo" class="site-logo">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Goal-com-logo-eps-vector-image.png"
+        alt="Site Logo"
+        class="site-logo"
+      />
     </li>
     <li>
       <a href="https://www.espn.com/soccer/">ESPN FC</a>
-      <img src="https://a3.espncdn.com/combiner/i?img=%2Fi%2Fespn%2Fmisc_logos%2F500%2Fsoccer.png" alt="Site Logo" class="site-logo">
+      <img
+        src="https://a3.espncdn.com/combiner/i?img=%2Fi%2Fespn%2Fmisc_logos%2F500%2Fsoccer.png"
+        alt="Site Logo"
+        class="site-logo"
+      />
     </li>
     <li>
       <a href="https://www.laliga.com/">La Liga</a>
-      <img src="{% static 'soccerboard/images/logo_laliga.jpeg' %}" alt="Site Logo" class="site-logo">
+      <img
+        src="{% static 'soccerboard/images/logo_laliga.jpeg' %}"
+        alt="Site Logo"
+        class="site-logo"
+      />
     </li>
     <li>
       <a href="https://www.ligue1.com">Ligue 1</a>
-      <img src="{% static 'soccerboard/images/logo_ligue_1.png' %}" alt="Site Logo" class="site-logo">
+      <img
+        src="{% static 'soccerboard/images/logo_ligue_1.png' %}"
+        alt="Site Logo"
+        class="site-logo"
+      />
     </li>
     <li>
       <a href="https://www.bundesliga.com/">Bundesliga</a>
-      <img src="{% static 'soccerboard/images/logo_bundesliga.png' %}" alt="Site Logo" class="site-logo">
+      <img
+        src="{% static 'soccerboard/images/logo_bundesliga.png' %}"
+        alt="Site Logo"
+        class="site-logo"
+      />
     </li>
     <li>
       <a href="https://www.premierleague.com">Premier League</a>
-      <img src="{% static 'soccerboard/images/logo_pl.jpeg' %}" alt="Site Logo" class="site-logo">
+      <img
+        src="{% static 'soccerboard/images/logo_pl.jpeg' %}"
+        alt="Site Logo"
+        class="site-logo"
+      />
     </li>
     <li>
       <a href="https://www.legaseriea.it/">Serie A</a>
-      <img src="{% static 'soccerboard/images/logo_serie_a.jpeg' %}" alt="Site Logo" class="site-logo">
+      <img
+        src="{% static 'soccerboard/images/logo_serie_a.jpeg' %}"
+        alt="Site Logo"
+        class="site-logo"
+      />
     </li>
     <li>
       <a href="https://www.uefa.com/uefachampionsleague/">Champions League</a>
-      <img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f5/UEFA_Champions_League.svg/1200px-UEFA_Champions_League.svg.png" alt="Site Logo" class="site-logo">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f5/UEFA_Champions_League.svg/1200px-UEFA_Champions_League.svg.png"
+        alt="Site Logo"
+        class="site-logo"
+      />
     </li>
   </ul>
-  <p>I followed a tutorial on <a href="https://www.youtube.com/watch?v=WUBhpSRS_fk&t=3506s">CodingNepal's YouTube </a>channel. Although the visual design of my app may appear similar to theirs, I independently coded it without referencing their code. <br>
-    <br>
-    If you are the owner of any data/media used and would like them be removed, please <a href="contact">contact us</a>.
+  <p>
+    If you are the owner of any data/media used and would like them be removed,
+    please <a href="contact">contact us</a>.
   </p>
-</div> 
+</div>
 {% endblock %}
