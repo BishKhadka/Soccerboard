@@ -30,10 +30,6 @@ Here is the link to the website on my
 ## 📐 Architecture
 <img width="860" alt="Screenshot 2023-07-12 at 15 56 15" src="https://github.com/BishKhadka/Soccerboard/assets/12107885/386851d6-2f36-4683-8e45-981436df6cd9">
 
-## 📱 Responsive Web Design Demo
-
-https://github.com/BishKhadka/Soccerboard/assets/12107885/d0cd94a4-3793-45cb-aa54-1705db1f878a
-
 
 ## ⚙️ API Reference
 I used Django REST Framework to create REST APIs and execute CRUD operations.
@@ -112,6 +108,10 @@ I acquired these skills through this project.
 - Web scraping skills
 
 - Automation skills
+
+## 📱 Responsive Web Design Demo
+
+https://github.com/BishKhadka/Soccerboard/assets/12107885/d0cd94a4-3793-45cb-aa54-1705db1f878a
 
 
 ## 🫶 Acknowledgements
