@@ -111,7 +111,9 @@ I acquired these skills through this project.
 
 ## 📱 Responsive Web Design Demo
 
-https://github.com/BishKhadka/Soccerboard/assets/12107885/d0cd94a4-3793-45cb-aa54-1705db1f878a
+https://github.com/BishKhadka/Soccerboard/assets/12107885/4c09560f-cd65-4c31-aa36-c5a63ffc2ef5
+
+
 
 
 ## 🫶 Acknowledgements
