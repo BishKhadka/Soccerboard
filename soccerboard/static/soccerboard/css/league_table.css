@@ -1,6 +1,5 @@
 body {
   background-color: #babac2;
-  
 }
 
 .table-heading {
@@ -16,12 +15,12 @@ body {
 .data-table {
   width: 80%;
   border-collapse: collapse;
-  margin: 30px auto;
+  margin: 25px auto;
 }
 
 .data-table th,
 .data-table td {
-  padding: 10px;
+  padding: 8px;
   text-align: center;
   border: 1px solid lightgray;
 }
@@ -42,13 +41,28 @@ body {
   font-weight: bold;
 }
 
-@media (max-width: 300px) {
+@media (max-width: 550px) {
+  .data-table th,
+  .data-table td {
+    font-weight: normal;
+    text-transform: capitalize;
+
+    padding: 3px;
+    padding-top: 10px;
+  }
+
   .data-table {
-    font-size: 10px;
+    margin: 20px 3px;
+  }
+
+  .data-table tbody {
+    background-color: #f2f2ed;
+    font-weight: normal;
+    font-size: 7px;
   }
 }
 
-@media (min-width: 301px) {
+@media (min-width: 551px) {
   .data-table {
     font-size: 16px;
   }
