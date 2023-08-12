@@ -63,7 +63,7 @@ def stats(request, league_name, team_name):
     '''
     Renders the 'stats.html' template with the statistics for the specified team.
     '''
-    team_instance = TableModel.objects.filter(Team=team_name).order_by('-Date')[:5]
+    team_instance = TableModel.objects.filter(Team=team_name).order_by('-Date')
     opponent_instance = []
     for item in team_instance:
         opponent_instance.append(TableModel.objects.filter(Date=item.Date, Team=item.Opponent).first())
