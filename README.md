@@ -122,7 +122,7 @@ https://github.com/BishKhadka/Soccerboard/assets/12107885/4c09560f-cd65-4c31-aa3
  
 ## 🏛️ Other Projects
 
-Check out some of my other projects [here](https://github.com/BishKhadka). 
+Check out some of my other projects [here](https://github.com/Khadka-Bishal). 
 
 
 ## 🔗 Connect
