@@ -1,8 +1,8 @@
-
-# Soccerboard
+ # Soccerboard
 
 Soccerboard is a responsive and dynamic web application built in Python using the Django framework. You can play soccer quizzes, get the latest match stats of your favorite teams in the top 5 leagues, and also view the current league tables.
 
+**NOTE: As the current soccer season has just begun and not all leagues have recommenced, there is a possibility that you could be receiving outdated match outcomes. Please check back once all the top 5 leagues have fully resumed and every team has completed at least one match.**
 
 ## 📜 Description
 
