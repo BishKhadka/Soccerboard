@@ -248,9 +248,6 @@ class Command(BaseCommand):
         
         table = AllLeagueData()
         final_result = pd.DataFrame()
-
-
-        start_time = time.time()
     
         #get data for each league
         for league in table.leagues:
@@ -262,11 +259,7 @@ class Command(BaseCommand):
                                 ignore_index=True,
                             )
         print("New data for top 5 leagues created.")
-
-        end_time = time.time()
-        elapsed_time = end_time - start_time
-        print(elapsed_time)
-
+        
         #update the old data with the new one
         if final_result is not None:
             def delete_entire_model():

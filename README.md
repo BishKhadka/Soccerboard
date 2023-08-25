@@ -2,8 +2,6 @@
 
 Soccerboard is a responsive and dynamic web application built in Python using the Django framework. You can play soccer quizzes, get the latest match stats of your favorite teams in the top 5 leagues, and also view the current league tables.
 
-**NOTE: As the current soccer season has just begun and not all leagues have recommenced, there is a possibility that you could be receiving outdated match outcomes. Please check back once all the top 5 leagues have fully resumed and every team has completed at least one match.**
-
 ## 📜 Description
 
 Web scraping is an integral part of this project. The data for the league tables are scraped from the web using the BeautifulSoup library and served to the user directly without storing it in the database. The stats, however, are stored in the PostgreSQL database and are queried from the Django models using Django ORM commands. The data collection process for stats runs automatically every hour using APScheduler. To speed up the data collection and avoid memory leaks, the project uses multi-threading techniques. Function-based views are predominantly used rather than class-based views to avoid too much abstraction.
