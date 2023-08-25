@@ -80,6 +80,12 @@ class AllLeagueData(object):
                 ]
             ]
 
+            # get today's date
+            today = datetime.today().strftime('%Y-%m-%d')
+
+            # filter the DataFrame based on the condition
+            scores = scores[(scores['Date'] <= today) & scores['Result'].notna()]
+
             shooting = self.additional_data(
                 response,
                 "/all_comps/shooting/",
@@ -242,7 +248,10 @@ class Command(BaseCommand):
         
         table = AllLeagueData()
         final_result = pd.DataFrame()
-        
+
+
+        start_time = time.time()
+    
         #get data for each league
         for league in table.leagues:
             url = table.leagues[league]
@@ -253,6 +262,10 @@ class Command(BaseCommand):
                                 ignore_index=True,
                             )
         print("New data for top 5 leagues created.")
+
+        end_time = time.time()
+        elapsed_time = end_time - start_time
+        print(elapsed_time)
 
         #update the old data with the new one
         if final_result is not None:
