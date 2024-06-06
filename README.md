@@ -5,7 +5,7 @@ Soccerboard is a responsive and dynamic web application built in Python using th
 
 ## 🆕 Updates
 
-- The free credit from Microsoft Azure for Students has expired. Since the web application was hosted on an Azure VM, the webapp is no longer be accessible. (June 04, 2024)
+- The free credit from Microsoft Azure for Students has expired. Since the web application was hosted on an Azure VM, the web app is no longer accessible. (June 04, 2024)
 
 ## 📜 Description
 
